@@ -39,12 +39,12 @@ export const HOST_TEAMS: Record<string, HostTeamInfo> = {
   CN: { code: "CN", name: "AIESEC in Colombo North", logo: "/entities/aiesec-cn.png" },
   CS: { code: "CS", name: "AIESEC in Colombo South", logo: "/entities/aiesec-cs.jpg" },
   USJ: { code: "USJ", name: "AIESEC in USJ", logo: "/entities/aiesec-usj.png", logoOnDark: true },
-  KANDY: { code: "Kandy", name: "AIESEC in Kandy", logo: null },
+  KANDY: { code: "Kandy", name: "AIESEC in Kandy", logo: "/entities/aiesec-kandy.png" },
   RUHUNA: { code: "Ruhuna", name: "AIESEC in Ruhuna", logo: "/entities/aiesec-ruhuna.png" },
-  SLIIT: { code: "SLIIT", name: "AIESEC in SLIIT", logo: "/entities/aiesec-sliit.png" },
-  NIBM: { code: "NIBM", name: "AIESEC in NIBM", logo: null },
-  NSBM: { code: "NSBM", name: "AIESEC in NSBM", logo: null },
-  WAYAMBA: { code: "Wayamba", name: "AIESEC in Wayamba", logo: null },
+  SLIIT: { code: "SLIIT", name: "AIESEC in SLIIT", logo: "/entities/aiesec-sliit-default.png" },
+  NIBM: { code: "NIBM", name: "AIESEC in NIBM", logo: "/entities/aiesec-nibm.png" },
+  NSBM: { code: "NSBM", name: "AIESEC in NSBM", logo: "/entities/aiesec-nsbm.png" },
+  WAYAMBA: { code: "Wayamba", name: "AIESEC in Wayamba", logo: "/entities/aiesec-wayamba.png" },
   RAJARATA: { code: "Rajarata", name: "AIESEC in Rajarata", logo: "/entities/aiesec-rajarata.png" },
 };
 

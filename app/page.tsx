@@ -29,7 +29,7 @@ export default async function HomePage() {
   return (
     <>
       <section className="border-b border-border">
-        <div className="container-page grid gap-12 py-16 sm:py-24 lg:grid-cols-[1.1fr_1fr] lg:items-center lg:gap-16">
+        <div className="container-page grid gap-12 py-16 sm:py-24 lg:grid-cols-[1.1fr_1fr] lg:items-start lg:gap-16">
           <div>
             <h1 className="text-[2.4rem] leading-[1.08] font-semibold text-ink sm:text-5xl lg:text-[3.5rem]">
               Find an opportunity that makes a difference.
