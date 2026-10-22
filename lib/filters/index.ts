@@ -164,16 +164,11 @@ export function upcomingRanges<R extends Range>(opportunity: { dates: { ranges: 
 
 export function searchText(opportunity: Filterable): string {
   return [
-    opportunity.title,
     opportunity.projectName,
     opportunity.hostTeam?.name,
     opportunity.hostTeam?.code,
-    opportunity.booklet?.label,
     opportunity.sdgTarget ? `SDG ${opportunity.sdgTarget}` : "",
     ...opportunity.goals.map((g) => `SDG ${g} ${getSdg(g)?.name ?? ""}`),
-    opportunity.country,
-    opportunity.type === "IGV" ? "global volunteer volunteering" : "global talent internship",
-    opportunity.expaId,
   ]
     .filter(Boolean)
     .join(" ")

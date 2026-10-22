@@ -26,7 +26,7 @@ export function HeroSearch({ today }: { today: ISODate }) {
     >
       <div className="sm:col-span-2">
         <label htmlFor="hero-q" className="mb-1.5 block text-sm font-semibold text-ink">
-          Interests or keywords
+          Search Project
         </label>
         <div className="relative">
           <Search className="pointer-events-none absolute top-1/2 left-3.5 size-4 -translate-y-1/2 text-muted-foreground" aria-hidden />
@@ -35,7 +35,7 @@ export function HeroSearch({ today }: { today: ISODate }) {
             type="search"
             value={q}
             onChange={(e) => setQ(e.target.value)}
-            placeholder="Teaching, turtles, health, Kandy…"
+            placeholder="Project name, entity, or SDG goal…"
             className="h-12 w-full rounded-xl border border-input bg-card pr-3 pl-10 text-[0.95rem] shadow-xs placeholder:text-subtle focus-visible:border-primary"
           />
         </div>
