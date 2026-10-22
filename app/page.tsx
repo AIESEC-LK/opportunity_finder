@@ -63,32 +63,6 @@ export default async function HomePage() {
         </div>
       </section>
 
-      <Section id="goals" title="Start with a goal">
-        <SdgGrid goals={tiles} totalOpportunities={dataset.opportunities.length} />
-      </Section>
-
-      {soon.length > 0 && (
-        <Section
-          id="soon"
-          title="Starting soon"
-          tinted
-          action={
-            <Link href={`/opportunities?from=${today}`} className="inline-flex items-center gap-1 text-sm font-semibold text-primary hover:underline">
-              See all
-              <ArrowRight className="size-4" aria-hidden />
-            </Link>
-          }
-        >
-          <ul className="grid gap-5 sm:grid-cols-2 lg:grid-cols-3">
-            {soon.map(({ opportunity }) => (
-              <li key={opportunity.id}>
-                <OpportunityCard opportunity={toSummary(opportunity)} today={today} startsFrom={today} />
-              </li>
-            ))}
-          </ul>
-        </Section>
-      )}
-
       <Section id="projects" title="Browse by project">
         <ul className="grid gap-3 sm:grid-cols-2 lg:grid-cols-3">
           {dataset.projects.map((p) => (
@@ -103,28 +77,6 @@ export default async function HomePage() {
                   <span className="block text-sm text-muted-foreground">{plural(p.opportunityIds.length, "opportunity", "opportunities")}</span>
                 </span>
                 <ArrowRight className="size-4 text-muted-foreground transition-transform group-hover:translate-x-0.5" aria-hidden />
-              </Link>
-            </li>
-          ))}
-        </ul>
-      </Section>
-
-      <Section id="entities" title="Browse by entity" tinted>
-        <ul className="grid grid-cols-2 gap-4 sm:grid-cols-3 lg:grid-cols-4">
-          {entities.map(({ team, count }) => (
-            <li key={team.slug}>
-              <Link
-                href={`/opportunities?host=${team.slug}`}
-                className="group flex h-full flex-col gap-4 rounded-2xl border border-border bg-card p-3 pb-4 transition-[border-color,box-shadow] hover:border-brand/40 hover:shadow-[0_10px_30px_-18px_rgba(3,126,243,0.45)]"
-              >
-                <EntityLogoPanel team={team} />
-                <span className="flex items-end justify-between gap-2 px-1">
-                  <span className="min-w-0">
-                    <span className="block truncate font-semibold text-ink group-hover:text-primary">{team.name.replace(/^AIESEC in /, "")}</span>
-                    <span className="block text-sm text-muted-foreground">{plural(count, "opportunity", "opportunities")}</span>
-                  </span>
-                  <ArrowRight className="mb-0.5 size-4 shrink-0 text-muted-foreground transition-transform group-hover:translate-x-0.5" aria-hidden />
-                </span>
               </Link>
             </li>
           ))}
@@ -169,6 +121,54 @@ export default async function HomePage() {
           )}
         </div>
       </section>
+
+      <Section id="goals" title="Start with a goal">
+        <SdgGrid goals={tiles} totalOpportunities={dataset.opportunities.length} />
+      </Section>
+
+      <Section id="entities" title="Browse by entity" tinted>
+        <ul className="grid grid-cols-2 gap-4 sm:grid-cols-3 lg:grid-cols-4">
+          {entities.map(({ team, count }) => (
+            <li key={team.slug}>
+              <Link
+                href={`/opportunities?host=${team.slug}`}
+                className="group flex h-full flex-col gap-4 rounded-2xl border border-border bg-card p-3 pb-4 transition-[border-color,box-shadow] hover:border-brand/40 hover:shadow-[0_10px_30px_-18px_rgba(3,126,243,0.45)]"
+              >
+                <EntityLogoPanel team={team} />
+                <span className="flex items-end justify-between gap-2 px-1">
+                  <span className="min-w-0">
+                    <span className="block truncate font-semibold text-ink group-hover:text-primary">{team.name.replace(/^AIESEC in /, "")}</span>
+                    <span className="block text-sm text-muted-foreground">{plural(count, "opportunity", "opportunities")}</span>
+                  </span>
+                  <ArrowRight className="mb-0.5 size-4 shrink-0 text-muted-foreground transition-transform group-hover:translate-x-0.5" aria-hidden />
+                </span>
+              </Link>
+            </li>
+          ))}
+        </ul>
+      </Section>
+
+      {soon.length > 0 && (
+        <Section
+          id="soon"
+          title="Starting soon"
+          tinted
+          action={
+            <Link href={`/opportunities?from=${today}`} className="inline-flex items-center gap-1 text-sm font-semibold text-primary hover:underline">
+              See all
+              <ArrowRight className="size-4" aria-hidden />
+            </Link>
+          }
+        >
+          <ul className="grid gap-5 sm:grid-cols-2 lg:grid-cols-3">
+            {soon.map(({ opportunity }) => (
+              <li key={opportunity.id}>
+                <OpportunityCard opportunity={toSummary(opportunity)} today={today} startsFrom={today} />
+              </li>
+            ))}
+          </ul>
+        </Section>
+      )}
     </>
   );
 }
