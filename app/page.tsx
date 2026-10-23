@@ -1,12 +1,12 @@
 import Link from "next/link";
-import { ArrowRight, ExternalLink, FileText } from "lucide-react";
+import { ArrowRight, BedDouble, ExternalLink, FileText, UtensilsCrossed } from "lucide-react";
 import { HeroSearch } from "@/components/opportunities/hero-search";
 import { OpportunityCard } from "@/components/opportunities/opportunity-card";
 import { SdgGrid } from "@/components/sdgs/sdg-grid";
 import { EntityLogoPanel } from "@/components/entities/entity-logo";
 import { SdgIcon } from "@/components/sdgs/sdg-icon";
 import { SourceUnavailable } from "@/components/states/source-unavailable";
-import { startingSoon } from "@/lib/catalog";
+import { opportunitiesForProject, startingSoon } from "@/lib/catalog";
 import { loadDataset } from "@/lib/data/load";
 import { plural, todayISO } from "@/lib/format";
 import { toSummary } from "@/lib/summary";
@@ -64,22 +64,60 @@ export default async function HomePage() {
       </section>
 
       <Section id="projects" title="Browse by project">
-        <ul className="grid gap-3 sm:grid-cols-2 lg:grid-cols-3">
-          {dataset.projects.map((p) => (
-            <li key={p.slug}>
-              <Link
-                href={`/projects/${p.slug}`}
-                className="group flex items-center gap-4 rounded-2xl border border-border bg-card p-3.5 pr-5 transition-colors hover:border-brand/40"
-              >
-                {p.goals[0] ? <SdgIcon goal={p.goals[0]} size={44} decorative /> : <span className="size-11 rounded-md bg-muted" />}
-                <span className="min-w-0 flex-1">
-                  <span className="block font-semibold text-ink">{p.name}</span>
-                  <span className="block text-sm text-muted-foreground">{plural(p.opportunityIds.length, "opportunity", "opportunities")}</span>
-                </span>
-                <ArrowRight className="size-4 text-muted-foreground transition-transform group-hover:translate-x-0.5" aria-hidden />
-              </Link>
-            </li>
-          ))}
+        <ul className="grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
+          {dataset.projects.map((p) => {
+            const opps = opportunitiesForProject(dataset, p);
+            let withFood = 0;
+            let withAccommodation = 0;
+            let withAllLogistics = 0;
+            for (const o of opps) {
+              const meals = o.provisions.meals.status === "included";
+              const acc = o.provisions.accommodation.status === "included";
+              if (meals && acc) withAllLogistics++;
+              else if (meals) withFood++;
+              else if (acc) withAccommodation++;
+            }
+            return (
+              <li key={p.slug}>
+                <Link
+                  href={`/projects/${p.slug}`}
+                  className="group flex flex-col gap-3 rounded-2xl border border-border bg-card p-5 transition-[border-color,box-shadow] duration-200 hover:border-brand/40 hover:shadow-[0_10px_30px_-18px_rgba(3,126,243,0.35)]"
+                >
+                  <span className="flex items-center gap-3.5">
+                    {p.goals[0] ? <SdgIcon goal={p.goals[0]} size={48} decorative /> : <span className="size-12 rounded-md bg-muted" />}
+                    <span className="min-w-0 flex-1">
+                      <span className="block text-base font-semibold text-ink">{p.name}</span>
+                      <span className="block text-sm text-muted-foreground">{plural(opps.length, "opportunity", "opportunities")}</span>
+                    </span>
+                    <ArrowRight className="size-4 shrink-0 text-muted-foreground transition-transform group-hover:translate-x-0.5" aria-hidden />
+                  </span>
+                  {opps.length > 0 && (withFood > 0 || withAccommodation > 0 || withAllLogistics > 0) && (
+                    <span className="flex flex-wrap gap-1.5 border-t border-border pt-3">
+                      {withFood > 0 && (
+                        <span className="inline-flex items-center gap-1.5 rounded-lg bg-amber-50 px-2.5 py-1 text-xs font-medium text-amber-700 dark:bg-amber-950/40 dark:text-amber-400">
+                          <UtensilsCrossed className="size-3" aria-hidden />
+                          {withFood} with food
+                        </span>
+                      )}
+                      {withAccommodation > 0 && (
+                        <span className="inline-flex items-center gap-1.5 rounded-lg bg-sky-50 px-2.5 py-1 text-xs font-medium text-sky-700 dark:bg-sky-950/40 dark:text-sky-400">
+                          <BedDouble className="size-3" aria-hidden />
+                          {withAccommodation} with accommodation
+                        </span>
+                      )}
+                      {withAllLogistics > 0 && (
+                        <span className="inline-flex items-center gap-1.5 rounded-lg bg-emerald-50 px-2.5 py-1 text-xs font-medium text-emerald-700 dark:bg-emerald-950/40 dark:text-emerald-400">
+                          <BedDouble className="size-3" aria-hidden />
+                          <UtensilsCrossed className="size-3 -ml-1" aria-hidden />
+                          {withAllLogistics} with all logistics
+                        </span>
+                      )}
+                    </span>
+                  )}
+                </Link>
+              </li>
+            );
+          })}
         </ul>
       </Section>
 

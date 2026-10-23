@@ -1,5 +1,5 @@
 import Link from "next/link";
-import { ArrowRight, CalendarDays, Users } from "lucide-react";
+import { ArrowRight, BedDouble, CalendarDays, Users, UtensilsCrossed } from "lucide-react";
 import { SdgIcon } from "@/components/sdgs/sdg-icon";
 import { formatDate, plural } from "@/lib/format";
 import { getSdg } from "@/lib/sdgs";
@@ -14,6 +14,12 @@ export interface ProjectCardModel {
   upcomingCount: number;
   soonestStart: string | null;
   flexibleCount: number;
+  /** Opportunities where meals are included but not accommodation. */
+  withFood: number;
+  /** Opportunities where accommodation is included but not meals. */
+  withAccommodation: number;
+  /** Opportunities where both accommodation AND meals are included. */
+  withAllLogistics: number;
 }
 
 export function ProjectCard({ project, headingLevel: Heading = "h3" }: { project: ProjectCardModel; headingLevel?: "h2" | "h3" }) {
@@ -50,6 +56,29 @@ export function ProjectCard({ project, headingLevel: Heading = "h3" }: { project
           </dd>
         </div>
       </dl>
+      {project.opportunityCount > 0 && (project.withFood > 0 || project.withAccommodation > 0 || project.withAllLogistics > 0) && (
+        <div className="mt-3 flex flex-wrap gap-1.5">
+          {project.withFood > 0 && (
+            <span className="inline-flex items-center gap-1.5 rounded-lg bg-amber-50 px-2.5 py-1 text-xs font-medium text-amber-700 dark:bg-amber-950/40 dark:text-amber-400">
+              <UtensilsCrossed className="size-3" aria-hidden />
+              {project.withFood} with food
+            </span>
+          )}
+          {project.withAccommodation > 0 && (
+            <span className="inline-flex items-center gap-1.5 rounded-lg bg-sky-50 px-2.5 py-1 text-xs font-medium text-sky-700 dark:bg-sky-950/40 dark:text-sky-400">
+              <BedDouble className="size-3" aria-hidden />
+              {project.withAccommodation} with accommodation
+            </span>
+          )}
+          {project.withAllLogistics > 0 && (
+            <span className="inline-flex items-center gap-1.5 rounded-lg bg-emerald-50 px-2.5 py-1 text-xs font-medium text-emerald-700 dark:bg-emerald-950/40 dark:text-emerald-400">
+              <BedDouble className="size-3" aria-hidden />
+              <UtensilsCrossed className="size-3 -ml-1" aria-hidden />
+              {project.withAllLogistics} with all logistics
+            </span>
+          )}
+        </div>
+      )}
       <p className="mt-4 flex items-start gap-2 text-sm text-ink">
         <CalendarDays className="mt-0.5 size-4 shrink-0 text-muted-foreground" aria-hidden />
         {project.soonestStart ? (

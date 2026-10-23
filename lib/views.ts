@@ -7,6 +7,16 @@ import type { Dataset, ISODate, Project } from "@/types/domain";
 
 export function projectCard(dataset: Dataset, project: Project, today: ISODate): ProjectCardModel {
   const opportunities = opportunitiesForProject(dataset, project);
+  let withAllLogistics = 0;
+  let withFood = 0;
+  let withoutLogistics = 0;
+  for (const o of opportunities) {
+    const meals = o.provisions.meals.status === "included";
+    const acc = o.provisions.accommodation.status === "included";
+    if (meals && acc) withAllLogistics++;
+    else if (meals) withFood++;
+    else withoutLogistics++;
+  }
   return {
     slug: project.slug,
     name: project.name,
@@ -17,6 +27,9 @@ export function projectCard(dataset: Dataset, project: Project, today: ISODate):
     upcomingCount: upcomingCount(opportunities, today),
     soonestStart: soonestStart(opportunities, today),
     flexibleCount: opportunities.filter((o) => o.dates.flexible).length,
+    withAllLogistics,
+    withFood,
+    withoutLogistics,
   };
 }
 
