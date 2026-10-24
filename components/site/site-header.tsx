@@ -10,17 +10,21 @@ export function Wordmark() {
     // the left padding tops up the 1rem mobile page gutter, and the margin keeps 5mm before the divider.
     <Link href="/" className="group flex items-center rounded-md pl-[calc(5mm-1rem)] sm:pl-0" aria-label={`${BRAND.name}, home`}>
       <Image src="/brand/aiesec-logo.png" alt="AIESEC" width={1204} height={176} priority className="mr-[5mm] h-5 w-auto sm:h-6" />
-      <div className="hidden items-center gap-3 border-l border-border pl-4 sm:flex">
-        <span className="text-sm font-semibold text-ink transition-colors group-hover:text-primary">
+      <div className="hidden items-center border-l border-border pl-4 sm:flex">
+        <span className="mr-4 text-sm font-semibold text-ink transition-colors group-hover:text-primary">
           Opportunity Finder
         </span>
-        <Image
-          src="/brand/Logo_Black.png"
-          alt="Sincerely Sri Lankan"
-          width={3771}
-          height={1526}
-          priority
-          className="h-6 w-auto object-contain sm:h-7"
+        <span aria-hidden className="mr-[5mm] h-6 w-px bg-border" />
+        {/* The logo is a transparent PNG used as a mask, so it takes the ink colour and follows the label's hover colour.
+            The divider margin keeps 5mm clear space on the left. */}
+        <span
+          role="img"
+          aria-label="Sincerely Sri Lankan"
+          className="block aspect-[3771/1526] h-8 bg-ink transition-colors group-hover:bg-primary"
+          style={{
+            mask: "url(/brand/Logo_Black.png) center / contain no-repeat",
+            WebkitMask: "url(/brand/Logo_Black.png) center / contain no-repeat",
+          }}
         />
       </div>
     </Link>
