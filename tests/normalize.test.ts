@@ -158,9 +158,11 @@ describe("normalizeWorkbook", () => {
     expect(dataset.diagnostics.supplementaryUnmatched).toHaveLength(1);
   });
 
-  it("treats an accommodation photo link as information, not as a promise", () => {
-    expect(byId("1001").provisions.accommodation).toMatchObject({ status: "not_specified", link: { url: "https://drive.google.com/drive/folders/p1" } });
-    expect(byId("1003").provisions.accommodation.status).toBe("not_specified");
+  it("accommodation is included by default; photo links are preserved", () => {
+    // Photo link row: status is included, and the photo link is kept.
+    expect(byId("1001").provisions.accommodation).toMatchObject({ status: "included", link: { url: "https://drive.google.com/drive/folders/p1" } });
+    // No sheet data: defaults to included (accommodation is included for all projects by policy).
+    expect(byId("1003").provisions.accommodation.status).toBe("included");
     const ruhuna = dataset.opportunities.find((o) => o.hostTeam?.code === "Ruhuna")!;
     expect(ruhuna.provisions.accommodation.status).toBe("included");
   });

@@ -9,13 +9,13 @@ export function projectCard(dataset: Dataset, project: Project, today: ISODate):
   const opportunities = opportunitiesForProject(dataset, project);
   let withAllLogistics = 0;
   let withFood = 0;
-  let withoutLogistics = 0;
+  let withAccommodation = 0;
   for (const o of opportunities) {
     const meals = o.provisions.meals.status === "included";
     const acc = o.provisions.accommodation.status === "included";
     if (meals && acc) withAllLogistics++;
     else if (meals) withFood++;
-    else withoutLogistics++;
+    else if (acc) withAccommodation++;
   }
   return {
     slug: project.slug,
@@ -29,7 +29,7 @@ export function projectCard(dataset: Dataset, project: Project, today: ISODate):
     flexibleCount: opportunities.filter((o) => o.dates.flexible).length,
     withAllLogistics,
     withFood,
-    withoutLogistics,
+    withAccommodation,
   };
 }
 

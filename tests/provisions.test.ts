@@ -29,13 +29,14 @@ describe("meals", () => {
 });
 
 describe("accommodation", () => {
-  it("never treats a blank as not included", () => {
-    expect(accommodationProvision({ texts: [], urls: [] }).status).toBe("not_specified");
+  it("defaults to included when the sheet has no accommodation data", () => {
+    // Accommodation is included for all projects by policy.
+    expect(accommodationProvision({ texts: [], urls: [] }).status).toBe("included");
   });
 
-  it("keeps photo links but does not claim inclusion", () => {
+  it("keeps photo links and marks as included", () => {
     const result = accommodationProvision({ texts: ["Accommodation Pictures"], urls: ["https://drive.google.com/x"] });
-    expect(result).toMatchObject({ status: "not_specified", link: { url: "https://drive.google.com/x" } });
+    expect(result).toMatchObject({ status: "included", link: { url: "https://drive.google.com/x" } });
   });
 
   it("accepts explicit wording", () => {
