@@ -64,3 +64,32 @@ export function startingSoon(dataset: Dataset, today: ISODate, limit: number): {
     .sort((a, b) => a.start.localeCompare(b.start) || a.opportunity.title.localeCompare(b.opportunity.title))
     .slice(0, limit);
 }
+
+export interface LogisticsBreakdown {
+  total: number;
+  withAccommodation: number;
+  withMeals: number;
+  withAllLogistics: number;
+}
+
+/** Aggregate accommodation + meals counts across all opportunities for a SDG goal. */
+export function goalLogisticsBreakdown(dataset: Dataset, goal: number): LogisticsBreakdown {
+  const projects = projectsForGoal(dataset, goal);
+  const ids = new Set(projects.flatMap((p) => p.opportunityIds));
+  const opportunities = dataset.opportunities.filter((o) => ids.has(o.id));
+
+  let withAccommodation = 0;
+  let withMeals = 0;
+  let withAllLogistics = 0;
+
+  for (const o of opportunities) {
+    const acc = o.provisions.accommodation.status === "included";
+    const meals = o.provisions.meals.status === "included";
+    if (acc) withAccommodation++;
+    if (meals) withMeals++;
+    if (acc && meals) withAllLogistics++;
+  }
+
+  return { total: opportunities.length, withAccommodation, withMeals, withAllLogistics };
+}
+

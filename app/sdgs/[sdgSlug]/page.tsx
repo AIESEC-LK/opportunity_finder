@@ -2,11 +2,12 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import { ArrowRight } from "lucide-react";
+import { LogisticsBreakdownPanel } from "@/components/logistics/logistics-breakdown";
 import { ProjectList } from "@/components/projects/project-list";
 import { SdgIcon } from "@/components/sdgs/sdg-icon";
 import { Breadcrumbs } from "@/components/site/breadcrumbs";
 import { SourceUnavailable } from "@/components/states/source-unavailable";
-import { projectsForGoal } from "@/lib/catalog";
+import { goalLogisticsBreakdown, projectsForGoal } from "@/lib/catalog";
 import { loadDataset } from "@/lib/data/load";
 import { plural, todayISO } from "@/lib/format";
 import { getSdg, getSdgBySlug } from "@/lib/sdgs";
@@ -27,6 +28,7 @@ export default async function SdgPage({ params }: PageProps<"/sdgs/[sdgSlug]">) 
   const today = todayISO();
   const projects = projectsForGoal(dataset, goal.number).map((p) => projectCard(dataset, p, today));
   const opportunityCount = new Set(projectsForGoal(dataset, goal.number).flatMap((p) => p.opportunityIds)).size;
+  const breakdown = goalLogisticsBreakdown(dataset, goal.number);
   const otherGoals = goalTiles(dataset).filter((t) => t.projectCount > 0 && t.number !== goal.number);
   const prev = getSdg(goal.number - 1);
   const next = getSdg(goal.number + 1);
@@ -65,6 +67,9 @@ export default async function SdgPage({ params }: PageProps<"/sdgs/[sdgSlug]">) 
                 Search these opportunities by date
                 <ArrowRight className="size-4" aria-hidden />
               </Link>
+            </div>
+            <div className="mb-8">
+              <LogisticsBreakdownPanel breakdown={breakdown} />
             </div>
             <ProjectList projects={projects} />
           </>

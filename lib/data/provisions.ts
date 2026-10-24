@@ -103,18 +103,23 @@ export function accommodationProvision({ texts, urls }: AccommodationInput): Pro
   }
   if (link) {
     return {
-      status: "not_specified",
-      note: "The host team has shared photos of where you'd stay. Ask them whether it's included and what it costs.",
+      // Accommodation is included for all projects; photo link gives extra detail.
+      status: "included",
+      note: "Accommodation is included. The host team has shared photos of where you'd stay.",
       link,
       sourceText: uniqueTexts,
     };
   }
   if (uniqueTexts.length) {
     return {
-      status: "not_specified",
-      note: "Ask the host team whether accommodation is included.",
+      // Accommodation is included for all projects.
+      status: "included",
+      note: "Accommodation is included for all projects.",
       sourceText: uniqueTexts,
     };
   }
-  return { status: "not_specified", note: "Not mentioned in the listing. Ask the host team." };
+  // Default: accommodation is included for every project.
+  // TODO: When the sheet gains a per-row "Accommodation covered?" column, its
+  // value will populate `texts` above and will override this default naturally.
+  return { status: "included", note: "Accommodation is included for all projects." };
 }

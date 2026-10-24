@@ -9,10 +9,20 @@ export function Wordmark() {
     // AIESEC logo clear space: 5mm on every side. The 4rem header leaves >5mm above and below the logo;
     // the left padding tops up the 1rem mobile page gutter, and the margin keeps 5mm before the divider.
     <Link href="/" className="group flex items-center rounded-md pl-[calc(5mm-1rem)] sm:pl-0" aria-label={`${BRAND.name}, home`}>
-      <Image src="/brand/aiesec-logo.png" alt="" width={1204} height={176} priority className="mr-[5mm] h-5 w-auto sm:h-6" />
-      <span className="hidden border-l border-border pl-4 text-sm font-semibold text-ink group-hover:text-primary sm:block">
-        Opportunity Finder
-      </span>
+      <Image src="/brand/aiesec-logo.png" alt="AIESEC" width={1204} height={176} priority className="mr-[5mm] h-5 w-auto sm:h-6" />
+      <div className="hidden items-center gap-3 border-l border-border pl-4 sm:flex">
+        <span className="text-sm font-semibold text-ink transition-colors group-hover:text-primary">
+          Opportunity Finder
+        </span>
+        <Image
+          src="/brand/Logo_Black.png"
+          alt="Sincerely Sri Lankan"
+          width={3771}
+          height={1526}
+          priority
+          className="h-6 w-auto object-contain sm:h-7"
+        />
+      </div>
     </Link>
   );
 }
