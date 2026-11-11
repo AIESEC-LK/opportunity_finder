@@ -7,6 +7,7 @@ const QUICK_LINKS = [
   { href: "/", label: "Home" },
   { href: "/opportunities", label: "Explore opportunities" },
   { href: "/sdgs", label: "Sustainable Development Goals" },
+  { href: "/contact", label: "Contact" },
   { href: "https://www.aiesec.lk/", label: "AIESEC in Sri Lanka" },
   { href: "https://www.aiesec.lk/privacy-and-cookie-policy", label: "Privacy and Cookie Policy" },
 ];

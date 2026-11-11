@@ -10,6 +10,7 @@ import { Sheet, SheetContent, SheetHeader, SheetTitle, SheetTrigger } from "@/co
 const LINKS = [
   { href: "/opportunities", label: "Explore opportunities" },
   { href: "/sdgs", label: "Sustainable Development Goals" },
+  { href: "/contact", label: "Contact" },
 ];
 
 function isActive(pathname: string, href: string) {
