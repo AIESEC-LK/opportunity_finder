@@ -112,6 +112,16 @@ function doGet(e) {
 
 A new adapter could then read `…/exec?format=json` and merge slots by opportunity id. This isn't built yet because the response can't be inspected until the endpoint exists.
 
+### Reading straight from EXPA (experimental)
+
+Set `DATA_SOURCE=expa` and `EXPA_TOKEN` in `.env.local` to read open Global Volunteer opportunities for committee `EXPA_COMMITTEE_ID` (1623, Sri Lanka) from EXPA's GraphQL API (`lib/data/expa.ts`, mapped by `lib/data/normalize-expa.ts`). The default stays `sheet`.
+
+- **Token:** the public guest token aiesec.org's own search sends. It only sees public, open opportunities, and AIESEC can change it at any time; when that happens pages show "temporarily unavailable" until `EXPA_TOKEN` is updated. It is read on the server only (no `NEXT_PUBLIC_` prefix), so it never reaches the browser.
+- **Freshness:** same cache as the sheet. EXPA is asked at most once per `SHEET_CACHE_SECONDS`, on the first visit after the copy expires. EXPA exposes no push updates, so this is not real time.
+- **What you get:** exact slot dates with open places, project, SDG target, host team, meals and accommodation.
+- **What you lose versus the sheet:** booklets, accommodation photos, host-team contacts and the Welcome-tab planning documents. Opportunities with no dated slots are hidden by EXPA's search.
+- `npm run probe:expa` lists EXPA's fields and compares EXPA with the sheet without changing anything.
+
 ## Project structure
 
 ```
