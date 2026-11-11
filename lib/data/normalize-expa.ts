@@ -41,7 +41,7 @@ function provisionOf(provided: string | null | undefined, covered: string | null
   if (p === "provided") {
     return {
       status: "included",
-      ...(meals && Number(meals) > 0 ? { detail: `${meals} meals per day` } : {}),
+      ...(meals && Number(meals) > 0 ? { detail: `${Number(meals)} ${Number(meals) === 1 ? "meal" : "meals"} per day` } : {}),
       note: covered === "covered" ? "Provided and covered by the host (EXPA)." : "Provided by the host (EXPA).",
       sourceText,
     };
