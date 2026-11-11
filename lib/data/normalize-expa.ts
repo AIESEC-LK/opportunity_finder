@@ -87,6 +87,8 @@ export function buildExpaOpportunity(o: ExpaOpportunity): Opportunity {
     applicationUrl: `https://aiesec.org/opportunity/global-volunteer/${o.id}`,
     applicationUrlIssue: null,
     booklet: null,
+    description: o.description?.trim() || null,
+    location: clean(o.location) || null,
     provisions: {
       accommodation: provisionOf(o.logistics_info?.accommodation_provided, o.logistics_info?.accommodation_covered),
       meals: provisionOf(o.logistics_info?.food_provided, o.logistics_info?.food_covered, o.logistics_info?.no_of_meals),

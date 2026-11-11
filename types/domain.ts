@@ -85,6 +85,10 @@ export interface Opportunity {
   /** Why there is no usable application link, when there isn't one. */
   applicationUrlIssue: string | null;
   booklet: { label: string; url: string | null } | null;
+  /** What volunteers do, written by the host team in EXPA. The sheet has none. */
+  description?: string | null;
+  /** Place within the country, e.g. "Kegalle, Sri Lanka" (EXPA). */
+  location?: string | null;
   provisions: Provisions;
   dates: OpportunityDates;
   sources: SourceRef[];

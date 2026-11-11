@@ -98,7 +98,7 @@ export default async function OpportunityPage({ params, searchParams }: PageProp
               <p className="mt-3 flex flex-wrap items-center gap-x-4 gap-y-1 text-muted-foreground">
                 <span className="inline-flex items-center gap-1.5">
                   <MapPin className="size-4" aria-hidden />
-                  {opportunity.country}
+                  {opportunity.location ?? opportunity.country}
                 </span>
                 {opportunity.hostTeam && <span>Hosted by {opportunity.hostTeam.name}</span>}
               </p>
@@ -132,6 +132,9 @@ export default async function OpportunityPage({ params, searchParams }: PageProp
                   </Link>
                 )}
               </div>
+              {opportunity.description && (
+                <p className="text-sm leading-relaxed whitespace-pre-line text-ink">{opportunity.description}</p>
+              )}
               {opportunity.goals.map((g) => {
                 const sdg = getSdg(g)!;
                 const target = opportunity.sdgTarget?.startsWith(`${g}.`) ? opportunity.sdgTarget : null;
@@ -170,7 +173,11 @@ export default async function OpportunityPage({ params, searchParams }: PageProp
 
           <Section id="before" title="Before you apply">
             <div className="space-y-4 text-sm leading-relaxed text-muted-foreground">
-              <p>Check the booklet for requirements, and confirm dates and costs with the host team.</p>
+              <p>
+                {opportunity.booklet
+                  ? "Check the booklet for requirements, and confirm dates and costs with the host team."
+                  : "Confirm requirements, dates and costs with the host team before you apply."}
+              </p>
               {planning.length > 0 && (
                 <ul className="grid gap-2 sm:grid-cols-2">
                   {planning.map((r) => (

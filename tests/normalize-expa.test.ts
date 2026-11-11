@@ -28,6 +28,7 @@ function expa(overrides: Partial<ExpaOpportunity> = {}): ExpaOpportunity {
       { id: "2", start_date: "2027-01-01", end_date: "2027-01-29", available_openings: 4, status: "open" },
       { id: "1", start_date: "2026-12-01", end_date: "2026-12-29", available_openings: 2, status: "open" },
     ],
+    description: "  Run health awareness sessions in the community.  ",
     ...overrides,
   };
 }
@@ -62,6 +63,15 @@ describe("buildExpaOpportunity", () => {
       applicationUrl: "https://aiesec.org/opportunity/global-volunteer/1329320",
       booklet: null,
     });
+  });
+
+  it("keeps EXPA's description and location, trimmed", () => {
+    const o = buildExpaOpportunity(expa());
+    expect(o.description).toBe("Run health awareness sessions in the community.");
+    expect(o.location).toBe("Colombo, Sri Lanka");
+    const empty = buildExpaOpportunity(expa({ description: "   ", location: null }));
+    expect(empty.description).toBeNull();
+    expect(empty.location).toBeNull();
   });
 
   it("maps EXPA committee ids to the app's host teams", () => {

@@ -33,6 +33,7 @@ export interface ExpaOpportunity {
   } | null;
   available_slots: ExpaSlot[] | null;
   location: string | null;
+  description: string | null;
 }
 
 export interface ExpaConfig {
@@ -45,7 +46,7 @@ export interface ExpaConfig {
 const QUERY = `query Opportunities($page: Int, $perPage: Int, $filters: OpportunityFilter) {
   opportunities(page: $page, per_page: $perPage, filters: $filters) {
     data {
-      id title status location
+      id title status location description
       programme { short_name_display }
       project { id title }
       organisation { name }
