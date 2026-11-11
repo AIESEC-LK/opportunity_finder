@@ -123,7 +123,7 @@ With `EXPA_TOKEN` in `.env.local`, the app reads open Global Volunteer opportuni
 - **Token:** the public guest token aiesec.org's own search sends. It only sees public, open opportunities, and AIESEC can change it at any time; when that happens pages show "temporarily unavailable" until `EXPA_TOKEN` is updated. It is read on the server only (no `NEXT_PUBLIC_` prefix), so it never reaches the browser.
 - **Freshness:** same cache as the sheet. EXPA is asked at most once per `DATA_CACHE_SECONDS`, on the first visit after the copy expires. EXPA offers no push updates that we could find with the public key, so this is not real time.
 - **What you get:** exact slot dates with open places, project, SDG target, host team, meals and accommodation.
-- **What you lose versus the sheet:** booklets, accommodation photos, host-team contacts and the Welcome-tab planning documents. Opportunities with no dated slots are hidden by EXPA's search.
+- **What you lose versus the sheet:** booklets, accommodation photos and the sheet's host-team contacts (planning links moved to `content/planning-links.json`). With the public token, opportunities with no dated slots are hidden by EXPA's search; a private key lists them as "Dates not listed". See `docs/expa-migration.md`.
 - `npm run probe:expa` lists EXPA's fields and compares EXPA with the sheet without changing anything.
 
 ## Project structure

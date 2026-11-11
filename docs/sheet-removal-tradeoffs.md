@@ -35,11 +35,22 @@ and photo links themselves, without a developer. That needs its own research bef
 
 ## Opportunities that won't appear
 
-- **Opportunities with no dates in EXPA** (32 on 11 Nov 2026). EXPA's search hides them.
-  **Fix:** host teams add their slots (dates) in EXPA, and they appear automatically.
-- **Closed or unpublished opportunities** (41). We currently use the same public access that
-  aiesec.org uses, which only sees open, published opportunities. With an official AIESEC key
-  (being requested) some of these may come back — we'll test that.
+We tested two kinds of access key on 11 Nov 2026:
+
+| | Public key (what aiesec.org uses) | Private key |
+|---|---|---|
+| Opportunities shown | 192 | 263 |
+| Opportunities with no dates in EXPA | hidden | shown as "Dates not listed" (52) |
+
+- **With the public key, opportunities with no dates in EXPA are hidden** (32 of the sheet's).
+  With the private key they appear, marked "Dates not listed — ask the host team".
+  Either way, **host teams should add their slots (dates) in EXPA.**
+- **Closed opportunities are not shown** with either key. That's on purpose: you can't apply
+  to them.
+
+**About the private key:** the one we tested belongs to a person's EXPA account. It can change
+data in EXPA, not just read it, so it must be kept as secret as a password. It may also stop
+working after some time. A key made for apps is better if AIESEC can give us one.
 
 ## What the team needs to look after now
 
@@ -61,8 +72,12 @@ Because the project's code is public, only add contact details that are fine to 
 
 ## What comes next
 
-1. Test with an official AIESEC key, and see whether the missing opportunities appear.
+1. Decide which key the live site uses (see above).
 2. Add real contact details.
 3. Research a way for host teams to add booklet and photo links themselves.
-4. Research editable contacts, especially if each opportunity or committee needs its own contact.
+4. **Contacts straight from EXPA.** The private key can see who manages each opportunity
+   (name and email) and each host team's office email and phone. That could replace the
+   hand-typed contacts and give each opportunity its own contact. We have **not** turned this
+   on, because the sheet never published these people's details. The team needs to agree
+   what can be public first.
 5. After a trial period, remove the sheet for good.

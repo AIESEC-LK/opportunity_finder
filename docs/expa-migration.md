@@ -51,18 +51,37 @@ Today we use the **public guest token** that aiesec.org's own search sends from 
   opportunities and member data return "not authorized".
 - AIESEC can change it at any time. When that happens, the site keeps serving the last good copy
   for `DATA_MAX_STALE_SECONDS`, then shows "temporarily unavailable" until `EXPA_TOKEN` is updated.
-- An official (private) key is being requested. Switching is just a new `EXPA_TOKEN` value.
+- A private key can be used instead. Switching is just a new `EXPA_TOKEN` value; no code change.
 
-### Testing a private key
+### Private key results (tested 2026-11-11)
 
-1. Put the new key in `.env.local` as `EXPA_TOKEN`.
-2. Run `npm run probe:expa`. Compare with the public-key baseline (2026-11-11):
-   192 open GV opportunities; 122 also in the sheet; 41 sheet opportunities hidden
-   ("not authorized"); 32 open but with no dated slots; 3 deleted.
-3. If the 41 hidden ones now appear, decide whether closed/unpublished opportunities should be
-   listed at all. The query filters on `status: "open"` (`lib/data/expa.ts`), so it may need a
-   change to include them.
-4. Click through the site with `npm run dev`.
+| | Public guest token | Private key |
+|---|---|---|
+| Open GV opportunities | 192 | **263** |
+| Open but with no open dates | hidden by EXPA | **52, listed** |
+| GV opportunities, any status | not authorized | 638 |
+| Sheet opportunities also open in EXPA | 122 | 154 |
+| Sheet opportunities found in EXPA at all | 122 | 195 of 198 (3 deleted) |
+| Open in EXPA, missing from the sheet | 70 | 109 |
+| Committee and LC details | not authorized | readable |
+| Opportunity managers | not authorized | readable (name, email; phone often empty) |
+
+- **No code change was needed.** Opportunities without open dates already render as
+  "Dates not listed" and count as "flexible or unlisted dates" in the date filter, the same
+  way undated sheet rows did. The query still asks for `status: "open"` only, so closed
+  opportunities are not listed.
+- Still **no push updates**: no subscriptions; `notifications` and `engagementEvents` are about
+  a person's own account. The cache-based refresh stays.
+- **The private key we tested is tied to a person's EXPA account** (`currentPerson` returns a
+  person). That means:
+  - it can **write**, not just read (the schema has 288 mutations). Our code only reads, but a
+    leaked key could act as that person. Treat it like a password.
+  - it may **expire**, after which pages show "temporarily unavailable" until it's replaced.
+  - what it can see depends on that person's role, so it changes when their role changes.
+  - Prefer a long-lived key issued for applications, if AIESEC can provide one.
+
+To test another key: put it in `.env.local` as `EXPA_TOKEN`, run `npm run probe:expa`, compare
+with the table above, then click through with `npm run dev`.
 
 ## Rolling back
 
@@ -90,8 +109,10 @@ Re-run it before the sheet is switched off so the archive is as fresh as possibl
 
 ## Known gaps and issues
 
-- **Opportunities with no dated slots are not listed.** EXPA's search leaves them out (32 on
-  2026-11-11). Old links to them show "not found". Fix: host teams add slots in EXPA.
+- **With the public token, opportunities with no open dates are not listed.** EXPA's search
+  leaves them out (32 on 2026-11-11), and old links to them show "not found". With the private
+  key they are listed (52) as "Dates not listed". Either way, host teams adding slots in EXPA
+  gives users real dates.
 - **Booklets and accommodation photos are not shown.** The data is saved (above). If booklets
   return, show them as a "View booklet" / "More info" button **alongside** the EXPA
   description, not instead of it — the detail page already renders both when both exist.
@@ -104,11 +125,18 @@ Re-run it before the sheet is switched off so the archive is as fresh as possibl
 
 ## Future work (each needs its own research first)
 
-1. **Letting teams add booklet / photo links without code** — options include an admin form,
-   a data file edited via pull requests, or EXPA fields if a private key exposes them.
-2. **An editable contacts system** — needed especially if contacts differ per opportunity or
-   per committee rather than one LCVP per host team.
-3. **Deleting the sheet code** — after a trial period on EXPA with the sheet as fallback, tag
+1. **Letting teams add booklet / photo links without code** — options include an admin form or
+   a data file edited via pull requests. The private key exposes no booklet field. It does
+   expose `cover_photo` (a project photo, not accommodation photos), which could be shown.
+2. **Contacts from EXPA** — the private key can read each opportunity's `managers` (about 6 per
+   opportunity: name and email, phone often empty) and each LC's office email and phone
+   (10 of 12 LCs have an email, 9 a phone). This could replace the hand-typed contact
+   directory and give real per-opportunity contacts. **Deferred** because the sheet never
+   published these people's details: decide first which details may be public, who is shown
+   (all managers or one), and what happens when the key can't read them (public token).
+3. **Other data the private key opens** — e.g. `opportunityTestimonials`, `similarOpportunities`,
+   `featuredOpportunities`. Not used yet.
+4. **Deleting the sheet code** — after a trial period on EXPA with the sheet as fallback, tag
    and remove `lib/data/xlsx.ts`, `normalize.ts`, `dates.ts`, `titles.ts`, `provisions.ts`, the
    sheet scripts and tests, and the `DATA_SOURCE` switch.
 
