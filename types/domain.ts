@@ -69,10 +69,10 @@ export interface Opportunity {
   expaId: string | null;
   title: string;
   /** Where the title came from, so the UI can be honest about it. */
-  titleSource: "link-text" | "booklet" | "fallback";
+  titleSource: "link-text" | "booklet" | "fallback" | "expa";
   type: OpportunityType;
   /** "url" = read from the opportunity link; "sheet" = the sheet is the iGV search tool. */
-  typeSource: "url" | "sheet";
+  typeSource: "url" | "sheet" | "expa";
   projectKey: string;
   projectName: string;
   projectSlug: string;
