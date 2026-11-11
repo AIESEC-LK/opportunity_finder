@@ -1,11 +1,9 @@
 import "server-only";
 import { connection } from "next/server";
 import type { Dataset } from "@/types/domain";
-import { getDataset, SourceUnavailableError, sourceConfig } from "./source";
+import { getDataset, SourceUnavailableError } from "./source";
 
-export type LoadResult =
-  | { ok: true; dataset: Dataset }
-  | { ok: false; message: string; detail?: string; sheetUrl: string };
+export type LoadResult = { ok: true; dataset: Dataset } | { ok: false; message: string; detail?: string };
 
 /**
  * Loads the dataset at request time. Failures are returned rather than
@@ -17,10 +15,9 @@ export async function loadDataset(): Promise<LoadResult> {
     return { ok: true, dataset: await getDataset() };
   } catch (error) {
     console.error("[opportunity-finder] source unavailable:", error);
-    const sheetUrl = sourceConfig().viewUrl;
     if (error instanceof SourceUnavailableError) {
-      return { ok: false, message: error.message, detail: error.detail, sheetUrl };
+      return { ok: false, message: error.message, detail: error.detail };
     }
-    return { ok: false, message: "The opportunity list could not be loaded.", sheetUrl };
+    return { ok: false, message: "The opportunity list could not be loaded." };
   }
 }

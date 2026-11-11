@@ -147,7 +147,7 @@ async function main() {
   out(`GV opportunities — open: ${open.total}, any status: ${all.total}`);
 
   out("\n## Sheet vs EXPA");
-  const sheet = await fetchDataset();
+  const sheet = await fetchDataset("sheet");
   const sheetIds = new Set(sheet.opportunities.map((o) => o.expaId).filter((id): id is string => Boolean(id)));
   const noLink = sheet.opportunities.length - sheetIds.size;
   const inOpen = [...sheetIds].filter((id) => open.ids.has(id));

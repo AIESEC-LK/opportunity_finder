@@ -46,8 +46,7 @@ function writeJson(path: string, value: unknown) {
 }
 
 async function main() {
-  process.env.DATA_SOURCE = "sheet";
-  const dataset = await fetchDataset();
+  const dataset = await fetchDataset("sheet");
   const archivedAt = new Date().toISOString().slice(0, 10);
   const opportunities = Object.fromEntries(
     [...dataset.opportunities].sort((a, b) => a.id.localeCompare(b.id)).map((o) => [o.id, extrasOf(o)]),

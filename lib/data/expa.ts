@@ -5,6 +5,7 @@
  * server only. It is never sent to the browser: this module is only reached
  * through lib/data/source.ts, which pages call via the server-only loader.
  */
+import { dataSettings } from "./settings";
 import { SourceUnavailableError } from "./source-error";
 
 export interface ExpaSlot {
@@ -64,7 +65,7 @@ export function expaConfig(): ExpaConfig {
     endpoint: process.env.EXPA_GRAPHQL_URL?.trim() || "https://gis-api.aiesec.org/graphql",
     token: process.env.EXPA_TOKEN?.trim() ?? "",
     committee: Number(process.env.EXPA_COMMITTEE_ID ?? 1623),
-    timeoutMs: Number(process.env.SHEET_FETCH_TIMEOUT_MS ?? 20_000),
+    timeoutMs: dataSettings().timeoutMs,
   };
 }
 

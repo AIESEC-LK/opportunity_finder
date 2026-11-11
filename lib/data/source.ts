@@ -5,41 +5,32 @@ import { expaConfig, fetchExpaOpportunities } from "./expa";
 import { normalizeWorkbook } from "./normalize";
 import { normalizeExpa } from "./normalize-expa";
 import { datasetSchema } from "./schema";
+import { dataSettings, dataSource, type DataSettings, type DataSource } from "./settings";
 import { SourceUnavailableError } from "./source-error";
 import { readWorkbook } from "./xlsx";
 
-export { SourceUnavailableError };
-
-/** "expa" reads live from EXPA's API (spike); anything else keeps the Google Sheet. */
-export const dataSource = (): "sheet" | "expa" => (process.env.DATA_SOURCE?.trim().toLowerCase() === "expa" ? "expa" : "sheet");
+export { dataSource, SourceUnavailableError };
 
 /**
- * Fetches the Google Sheet and keeps the normalised dataset in memory.
+ * Fetches the opportunity data — from EXPA by default, or from the Google
+ * Sheet with DATA_SOURCE=sheet — and keeps the normalised dataset in memory.
  *
- * - Fresh for SHEET_CACHE_SECONDS (default 10 minutes); filter changes never
+ * - Fresh for DATA_CACHE_SECONDS (default 10 minutes); filter changes never
  *   trigger a request because filtering happens on already-loaded data.
  * - After that, the cached copy is served while one background refresh runs.
- * - A failed refresh keeps the last good copy for up to SHEET_MAX_STALE_SECONDS.
+ * - A failed refresh keeps the last good copy for up to DATA_MAX_STALE_SECONDS.
  * - With no good copy, the error is thrown so the page can say so. There is
  *   no fallback data.
  *
  * The cache is per server process. On serverless hosting each instance keeps
- * its own copy; that only affects how often the sheet is fetched.
+ * its own copy; that only affects how often the source is fetched.
  */
 
-export interface SourceConfig {
+export interface SourceConfig extends DataSettings {
   sheetId: string;
   exportUrl: string;
   /** Link people can open to view the sheet. */
   viewUrl: string;
-  ttlSeconds: number;
-  maxStaleSeconds: number;
-  timeoutMs: number;
-}
-
-function numberEnv(name: string, fallback: number): number {
-  const value = Number(process.env[name]);
-  return Number.isFinite(value) && value >= 0 ? value : fallback;
 }
 
 export function sourceConfig(): SourceConfig {
@@ -50,9 +41,7 @@ export function sourceConfig(): SourceConfig {
       process.env.GOOGLE_SHEET_XLSX_URL?.trim() ||
       `https://docs.google.com/spreadsheets/d/${sheetId}/export?format=xlsx`,
     viewUrl: `https://docs.google.com/spreadsheets/d/${sheetId}/edit`,
-    ttlSeconds: numberEnv("SHEET_CACHE_SECONDS", 600),
-    maxStaleSeconds: numberEnv("SHEET_MAX_STALE_SECONDS", 86_400),
-    timeoutMs: numberEnv("SHEET_FETCH_TIMEOUT_MS", 20_000),
+    ...dataSettings(),
   };
 }
 
@@ -65,8 +54,9 @@ async function fetchExpaDataset(): Promise<Dataset> {
   return dataset;
 }
 
-export async function fetchDataset(config = sourceConfig()): Promise<Dataset> {
-  if (dataSource() === "expa") return fetchExpaDataset();
+/** Fetches once, without the cache. Scripts pass "sheet" to read the sheet whatever DATA_SOURCE says. */
+export async function fetchDataset(source: DataSource = dataSource(), config = sourceConfig()): Promise<Dataset> {
+  if (source === "expa") return fetchExpaDataset();
   let response: Response;
   try {
     response = await fetch(config.exportUrl, {
@@ -118,7 +108,7 @@ const globalCache = globalThis as typeof globalThis & { __opportunitySheetCache?
 const cache: CacheState = (globalCache.__opportunitySheetCache ??= {});
 
 function refresh(config: SourceConfig): Promise<Dataset> {
-  cache.inflight ??= fetchDataset(config)
+  cache.inflight ??= fetchDataset(dataSource(), config)
     .then((dataset) => {
       cache.dataset = dataset;
       cache.loadedAt = Date.now();
