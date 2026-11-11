@@ -6,6 +6,12 @@ export interface DirectoryPerson {
   name: string | null;
   email: string | null;
   phone: string | null;
+  /**
+   * True only once the team has checked these are real, current details.
+   * Opportunity pages show confirmed people only, so volunteers never get a
+   * placeholder number. Set it when replacing a placeholder with real details.
+   */
+  confirmed: boolean;
 }
 
 export interface EntityContacts {
@@ -20,6 +26,7 @@ const emptyPerson = (role: string): DirectoryPerson => ({
   name: null,
   email: null,
   phone: null,
+  confirmed: false,
 });
 
 /** Member Committee VP for incoming Global Volunteer. Fill in when names are confirmed. */
@@ -28,6 +35,7 @@ export const MCVP: DirectoryPerson = {
   name: "Amal Perera",
   email: "mcvp.igv@aiesec.lk",
   phone: "+94 71 234 5678",
+  confirmed: false,
 };
 
 /** Local Committee VPs, grouped by entity. Add more LCVP entries under an entity as needed. */
@@ -54,9 +62,18 @@ export const ENTITY_CONTACTS: EntityContacts[] = Object.values(HOST_TEAMS)
       shortName: team.name.replace(/^AIESEC in /, ""),
       lcvps: [
         dummy
-          ? { role: "LCVP", name: dummy.name, email: dummy.email, phone: dummy.phone }
+          ? { role: "LCVP", name: dummy.name, email: dummy.email, phone: dummy.phone, confirmed: false }
           : emptyPerson("LCVP"),
       ],
     };
   })
   .sort((a, b) => a.shortName.localeCompare(b.shortName));
+
+/** The first confirmed LCVP with a way to reach them, for a host team code ("CS", "Kandy"). */
+export function confirmedLcvp(
+  hostTeamCode: string,
+  entities: EntityContacts[] = ENTITY_CONTACTS,
+): DirectoryPerson | undefined {
+  const entity = entities.find((e) => e.code.toLowerCase() === hostTeamCode.toLowerCase());
+  return entity?.lcvps.find((p) => p.confirmed && (p.email || p.phone));
+}

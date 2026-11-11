@@ -1,6 +1,7 @@
 import type { Contact, Dataset, ISODate, Opportunity, Project } from "@/types/domain";
 import { SDGS, type Sdg } from "@/lib/sdgs";
 import { upcomingRanges } from "@/lib/filters";
+import { confirmedLcvp, type EntityContacts } from "@/lib/contact-directory";
 
 /** Read-only lookups over a loaded dataset. Counts are always computed from records. */
 
@@ -35,8 +36,21 @@ export function opportunitiesForProject(dataset: Dataset, project: Project): Opp
   return dataset.opportunities.filter((o) => ids.has(o.id));
 }
 
-export function contactFor(dataset: Dataset, hostTeamCode: string | undefined): Contact | undefined {
+/**
+ * Who to ask about an opportunity: a confirmed LCVP from the contact directory
+ * (lib/contact-directory.ts), else the sheet's Contact tab when the sheet is
+ * the data source. EXPA has no contacts, so without a confirmed person there is none.
+ */
+export function contactFor(
+  dataset: Dataset,
+  hostTeamCode: string | undefined,
+  entities?: EntityContacts[],
+): Contact | undefined {
   if (!hostTeamCode) return undefined;
+  const person = confirmedLcvp(hostTeamCode, entities);
+  if (person) {
+    return { hostTeamCode, person: person.name, email: person.email, whatsapp: person.phone, instagram: null };
+  }
   return dataset.contacts.find((c) => c.hostTeamCode.toLowerCase() === hostTeamCode.toLowerCase());
 }
 
