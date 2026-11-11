@@ -1,9 +1,17 @@
 import { z } from "zod";
 import type { Dataset } from "@/types/domain";
 import { DEFAULT_SHEET_ID } from "./config";
+import { expaConfig, fetchExpaOpportunities } from "./expa";
 import { normalizeWorkbook } from "./normalize";
+import { normalizeExpa } from "./normalize-expa";
 import { datasetSchema } from "./schema";
+import { SourceUnavailableError } from "./source-error";
 import { readWorkbook } from "./xlsx";
+
+export { SourceUnavailableError };
+
+/** "expa" reads live from EXPA's API (spike); anything else keeps the Google Sheet. */
+export const dataSource = (): "sheet" | "expa" => (process.env.DATA_SOURCE?.trim().toLowerCase() === "expa" ? "expa" : "sheet");
 
 /**
  * Fetches the Google Sheet and keeps the normalised dataset in memory.
@@ -18,16 +26,6 @@ import { readWorkbook } from "./xlsx";
  * The cache is per server process. On serverless hosting each instance keeps
  * its own copy; that only affects how often the sheet is fetched.
  */
-
-export class SourceUnavailableError extends Error {
-  constructor(
-    message: string,
-    readonly detail?: string,
-  ) {
-    super(message);
-    this.name = "SourceUnavailableError";
-  }
-}
 
 export interface SourceConfig {
   sheetId: string;
@@ -58,7 +56,17 @@ export function sourceConfig(): SourceConfig {
   };
 }
 
+async function fetchExpaDataset(): Promise<Dataset> {
+  const dataset = normalizeExpa(await fetchExpaOpportunities(), expaConfig().endpoint);
+  const check = datasetSchema.safeParse(dataset);
+  if (!check.success) {
+    throw new SourceUnavailableError("EXPA's data came back in a shape this site can't read safely.", z.prettifyError(check.error));
+  }
+  return dataset;
+}
+
 export async function fetchDataset(config = sourceConfig()): Promise<Dataset> {
+  if (dataSource() === "expa") return fetchExpaDataset();
   let response: Response;
   try {
     response = await fetch(config.exportUrl, {
