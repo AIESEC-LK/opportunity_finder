@@ -143,9 +143,11 @@ describe("normalizeExpa", () => {
     expect(dataset.projects.map((p) => p.name)).toEqual(["Explorer", "Heartbeat"]);
   });
 
-  it("has no sheet-only data", () => {
+  it("takes planning links from the data file and has no sheet contacts", () => {
+    expect(dataset.resources.map((r) => r.label)).toEqual(
+      expect.arrayContaining(["Visa Guidelines", "Budget", "Country Booklet", "Country Content", "Testimonials"]),
+    );
     expect(dataset.contacts).toEqual([]);
-    expect(dataset.resources).toEqual([]);
     expect(dataset.sourceUrl).toBe(ENDPOINT);
   });
 });

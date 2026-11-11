@@ -7,6 +7,7 @@ import { SOURCE_COUNTRY } from "./config";
 import { daysBetween } from "./dates";
 import type { ExpaOpportunity } from "./expa";
 import { normalizeHostTeam } from "./normalize";
+import { PLANNING_LINKS } from "./planning-links";
 import { clean, keyOf, slugify } from "./text";
 
 /** EXPA local committee id -> the entity code used across the app (HOST_TEAMS). */
@@ -122,7 +123,7 @@ export function normalizeExpa(records: ExpaOpportunity[], sourceUrl: string, fet
     projects: [...projects.values()].sort((a, b) => a.name.localeCompare(b.name)),
     hostTeams: [...hostTeams.values()].sort((a, b) => a.name.localeCompare(b.name)),
     contacts: [],
-    resources: [],
+    resources: PLANNING_LINKS,
     diagnostics: {
       tabsRead: [{ name: "EXPA", role: "listing", rows: records.length }],
       recordsRead: records.length,
