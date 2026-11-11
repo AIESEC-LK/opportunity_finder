@@ -9,6 +9,7 @@
     "lint": "eslint",
     "inspect:source": "tsx scripts/inspect-source.ts",
     "probe:expa": "tsx scripts/probe-expa.ts",
+    "archive:sheet": "tsx scripts/archive-sheet.ts",
     "test": "vitest run",
     "test:watch": "vitest",
     "typecheck": "next typegen && tsc --noEmit"

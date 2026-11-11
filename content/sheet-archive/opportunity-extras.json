@@ -1,0 +1,4108 @@
+{
+  "source": "https://docs.google.com/spreadsheets/d/1j6IkDXwEbCLA2Jt2YYuJcL8E2YTnYjudADOAVxirjZI/edit",
+  "archivedAt": "2026-11-11",
+  "opportunities": {
+    "1288330": {
+      "title": "Aquatica · Colombo North",
+      "project": "Aquatica",
+      "hostTeam": "CN",
+      "sdgTarget": "14.1",
+      "booklet": {
+        "label": "Aquatica",
+        "url": "https://docs.google.com/presentation/d/1V4wmsnAcDFmE3cRDW2WPettmlIrk9ODoNnNic-M3dYs/edit"
+      },
+      "accommodationPhotos": "https://drive.google.com/drive/folders/1jeA75je5MEMztSFMXawve-g3BwoRkEZd",
+      "flexibleDates": true,
+      "slotText": [
+        {
+          "label": "2025",
+          "text": "5 jan - 16 feb\n22 Feb - 5th Apr                                      1st March - 12th Apr                        17 Mar - 28 Apr\n20 Apr - 01st June                                          3 May - 14 Jun                                                 6 Jul - 17 Aug                                                        21 Jul - 1 Sep                                     15 Aug - 26 Sep                                        20 Sep - 1 Nov                                1 Oct - 12 Nov                                  16 Nov - 28 Dec                                    26 Dec - 6 Feb"
+        },
+        {
+          "label": "2026",
+          "text": "Flexible\n12 Jan, 2026 - 23 Feb, 2026\n7 Feb, 2026 - 21 Mar, 2026\n9 Mar, 2026 - 20 Apr, 2026\n10 Apr, 2026 - 22 May, 2026\n12 May, 2026 - 23 Jun, 2026\n3 Jun, 2026 - 15 Jul, 2026\n21 Jun, 2026 - 2 Aug, 2026\n6 Jul, 2026 - 17 Aug, 2026\n23 Jul, 2026 - 3 Sep, 2026\n8 Aug, 2026 - 19 Sep, 2026\n24 Aug, 2026 - 5 Oct, 2026\n9 Sep, 2026 - 21 Oct, 2026\n26 Sep, 2026 - 7 Nov, 2026"
+        }
+      ]
+    },
+    "1292875": {
+      "title": "Explorer · Colombo Central",
+      "project": "Explorer",
+      "hostTeam": "CC",
+      "sdgTarget": "4.1",
+      "booklet": {
+        "label": "Explorer (1).pdf",
+        "url": "https://drive.google.com/file/d/1xQqhNKli1Q2BvRIQQhFOsh9zcFccDzng/view"
+      },
+      "accommodationPhotos": "https://drive.google.com/drive/folders/1CU5rWSZAt02RJwPNSoqxU4RrAjNLgGNe",
+      "flexibleDates": true,
+      "slotText": [
+        {
+          "label": "2025",
+          "text": "1 Jan - 12 Feb\n12 Feb - 26 Mar"
+        },
+        {
+          "label": "2026",
+          "text": "Flexible"
+        }
+      ]
+    },
+    "1293445": {
+      "title": "Steiner College",
+      "project": "Global Classroom",
+      "hostTeam": "Ruhuna",
+      "sdgTarget": "4.6",
+      "booklet": {
+        "label": "Global Classroom (1)_compressed.pdf",
+        "url": "https://drive.google.com/file/d/1vVdS6aQGQW1BSJedDGieVh-xOk7mRvc-/view"
+      },
+      "accommodationPhotos": "https://drive.google.com/drive/u/1/folders/1yMKQTuqJqifmN3Vg00mEBPUgebc29yUo",
+      "flexibleDates": true,
+      "slotText": [
+        {
+          "label": "2025",
+          "text": "3rd Mar-14th Apr \n15th Apr-22nd May\n5th May-16 June\n9th June- 21st July\n6th July- 17th Aug\n2nd Aug-13th Sept\n9th Sept-21st Oct\n21st Oct-1st Dec\n2nd Dec-15th Jan"
+        },
+        {
+          "label": "2026",
+          "text": "Flexible"
+        }
+      ]
+    },
+    "1293446": {
+      "title": "Equify · Ruhuna",
+      "project": "Equify",
+      "hostTeam": "Ruhuna",
+      "sdgTarget": "10.2",
+      "booklet": {
+        "label": "Equify IR (1)_compressed.pdf",
+        "url": "https://drive.google.com/file/d/1kdDOzDdkzW1d_OzhAjNpsF7dGixCobLL/view"
+      },
+      "accommodationPhotos": "https://drive.google.com/drive/u/1/folders/1yMKQTuqJqifmN3Vg00mEBPUgebc29yUo",
+      "flexibleDates": false,
+      "slotText": [
+        {
+          "label": "2025",
+          "text": "20 Apr - 1 Jun\n11 May - 22 Jun\n1 Jun - 13 Jul\n22 Jun - 3 Aug\n13 Jul - 24 Aug\n3 Aug - 14 Sep\n24 Aug - 5 Oct\n14 Sep - 26 Oct\n5 Oct - 16 Nov\n26 Oct - 7 Dec\n16 Nov - 28 Dec\n8 Dec- 16 Jan 2026\n2 Jan 2026- 13 Feb \n26th Jan-6th March"
+        },
+        {
+          "label": "2026",
+          "text": "-"
+        }
+      ]
+    },
+    "1294215": {
+      "title": "Global Classroom · NSBM",
+      "project": "Global Classroom",
+      "hostTeam": "NSBM",
+      "sdgTarget": "4.6",
+      "booklet": {
+        "label": "Project Booklet",
+        "url": "https://drive.google.com/file/d/1UuLnX8vYoEg9NnrCkXpiCAtbkMpuXMX3/view"
+      },
+      "accommodationPhotos": "https://drive.google.com/drive/folders/1ota5t9vGxrtmF-KbdWN7o5HLAb054o1w",
+      "flexibleDates": false,
+      "slotText": [
+        {
+          "label": "2025",
+          "text": "4 Jan - 15 Feb\n22 Feb - 5 Apr\n10 Apr - 31 May\n7 Jun -19 Jul\n26 Jul - 6 Sept"
+        }
+      ]
+    },
+    "1298368": {
+      "title": "Suwa Sahana",
+      "project": "HeartBeat",
+      "hostTeam": "CC",
+      "sdgTarget": "3.4",
+      "booklet": {
+        "label": "Heartbeat - Suwa Sahana.pdf",
+        "url": "https://drive.google.com/file/d/1rsdXVjKXGw50jt0HATFld__tdC8CM08I/view"
+      },
+      "accommodationPhotos": "https://drive.google.com/drive/folders/1pTPAOAm9UWxvO85mDK574t9dj94g4avH",
+      "flexibleDates": true,
+      "slotText": [
+        {
+          "label": "2025",
+          "text": "1 Jan - 12 Feb\n12 Feb - 26 Mar\n26 Mar - 7 May\n7 May - 18 Jun \n1 Jun - 12 July\n12 July - 24 Aug"
+        },
+        {
+          "label": "2026",
+          "text": "Flexible slots"
+        }
+      ]
+    },
+    "1299128": {
+      "title": "Shakthi Women Organization",
+      "project": "Global Classroom",
+      "hostTeam": "CC",
+      "sdgTarget": "4.6",
+      "booklet": {
+        "label": "GC- Shakthi Women Organization (1).pdf",
+        "url": "https://drive.google.com/file/d/186x5in1zDdzQgDOPg85282eKDOT0rhyr/view"
+      },
+      "accommodationPhotos": "https://drive.google.com/drive/folders/1zqrka61dM1WhVRkrCOEZRZkpVs__Mm67",
+      "flexibleDates": true,
+      "slotText": [
+        {
+          "label": "2025",
+          "text": "September, November, \nDecember\n(Flexible)"
+        },
+        {
+          "label": "2026",
+          "text": "Flexible slots throughout the year"
+        }
+      ]
+    },
+    "1299152": {
+      "title": "IUHS",
+      "project": "Global Classroom",
+      "hostTeam": "USJ",
+      "sdgTarget": "4.6",
+      "booklet": {
+        "label": "USJ iGV Project Booklet - GC IUHS.pdf",
+        "url": "https://drive.google.com/file/d/1pWpSBAVl7GziE-KDCdGqJkNTIOoIvImJ/view"
+      },
+      "accommodationPhotos": "https://drive.google.com/drive/folders/1jHkJs0nh1ogkp5wYBddgD14OSdCRBHX9",
+      "flexibleDates": false,
+      "slotText": [
+        {
+          "label": "2025",
+          "text": "9 Nov - 21 Dec\n30 Nov - 11 Jan 2026\n21 Dec - 1 Feb 2026"
+        },
+        {
+          "label": "2026",
+          "text": "11 Jan - 22 Feb"
+        }
+      ]
+    },
+    "1301547": {
+      "title": "Embalawa Rural Development and Welfare Society",
+      "project": "Global Classroom",
+      "hostTeam": "CC",
+      "sdgTarget": "4.6",
+      "booklet": {
+        "label": "GC- Embalawa Rural Development and Welfare Society - Global classroom (1).pdf",
+        "url": "https://drive.google.com/file/d/1xdr3EfDj3oxZpxtVgaC0ipnZ4dWTFO_4/view"
+      },
+      "accommodationPhotos": "https://drive.google.com/drive/folders/1GgLNw3AyTX8DcwY-USAqhYe7p0K-V4QN",
+      "flexibleDates": true,
+      "slotText": [
+        {
+          "label": "2025",
+          "text": "September, November, \nDecember\n(Flexible)"
+        },
+        {
+          "label": "2026",
+          "text": "Flexible slots throughout the year"
+        }
+      ]
+    },
+    "1302474": {
+      "title": "Aurora Lanka",
+      "project": "HeartBeat",
+      "hostTeam": "Kandy",
+      "sdgTarget": "3.4",
+      "booklet": {
+        "label": "Heartbeat New Booklet Aurora Lanka.pdf",
+        "url": "https://drive.google.com/file/d/1ifxVFoOMYaLopzZVFEZwXpRXkrtuwuhY/view"
+      },
+      "accommodationPhotos": "https://drive.google.com/drive/folders/1w6j12Amjf0hRs8a-F-UOKMRh4l2on3kl",
+      "flexibleDates": true,
+      "slotText": [
+        {
+          "label": "2025",
+          "text": "21 Apr - 2 Jun \n2 Jun - 14 July\n14 July - 25 Aug\n25 Aug - 6 Oct\n 6 Oct - 17 Nov\n1 sept - 13 Oct\n17 Nov - 29 Dec"
+        },
+        {
+          "label": "2026",
+          "text": "Flexible Slots\n7 Jun - 19 Jul\n20 Jul - 31 Aug\n5 Sep - 17 Oct\n17 Oct - 28 Nov\n28 Nov - 9 Jan"
+        }
+      ]
+    },
+    "1302482": {
+      "title": "Happy Bus – AIESEC in Kandy",
+      "project": "Explorer",
+      "hostTeam": "Kandy",
+      "sdgTarget": "4.1",
+      "booklet": {
+        "label": "Project Happy Bus Booklet - AIESEC in Kandy.pdf",
+        "url": "https://drive.google.com/file/d/1rFDDybXArkpMlLfHnoaGH1-nGjvHdYlN/view"
+      },
+      "accommodationPhotos": "https://drive.google.com/drive/folders/1vvyj9W7zU4Pjd4_E3qINqyiCmI8-7IgE",
+      "flexibleDates": true,
+      "slotText": [
+        {
+          "label": "2025",
+          "text": "1 Apr - 13 May\n12 May - 23 Jun \n2 Jun - 14 Jul \n14 Jul - 25 Aug\n17 Nov - 29 Dec"
+        },
+        {
+          "label": "2026",
+          "text": "Flexible Slots\n18 Apr - 30 May\n16 May - 27 Jun\n16 Jun - 28 Jul\n5 Sep - 17 Oct\n18 Oct - 29 Nov"
+        }
+      ]
+    },
+    "1302766": {
+      "title": "Rooted · Colombo North",
+      "project": "Rooted",
+      "hostTeam": "CN",
+      "sdgTarget": "15.5",
+      "booklet": {
+        "label": "Rooted-Matching_Interview_Presentation",
+        "url": "https://docs.google.com/presentation/d/1CzIL_n2JXJcYl1w9myPA3sKNQ-gCDsUu5GBqsafMAY4/edit"
+      },
+      "accommodationPhotos": "https://drive.google.com/drive/folders/1Ou7wgXIyfoFtgBUO9d3EAr27lSvQHBiI",
+      "flexibleDates": true,
+      "slotText": [
+        {
+          "label": "2025",
+          "text": "Flexible Slots\n\nOpened Now\n12 jan - 23 feb\n1st Mar- 12th Apr\n20th Apr - 01st June                                                    15 Jul - 26 Aug                                               1 Sep - 13 Oct\n8 Dec, 2025 - 19 Jan, 2026"
+        },
+        {
+          "label": "2026",
+          "text": "Flexible Slots\n\nOpened Now\n20 Jan, 2026 - 3 Mar, 2026\n9 Feb, 2026 - 23 Mar, 2026\n15 Mar, 2026 - 26 Apr, 2026\n17 Apr, 2026 - 29 May, 2026\n10 May, 2026 - 21 Jun, 2026\n2 Jun, 2026 - 14 Jul, 2026\n10 Jul, 2026 - 21 Aug, 2026\n15 Aug, 2026 - 26 Sep, 2026\n21 Sep, 2026 - 2 Nov, 2026"
+        }
+      ]
+    },
+    "1303217": {
+      "title": "Pahan Piyasa",
+      "project": "HeartBeat",
+      "hostTeam": "CC",
+      "sdgTarget": "3.4",
+      "booklet": {
+        "label": "Heartbeat - Pahan Piyasa.pdf",
+        "url": "https://drive.google.com/file/d/1j7ODkdI_W6vUlfwUBBNPUsQmJ9UqeZOk/view"
+      },
+      "accommodationPhotos": "https://drive.google.com/drive/folders/1wMRqvQL8Qe604NFIkt4_S5muaHCyRIVR",
+      "flexibleDates": true,
+      "slotText": [
+        {
+          "label": "2025",
+          "text": "1 Jan - 12 Feb\n12 Feb - 26 Mar\n26 Mar - 7 May\n7 May - 18 Jun \n1 Jun - 12 July\n12 July - 24 Aug"
+        },
+        {
+          "label": "2026",
+          "text": "Flexible slots"
+        }
+      ]
+    },
+    "1305066": {
+      "title": "Global Classroom · Kandy",
+      "project": "Global Classroom",
+      "hostTeam": "Kandy",
+      "sdgTarget": "4.6",
+      "booklet": {
+        "label": "Project Booklet",
+        "url": "https://drive.google.com/drive/folders/1RU4UkVFTYcL1jBUfABN24tuIHZMpJgsr"
+      },
+      "accommodationPhotos": "https://drive.google.com/drive/folders/1DtoJQhrM18WrgzSBfMVTQDvGSRkSFy8G",
+      "flexibleDates": true,
+      "slotText": [
+        {
+          "label": "2025",
+          "text": "13th Jan - 24th Feb\n10th Feb - 24th March\n10th Mar - 21st April\n7th April - 19th May\n5th May - 16th Jun\n9th Jun - 21st Jul \n23rd Jun - 4th Aug\n21st Jul - 1st Sep\n4th Aug - 15th Sep"
+        },
+        {
+          "label": "2026",
+          "text": "Flexible Slots\n3 May - 14 Jun\n15 Jun - 27 Jul\n6 Sep - 18 Oct\n19 Oct - 30 Nov"
+        }
+      ]
+    },
+    "1305074": {
+      "title": "Global Classroom · Kandy",
+      "project": "Global Classroom",
+      "hostTeam": "Kandy",
+      "sdgTarget": "4.6",
+      "booklet": {
+        "label": "Project Booklet",
+        "url": "https://drive.google.com/drive/folders/1UPAhHiP94jV-AgPMtMRMaiRpayEjCKBK"
+      },
+      "accommodationPhotos": "https://drive.google.com/drive/folders/1eP9EmwoW31yNo_xSCln6cLGrIx7MCprR",
+      "flexibleDates": false,
+      "slotText": [
+        {
+          "label": "2025",
+          "text": "10th Mar - 21st April\n13th April - 25th May\n26th May - 7th July\n7th July - 18th Aug \n4th Aug - 15th Sep\n8th Dec - 19th Jan"
+        }
+      ]
+    },
+    "1305664": {
+      "title": "Raise Your Voice · Kandy",
+      "project": "Raise Your Voice",
+      "hostTeam": "Kandy",
+      "sdgTarget": null,
+      "booklet": {
+        "label": "Raise your voice",
+        "url": "https://drive.google.com/drive/folders/15wGeyA5HNVyXtx1n7tMFFts6KVAYSK9R"
+      },
+      "accommodationPhotos": "https://drive.google.com/drive/folders/1I26e6718rmJtWeMJVwKVs9rEgq904xwh",
+      "flexibleDates": true,
+      "slotText": [
+        {
+          "label": "2025",
+          "text": "21 Apr - 2 Jun \n2 Jun - 14 July\n14 July - 25 Aug\n25 Aug - 6 Oct\n 6 Oct - 17 Nov\n1 sept - 13 Oct\n17 Nov - 29 Dec"
+        },
+        {
+          "label": "2026",
+          "text": "Flexible Slots\n21 Mar - 2 May\n5 Apr - 17 May\n17 May - 28 Jun\n21 Jun - 2 Aug\n11 Jul - 22 Aug\n22 Aug - 3 Oct\n4 Oct - 15 Nov\n1 Nov - 13 Dec"
+        }
+      ]
+    },
+    "1305759": {
+      "title": "Equify · Kandy",
+      "project": "Equify",
+      "hostTeam": "Kandy",
+      "sdgTarget": "10.2",
+      "booklet": {
+        "label": "Equify (1)_compressed (1).pdf",
+        "url": "https://drive.google.com/file/d/1Uy0fsXlPAkNQY-k313kN4rLsGwp51lea/view"
+      },
+      "accommodationPhotos": "https://drive.google.com/drive/folders/1Ibbv7h7YI6ofu-ImdtlbJdAXidZo0EpC",
+      "flexibleDates": true,
+      "slotText": [
+        {
+          "label": "2025",
+          "text": "21 Apr - 2 Jun \n2 Jun - 14 July\n14 July - 25 Aug\n25 Aug - 6 Oct\n 6 Oct - 17 Nov\n1 sept - 13 Oct\n17 Nov - 29 Dec"
+        },
+        {
+          "label": "2026",
+          "text": "Flexible Slots\n4 Apr - 16 May\n16 May - 27 Jun\n4 Jul - 15 Aug\n16 Aug - 27 Sep\n3 Oct - 14 Nov"
+        }
+      ]
+    },
+    "1306013": {
+      "title": "Global Classroom · Rajarata",
+      "project": "Global Classroom",
+      "hostTeam": "Rajarata",
+      "sdgTarget": "4.6",
+      "booklet": {
+        "label": "Project IR Booklet",
+        "url": "https://drive.google.com/drive/folders/1IAX7ksRPLKXVz3xoW0gZMySlyKHgudPK"
+      },
+      "accommodationPhotos": "https://drive.google.com/drive/folders/1P1-iq_GcOoJLH6b44tsJ7hiPXWmsGTkB",
+      "flexibleDates": false,
+      "slotText": [
+        {
+          "label": "2025",
+          "text": "5 Jan- 16 Feb\n23 Feb- 6 Apr\n2 Mar-13 apr\n20 Apr- 1 June"
+        }
+      ]
+    },
+    "1306298": {
+      "title": "Lesson One Pre School, Matara",
+      "project": "Global Classroom",
+      "hostTeam": "Ruhuna",
+      "sdgTarget": "4.6",
+      "booklet": {
+        "label": "Global Classroom (1)_compressed.pdf",
+        "url": "https://drive.google.com/file/d/1vVdS6aQGQW1BSJedDGieVh-xOk7mRvc-/view"
+      },
+      "accommodationPhotos": "https://drive.google.com/drive/u/1/folders/14w2RcQs62i5Iises7RxXTWnzfrSaGUww",
+      "flexibleDates": true,
+      "slotText": [
+        {
+          "label": "2025",
+          "text": "3rd Mar-14th Apr \n15th Apr-22nd May\n5th May-16 June\n9th June- 21st July\n6th July- 17th Aug\n2nd Aug-13th Sept\n9th Sept-21st Oct\n21st Oct-1st Dec\n2nd Dec-15th Jan"
+        },
+        {
+          "label": "2026",
+          "text": "Flexible"
+        }
+      ]
+    },
+    "1306696": {
+      "title": "Early Birds School And Daycare",
+      "project": "Global Classroom",
+      "hostTeam": "Ruhuna",
+      "sdgTarget": "4.6",
+      "booklet": {
+        "label": "Global Classroom Booklet",
+        "url": "https://drive.google.com/file/d/1vVdS6aQGQW1BSJedDGieVh-xOk7mRvc-/view"
+      },
+      "accommodationPhotos": "https://drive.google.com/drive/u/1/folders/162dgbytLzPhoMlcrwfq0XOzZbCI5N22x",
+      "flexibleDates": true,
+      "slotText": [
+        {
+          "label": "2025",
+          "text": "Flexible"
+        },
+        {
+          "label": "2026",
+          "text": "Flexible"
+        }
+      ]
+    },
+    "1307475": {
+      "title": "On The Map · Colombo North",
+      "project": "On The Map",
+      "hostTeam": "CN",
+      "sdgTarget": "8.9",
+      "booklet": {
+        "label": "OTM Expectation setting booklet.pptx",
+        "url": "https://docs.google.com/presentation/d/1AzWukbFv8xxZvDGd2tI03bLhl8HXz_ez/edit"
+      },
+      "accommodationPhotos": "https://drive.google.com/drive/folders/1g6d91gpfK0oPmh7TMYBAKyqhScQH11lp",
+      "flexibleDates": true,
+      "slotText": [
+        {
+          "label": "2025",
+          "text": "Flexible Slots\n12 Jan - 23 Feb\n 09 Feb - 23 Mar\n27 Mar - 8 May                          20 Apr - 1 Jun                                14 Jun - 26 Jul                                        23 Jul - 3 Sep                                                 20 Aug - 1 Oct                                     22 Sep - 3 Nov                                                      5 Oct - 16 Nov                                                       18 Oct - 29 Nov                                             16 Nov - 28 Dec                                                                 28 Nov - 9 Jan                                                  15 Dec - 26 Jan"
+        },
+        {
+          "label": "2026",
+          "text": "Flexible Slots\n10 Jan, 2026 - 21 Feb, 2026\n15 Jan, 2026 - 26 Feb, 2026\n10 Feb, 2026 - 24 Mar, 2026\n9 Mar, 2026 - 20 Apr, 2026\n5 Apr, 2026 - 17 May, 2026\n4 May, 2026 - 15 Jun, 2026\n5 Jun, 2026 - 17 Jul, 2026\n6 Jul, 2026 - 17 Aug, 2026\n8 Aug, 2026 - 19 Sep, 2026\n10 Sep, 2026 - 22 Oct, 2026"
+        }
+      ]
+    },
+    "1307615": {
+      "title": "CYM",
+      "project": "Green Leaders",
+      "hostTeam": "CC",
+      "sdgTarget": "13.3",
+      "booklet": {
+        "label": "Green leaders - CYM.pdf",
+        "url": "https://drive.google.com/file/d/1nslioTQyg-HA6YGNXeVs3Su-Yrcd6Rvl/view"
+      },
+      "accommodationPhotos": "https://drive.google.com/drive/folders/1vgKOvB9CdVOjiUQpJ4tOOIE5YviSg7eL",
+      "flexibleDates": true,
+      "slotText": [
+        {
+          "label": "2025",
+          "text": "September, October, \nNovember \n(flexible)"
+        },
+        {
+          "label": "2026",
+          "text": "Flexible slots"
+        }
+      ]
+    },
+    "1307916": {
+      "title": "Happy Kids Education, Galle",
+      "project": "Global Classroom",
+      "hostTeam": "Ruhuna",
+      "sdgTarget": "4.6",
+      "booklet": {
+        "label": "Global Classroom (1)_compressed.pdf",
+        "url": "https://drive.google.com/file/d/1vVdS6aQGQW1BSJedDGieVh-xOk7mRvc-/view"
+      },
+      "accommodationPhotos": "https://drive.google.com/drive/u/1/folders/1u-3tmLRF9nRLuNBx4rhJKQEtRiYlthlr",
+      "flexibleDates": true,
+      "slotText": [
+        {
+          "label": "2025",
+          "text": "Flexible Slots \n(Year Round)"
+        },
+        {
+          "label": "2026",
+          "text": "Flexible"
+        }
+      ]
+    },
+    "1307917": {
+      "title": "Happy Kids Education (Pvt) Ltd",
+      "project": "Explorer",
+      "hostTeam": "Ruhuna",
+      "sdgTarget": "4.1",
+      "booklet": {
+        "label": "Copy of Explorer - Happy Kids .pdf",
+        "url": "https://drive.google.com/file/d/14gBKPlEJ6NVsTkLywYFsfBGj2nREsMJY/view"
+      },
+      "accommodationPhotos": "https://drive.google.com/drive/u/1/folders/1u-3tmLRF9nRLuNBx4rhJKQEtRiYlthlr",
+      "flexibleDates": true,
+      "slotText": [
+        {
+          "label": "2025",
+          "text": "3rd Mar-14th Apr \n15th Apr-22nd May\n5th May-16 June\n9th June- 21st July\n6th July- 17th Aug\n2nd Aug-13th Sept\n9th Sept-21st Oct\n21st Oct-1st Dec\n2nd Dec-15th Jan"
+        },
+        {
+          "label": "2026",
+          "text": "Flexible"
+        },
+        {
+          "label": "2026",
+          "text": "flexible"
+        }
+      ]
+    },
+    "1308448": {
+      "title": "Sri Lanka Trekking Club",
+      "project": "Explorer",
+      "hostTeam": "Kandy",
+      "sdgTarget": "4.1",
+      "booklet": {
+        "label": "Explorer | Sri Lanka Trekking Club.pdf",
+        "url": "https://drive.google.com/file/d/1sQvi7ZTJS5S4dIjzFlJZnNglJFP8xkCJ/view"
+      },
+      "accommodationPhotos": "https://drive.google.com/drive/folders/1aiSYxyRDXGSCXKu6wVuZsms9ck26yuNM",
+      "flexibleDates": false,
+      "slotText": [
+        {
+          "label": "2025",
+          "text": "6th Jan - 17th Feb\n24 Feb - 7 Apr\n14 Apr - 26 May\n26 May - 7 Jul \n7 Jul - 18 Aug \n18 Aug - 29 Sep"
+        }
+      ]
+    },
+    "1308700": {
+      "title": "Happy Bus (Kashyapa Vidyalaya)",
+      "project": "Explorer",
+      "hostTeam": "CN",
+      "sdgTarget": "4.1",
+      "booklet": {
+        "label": "Happy Bus (Kashyapa Vidyalaya)_Matching Interview_PPT.pptx",
+        "url": "https://docs.google.com/presentation/d/130a5hkIveaakG3m2-vZ1v4vxUicywNTS/edit"
+      },
+      "accommodationPhotos": "https://drive.google.com/drive/folders/1BAxzWimC-J3lNK4tn1pxvFKj2C_CUyoT",
+      "flexibleDates": false,
+      "slotText": [
+        {
+          "label": "2025",
+          "text": "5 Jan - 16 Feb                                                            3 May - 14 Jun                                                           23 Jun- 4 Aug                                             20 Aug- 1 Oct"
+        }
+      ]
+    },
+    "1309136": {
+      "title": "Induruwa",
+      "project": "Aquatica",
+      "hostTeam": "SLIIT",
+      "sdgTarget": "14.1",
+      "booklet": {
+        "label": "Aquatica Induruwa project_booklet_4 week.pdf",
+        "url": "https://drive.google.com/file/d/19Xu69dHquXRRF4ZA5MtrIVx-oHmT72SI/view"
+      },
+      "accommodationPhotos": "https://drive.google.com/drive/folders/1g8HyaHq4AXFWviHTKnzortYhBXGQIg8m",
+      "flexibleDates": true,
+      "slotText": [
+        {
+          "label": "2025",
+          "text": "Flexible\n(Feb,May , June , July )"
+        },
+        {
+          "label": "2026",
+          "text": "Flexible slots all year around"
+        }
+      ]
+    },
+    "1309256": {
+      "title": "Aiko Child Care",
+      "project": "Global Classroom",
+      "hostTeam": "CC",
+      "sdgTarget": "4.6",
+      "booklet": {
+        "label": "GC-Aiko Child Care (1).pdf",
+        "url": "https://drive.google.com/file/d/1VHJH3jh9Mx1ZufTtKn0GH5GyI3Ao64np/view"
+      },
+      "accommodationPhotos": "https://drive.google.com/drive/folders/1lJNm8jxjP4CTKcLtJpLaS62MjYfBLa5k",
+      "flexibleDates": true,
+      "slotText": [
+        {
+          "label": "2026",
+          "text": "Flexible"
+        }
+      ]
+    },
+    "1309341": {
+      "title": "Rooted · NSBM",
+      "project": "Rooted",
+      "hostTeam": "NSBM",
+      "sdgTarget": "15.5",
+      "booklet": {
+        "label": "Project Booklet",
+        "url": "https://drive.google.com/file/d/1DDgUOLAYlJXS2AfeYAMZbn8_HjIuQvdE/view"
+      },
+      "accommodationPhotos": "https://drive.google.com/drive/folders/1jB9mAQCzN9pNs647wRX5WOPg3fgO-VjD",
+      "flexibleDates": false,
+      "slotText": [
+        {
+          "label": "2025",
+          "text": "9 March - 20 April\n27 April - 8 Jun\n15 Jun - 27 July\n19th January - 2nd March\n2 Aug - 13 Sept"
+        }
+      ]
+    },
+    "1309520": {
+      "title": "Saukyadana",
+      "project": "Skill Up",
+      "hostTeam": "USJ",
+      "sdgTarget": "8.6",
+      "booklet": {
+        "label": "USJ iGV Project Booklet - Skill Up Saukyadana.pdf",
+        "url": "https://drive.google.com/file/d/18v1yJ9LbI_zFpMbCyY25hT-BM_hUt3z1/view"
+      },
+      "accommodationPhotos": "https://drive.google.com/drive/folders/1dPpOdLeV-MqBJtKJNYKwSEy6k16WrWDx",
+      "flexibleDates": false,
+      "slotText": [
+        {
+          "label": "2025",
+          "text": "4 Nov - 16 Dec\n16 Dec - 27 Jan 2026"
+        },
+        {
+          "label": "2026",
+          "text": "27 Jan - 10 Mar"
+        }
+      ]
+    },
+    "1309886": {
+      "title": "Royal International Pre School",
+      "project": "Global Classroom",
+      "hostTeam": "Ruhuna",
+      "sdgTarget": "4.6",
+      "booklet": {
+        "label": "Global Classroom (1)_compressed.pdf",
+        "url": "https://drive.google.com/file/d/1vVdS6aQGQW1BSJedDGieVh-xOk7mRvc-/view"
+      },
+      "accommodationPhotos": "https://drive.google.com/drive/u/1/folders/1MNUazD-rx-8bgMbgoHMvZov5m8J86u87",
+      "flexibleDates": true,
+      "slotText": [
+        {
+          "label": "2025",
+          "text": "3rd Mar-14th Apr \n15th Apr-22nd May\n5th May-16 June\n9th June- 21st July\n6th July- 17th Aug\n2nd Aug-13th Sept\n9th Sept-21st Oct\n21st Oct-1st Dec\n2nd Dec-15th Jan"
+        },
+        {
+          "label": "2026",
+          "text": "Flexible"
+        }
+      ]
+    },
+    "1312334": {
+      "title": "Sea turtle hatchery",
+      "project": "Aquatica",
+      "hostTeam": "CC",
+      "sdgTarget": "14.1",
+      "booklet": {
+        "label": "Aquatica-sea turtle hatchery (1).pdf",
+        "url": "https://drive.google.com/file/d/1A4iaBW8GFblGYpDRN8s6aj5l6POCavsY/view"
+      },
+      "accommodationPhotos": "https://drive.google.com/drive/folders/1gbWqdDewdHPhYbZI39WWMjk70qfkPlis",
+      "flexibleDates": true,
+      "slotText": [
+        {
+          "label": "2026",
+          "text": "Flexible slots From April onwards"
+        }
+      ]
+    },
+    "1312929": {
+      "title": "Green Leaders · SLIIT",
+      "project": "Green Leaders",
+      "hostTeam": "SLIIT",
+      "sdgTarget": "13.3",
+      "booklet": {
+        "label": "Green Leaders.pdf",
+        "url": "https://drive.google.com/file/d/1pF0niskQuTtvwqqrIIRk3IPLVSA9UM4d/view"
+      },
+      "accommodationPhotos": "https://drive.google.com/drive/folders/1XRKzPgZzgBt09P3BK1I-8Zmg4d3FeN_s",
+      "flexibleDates": true,
+      "slotText": [
+        {
+          "label": "2025",
+          "text": "Flexible\n(Feb,May , June , July )"
+        }
+      ]
+    },
+    "1314223": {
+      "title": "CCBT Campus",
+      "project": "Global Classroom",
+      "hostTeam": "Rajarata",
+      "sdgTarget": "4.6",
+      "booklet": {
+        "label": "Global Classroom CCBT Campus.pdf",
+        "url": "https://drive.google.com/file/d/1YeJ3JBIbYT-D1CWqYRXRTV6kFGCAeXgD/view"
+      },
+      "accommodationPhotos": "https://drive.google.com/drive/folders/1LDHq_R4Ky0g5aHZ0TUIV2jtTsL17pwo6",
+      "flexibleDates": false,
+      "slotText": [
+        {
+          "label": "2025",
+          "text": "19 Jan - 2 Mar\n9 Mar- 20 Apr\n13 Apr- 25 May\n29 May - Jul"
+        }
+      ]
+    },
+    "1314225": {
+      "title": "Bodhiraja",
+      "project": "Global Classroom",
+      "hostTeam": "Rajarata",
+      "sdgTarget": "4.6",
+      "booklet": {
+        "label": "Global Classroom Bodhiraja",
+        "url": "https://drive.google.com/file/d/1cv1EU-bVlE7u8MxZ_5UqaBjaFIr0blBI/view"
+      },
+      "accommodationPhotos": "https://drive.google.com/drive/folders/1pQlntljhW-4t-be_oCnmtXwjsjsXr5Sb",
+      "flexibleDates": true,
+      "slotText": [
+        {
+          "label": "2025",
+          "text": "12 Jan-25 Feb\n26 Feb-9 Apr\n20Apr- 1 June\n5 jun-17 july\n15 Aug-26 sep\n15 sep-13 Oct\nFlexible slots"
+        }
+      ]
+    },
+    "1314546": {
+      "title": "Apex Global Ed",
+      "project": "Global Classroom",
+      "hostTeam": "Kandy",
+      "sdgTarget": "4.6",
+      "booklet": {
+        "label": "GC Apex Global Ed.pdf",
+        "url": "https://drive.google.com/file/d/1ydst8azpFQPD3v0a3SYuSCEQ8MIchORb/view"
+      },
+      "accommodationPhotos": "https://drive.google.com/drive/folders/1qt_1rm3Y-RBfjpkUx_Z2R4q6ZQSNmifQ",
+      "flexibleDates": false,
+      "slotText": [
+        {
+          "label": "2025",
+          "text": "10th Mar - 21st April\n13th April - 25th May\n26th May - 7th July\n7th July - 18th Aug \n4th Aug - 15th Sep\n8th Dec - 19th Jan"
+        },
+        {
+          "label": "2026",
+          "text": "15 Feb, 2026 - 29 Mar, 2026\n5 Apr, 2026 - 17 May, 2026\n17 May, 2026 - 28 Jun, 2026\n7 Jun, 2026 - 19 Jul, 2026\n19 Jul, 2026 - 30 Aug, 2026\n16 Aug, 2026 - 27 Sep, 2026\n15 Mar, 2026 - 26 Apr, 2026"
+        }
+      ]
+    },
+    "1314608": {
+      "title": "Global Classroom · NSBM",
+      "project": "Global Classroom",
+      "hostTeam": "NSBM",
+      "sdgTarget": "4.6",
+      "booklet": {
+        "label": "Project Booklet",
+        "url": "https://drive.google.com/file/d/1Ovc6pvqsRWvbpqflelI7YgFU8w18_rjy/view"
+      },
+      "accommodationPhotos": "https://drive.google.com/drive/folders/1TsWWYxRFz97N3nhcnJ4wHvXrjCdbDoAO",
+      "flexibleDates": false,
+      "slotText": [
+        {
+          "label": "2025",
+          "text": "5 Jan - 16 Feb\n22 Feb - 5 Apr\n20 Apr - 1 Jun\n7 Jun -19 Jul\n26 Jul - 6 Sept"
+        }
+      ]
+    },
+    "1314984": {
+      "title": "HIS",
+      "project": "Global Classroom",
+      "hostTeam": "CN",
+      "sdgTarget": "4.6",
+      "booklet": {
+        "label": "Global classroom HIS",
+        "url": "https://docs.google.com/presentation/d/1U_CqEcaz3p5zNJ1fEvSk7m7aerlTgXX9/edit"
+      },
+      "accommodationPhotos": "https://drive.google.com/drive/folders/1asAc6pan-RQcfEVw10KLaJkoUFgmT85b",
+      "flexibleDates": false,
+      "slotText": [
+        {
+          "label": "2025",
+          "text": "5 Jan - 16 Feb                                                 19 Jan - 2 Mar                                                            4 May-15Jun                                      16 Jun, 2025 - 28 Jul, 2025                                                    07 Sep-19 Oct , 1 Jul- 12 Aug, 2025"
+        }
+      ]
+    },
+    "1315021": {
+      "title": "Beacon",
+      "project": "Global Classroom",
+      "hostTeam": "CN",
+      "sdgTarget": "4.6",
+      "booklet": {
+        "label": "Global classroom - Beacon",
+        "url": "https://docs.google.com/presentation/d/11zolglThup1J7ky3gzZdbhTc_bnAc2kUYnBKEl2WRtY/edit"
+      },
+      "accommodationPhotos": "https://drive.google.com/drive/folders/1_1KjoZkMaeRz0mmmK67TMUcb1d0Q9xnf",
+      "flexibleDates": true,
+      "slotText": [
+        {
+          "label": "2025",
+          "text": "5 Jan- 16 Feb, 19 Jan -2 March,  1 Feb - 15 March ,  5 May -16 June,"
+        },
+        {
+          "label": "2025",
+          "text": "Flexible Slots"
+        },
+        {
+          "label": "2026",
+          "text": "Flexible Slots\n\nOpened Now\n2 Jan, 2026 - 13 Feb, 2026\n5 Feb, 2026 - 19 Mar, 2026\n6 Mar, 2026 - 17 Apr, 2026\n4 May, 2026 - 15 Jun, 2026"
+        }
+      ]
+    },
+    "1315075": {
+      "title": "Devent",
+      "project": "Skill Up",
+      "hostTeam": "USJ",
+      "sdgTarget": "8.6",
+      "booklet": {
+        "label": "USJ iGV Project Booklet - Skill Up Devent.pdf",
+        "url": "https://drive.google.com/file/d/1-dP1VHT6WXCPuaW1WWqlALe5IOkPoGqW/view"
+      },
+      "accommodationPhotos": "https://drive.google.com/drive/folders/18loIVubQvI82AGLlZJr9xe-fFjkUl78w",
+      "flexibleDates": false,
+      "slotText": [
+        {
+          "label": "2025",
+          "text": "26 Mar - 7 May\n7 May - 18 June\n1 Jun - 13 Jul\n30 Jun - 11 Aug\n15 Sep - 27 Oct"
+        }
+      ]
+    },
+    "1315499": {
+      "title": "Skill Up · Colombo North",
+      "project": "Skill Up",
+      "hostTeam": "CN",
+      "sdgTarget": "8.6",
+      "booklet": {
+        "label": "Skill Up - CN",
+        "url": "https://docs.google.com/presentation/d/1hEjmSD6Y7Q7qYJLoVUMQ6bC6NcYRKSgT/edit"
+      },
+      "accommodationPhotos": "https://drive.google.com/drive/folders/1sR1OywO3FzKWqlcYBMuBlDYW6f-am7LT",
+      "flexibleDates": false,
+      "slotText": [
+        {
+          "label": "2025",
+          "text": "2 Mar - 13 Apr                                            20 Apr - 1 Jun                                        11 May - 22 Jun                                                8 Jun - 20 Jul                                    6 Jul - 17 Aug                                                          18 Aug- 29 Sep                                                              14 Sep - 26 Oct                                                   12 Oct - 23 Nov                                                    9 Nov - 21 Dec                                                    1 Dec - 12 Jan"
+        }
+      ]
+    },
+    "1316284": {
+      "title": "Forest Healing Foundation",
+      "project": "Scale UP",
+      "hostTeam": "Kandy",
+      "sdgTarget": null,
+      "booklet": {
+        "label": "Scale Up | Forest Healing Foundation.pdf",
+        "url": "https://drive.google.com/file/d/1HSydTN9rD6H_eTBkZZOajW3aff1IWZiU/view"
+      },
+      "accommodationPhotos": "https://drive.google.com/drive/folders/1zWYkRzJsA8VXH617D-dsZ9rOs5OpvoAk",
+      "flexibleDates": true,
+      "slotText": [
+        {
+          "label": "2025",
+          "text": "6 jan - 17 Feb\n10 Feb - 24 mar\n17 Mar - 28 Apr\n14 Apr - 26 May\n12 may - 23 Jun \n9 Jun - 21 Jul\n7 Jul - 18 Aug\n11 Aug - 22 Sep"
+        },
+        {
+          "label": "2026",
+          "text": "Flexible Slots\n4 Apr - 16 May\n16 May - 27 Jun\n20 Jun - 1 Aug\n17 Aug - 28 Sep\n3 Oct - 14 Nov\n15 Nov - 27 Dec"
+        }
+      ]
+    },
+    "1316667": {
+      "title": "Forest Healing",
+      "project": "Green Leaders",
+      "hostTeam": "Kandy",
+      "sdgTarget": "13.3",
+      "booklet": {
+        "label": "Green Leaders | Forest Healing.pdf",
+        "url": "https://drive.google.com/file/d/143c3tl5XyCGU5rgID1y7waQ6nqM5_5eE/view"
+      },
+      "accommodationPhotos": "https://drive.google.com/drive/folders/1-Ezg66ecln9Ev1AzzGZG1o-YKxN8Vkby",
+      "flexibleDates": true,
+      "slotText": [
+        {
+          "label": "2025",
+          "text": "6 jan - 17 Feb\n10 Feb - 24 mar\n17 Mar - 28 Apr\n14 Apr - 26 May\n12 may - 23 Jun \n9 Jun - 21 Jul\n7 Jul - 18 Aug\n11 Aug - 22 Sep"
+        },
+        {
+          "label": "2026",
+          "text": "Flexible Slots\n1 Apr - 13 May\n10 May - 21 Jun\n6 Jun - 4 Jul\n5 Jul - 16 Aug\n1 Sep - 13 Oct\n11 Oct - 22 Nov"
+        }
+      ]
+    },
+    "1316745": {
+      "title": "Happy Bus – Beautiful Minds",
+      "project": "Explorer",
+      "hostTeam": "USJ",
+      "sdgTarget": "4.1",
+      "booklet": {
+        "label": "USJ iGV Project Booklet - Happy Bus - Beautiful Minds.pdf",
+        "url": "https://drive.google.com/file/d/1CmW2cK_hwJOaN0InhXSozNKKoW37oshD/view"
+      },
+      "accommodationPhotos": "https://drive.google.com/drive/folders/1HL7iW0h29cxfhRisPhfYtqWBObJ9VeS1",
+      "flexibleDates": false,
+      "slotText": [
+        {
+          "label": "2025",
+          "text": "28 Oct - 9 Dec\n10 Dec - 21 Jan"
+        }
+      ]
+    },
+    "1316746": {
+      "title": "Happy Bus – Discovery Kids",
+      "project": "Explorer",
+      "hostTeam": "USJ",
+      "sdgTarget": "4.1",
+      "booklet": {
+        "label": "USJ iGV Project Booklet - Happy Bus - Discovery Kids.pdf",
+        "url": "https://drive.google.com/file/d/14Qh7eh1aBLU9C1AeHSo2slgFh6PpFUhY/view"
+      },
+      "accommodationPhotos": "https://drive.google.com/drive/folders/1R0kUosS-E7lm6z54SetV8xHAWSer0eSa",
+      "flexibleDates": false,
+      "slotText": [
+        {
+          "label": "2025",
+          "text": "12 Nov - 24 Dec"
+        }
+      ]
+    },
+    "1316781": {
+      "title": "Vimukthi Edu",
+      "project": "Equify",
+      "hostTeam": "USJ",
+      "sdgTarget": "10.2",
+      "booklet": {
+        "label": "USJ iGV Project Booklet - Equify Vimukthi Edu.pdf",
+        "url": "https://drive.google.com/file/d/1aKqy_2e8bdJjJj2l8DOFitqJDQxdpE6H/view"
+      },
+      "accommodationPhotos": "https://drive.google.com/drive/folders/1aMwxJP14tEcl0zwEbV3I0obr63nyGoNA",
+      "flexibleDates": false,
+      "slotText": [
+        {
+          "label": "2025",
+          "text": "12 Nov - 24 Dec"
+        }
+      ]
+    },
+    "1316813": {
+      "title": "Mahanama",
+      "project": "Green Leaders",
+      "hostTeam": "Rajarata",
+      "sdgTarget": "13.3",
+      "booklet": {
+        "label": "Green leader mahanama.pdf",
+        "url": "https://drive.google.com/file/d/1H3CTh0HFm_OhO5R5pL-gOQPDNByjorHK/view"
+      },
+      "accommodationPhotos": "https://drive.google.com/drive/folders/14W4TwkU3Adr4zJazfgUhNe4BGof7r3oH",
+      "flexibleDates": true,
+      "slotText": [
+        {
+          "label": "2025",
+          "text": "1 Jan-12 Feb\n16 Feb- 30 Mar\n20 Apr- 1Jun\n9 May- 15 June\n8 June-20 July\n6 July- 17 Aug\n25 Aug- 5 Oct\nFlexible Slots"
+        }
+      ]
+    },
+    "1316814": {
+      "title": "Mahanama college",
+      "project": "Global Classroom",
+      "hostTeam": "Rajarata",
+      "sdgTarget": "4.6",
+      "booklet": {
+        "label": "Global Classroom mahanama college.pdf",
+        "url": "https://drive.google.com/file/d/1br7I9TyDlupKPcO64i1AYuZ2P4va50yW/view"
+      },
+      "accommodationPhotos": "https://drive.google.com/drive/folders/1UUZe0gM-ga4PQx9wLE8wnIqzF42vOTVj",
+      "flexibleDates": true,
+      "slotText": [
+        {
+          "label": "2025",
+          "text": "Apr 20-1Jun\nMay 1-12 Jun\nJun 1- 12 july\nJul 20- 13 Aug\n24 Aug-5 oct\n( Flexible Slots)"
+        }
+      ]
+    },
+    "1316827": {
+      "title": "Global Classroom · Rajarata",
+      "project": "Global Classroom",
+      "hostTeam": "Rajarata",
+      "sdgTarget": "4.6",
+      "booklet": {
+        "label": "Global Classroom (6).pdf",
+        "url": "https://drive.google.com/file/d/1aQUKkiX5UvPxHJEO5YeW5twHiEXMxDhy/view"
+      },
+      "accommodationPhotos": "https://drive.google.com/drive/folders/1zKSnqRIhh4MgQoDaIyQJotxHzNX1b7-U",
+      "flexibleDates": true,
+      "slotText": [
+        {
+          "label": "2025",
+          "text": "12 jan- 23 feb\n15 feb-30 march \n9 mar-20 Apr\n27 Apr- 8 jun\n11 May - 22 jun\n25 jun- 6 Aug\n13 jul- 24 Agu\n3 Aug- 15 sep\n7 sep- 19 oct\nflexible slots"
+        }
+      ]
+    },
+    "1316828": {
+      "title": "Global Classroom · Rajarata",
+      "project": "Global Classroom",
+      "hostTeam": "Rajarata",
+      "sdgTarget": "4.6",
+      "booklet": {
+        "label": "Global Classroom (8).pdf",
+        "url": "https://drive.google.com/file/d/1E5XgWQ6lMMqeGS_xf5H8NG8RyA9HoYRl/view"
+      },
+      "accommodationPhotos": "https://drive.google.com/drive/folders/1UQ59BWsYbRP7pMNBlT2Lkd35n_oTTKby",
+      "flexibleDates": false,
+      "slotText": [
+        {
+          "label": "2025",
+          "text": "Jan 12-Feb 12\nFeb 12-30 March\n2 March-13 Apr\n20 Apri-1 June\n8 june-20 July\n22 July-25 sep\n3 Aug-14 sep"
+        }
+      ]
+    },
+    "1316840": {
+      "title": "Diri daru piyasa",
+      "project": "Equify",
+      "hostTeam": "CC",
+      "sdgTarget": "10.2",
+      "booklet": {
+        "label": "Equify-Diri daru piyasa (1).pdf",
+        "url": "https://drive.google.com/file/d/1dPOrAQ2PQEvf49Tcgmj1lPSiKsbUqxMW/view"
+      },
+      "accommodationPhotos": "https://drive.google.com/drive/folders/1MfoYOmZio4jxeNmelOTJayB5LL6DtRAw",
+      "flexibleDates": true,
+      "slotText": [
+        {
+          "label": "2026",
+          "text": "Flexible Slots"
+        }
+      ]
+    },
+    "1316848": {
+      "title": "Happy Bus – Wide Wings",
+      "project": "Explorer",
+      "hostTeam": "USJ",
+      "sdgTarget": "4.1",
+      "booklet": {
+        "label": "USJ iGV Project Booklet - Happy Bus - Wide Wings.pdf",
+        "url": "https://drive.google.com/file/d/1ctsX7F6yW1x_QoprGUCNmVXFStUZU2Uu/view"
+      },
+      "accommodationPhotos": "https://drive.google.com/drive/folders/1gN9VoVEo7Q7ZbUHVT-Ywx8wcSNJOO62P",
+      "flexibleDates": false,
+      "slotText": [
+        {
+          "label": "2025",
+          "text": "27 Oct - 8 Dec \n8 Dec - 19 Jan 2026"
+        }
+      ]
+    },
+    "1316855": {
+      "title": "Happy Bus Blue Rose",
+      "project": "Explorer",
+      "hostTeam": "Kandy",
+      "sdgTarget": "4.1",
+      "booklet": {
+        "label": "Happy Bus _ Blue Rose.pdf",
+        "url": "https://drive.google.com/file/d/1SsJDpRJpqEpdQCqQ9qQz0BzHl5MXpylP/view"
+      },
+      "accommodationPhotos": "https://drive.google.com/drive/folders/1gmPbaj9do8fJI40l3hy0I7E5z3N-P91k",
+      "flexibleDates": false,
+      "slotText": [
+        {
+          "label": "2025",
+          "text": "20 Apr - 1 Jun\n2 Jun - 14 Jul \n14 Jul - 25 Aug\n25 Aug - 6 oct\n17 Nov - 29 Dec"
+        },
+        {
+          "label": "2026",
+          "text": "1 Mar, 2026 - 12 Apr, 2026\n20 Jul, 2026 - 30 Aug, 2026"
+        }
+      ]
+    },
+    "1317150": {
+      "title": "Ceylon Kingdom English Academy",
+      "project": "Global Classroom",
+      "hostTeam": "USJ",
+      "sdgTarget": "4.6",
+      "booklet": {
+        "label": "USJ iGV Project Booklet - GC Ceylon Kingdom English Academy.pdf",
+        "url": "https://drive.google.com/file/d/120MmYfYGRyflg-gR1YD5ypM8phMdfoUK/view"
+      },
+      "accommodationPhotos": "https://drive.google.com/drive/folders/1a4G3a9oAfXcEfPIn_JEEquQ-Kz1Miw5h",
+      "flexibleDates": false,
+      "slotText": [
+        {
+          "label": "2025",
+          "text": "26 Oct - 7 Dec\n16 Nov - 28 Dec"
+        }
+      ]
+    },
+    "1320935": {
+      "title": "CEA",
+      "project": "On The Map",
+      "hostTeam": "Kandy",
+      "sdgTarget": "8.9",
+      "booklet": {
+        "label": "On the Map CEA.pdf",
+        "url": "https://drive.google.com/file/d/1_lieLES8YR6JyXtObb-3s7iXiJ6xV-e6/view"
+      },
+      "accommodationPhotos": "https://drive.google.com/drive/folders/1JuRtx6QnX1Hz1ODwE6xRUcDvaPIj_Qm2",
+      "flexibleDates": false,
+      "slotText": [
+        {
+          "label": "2025",
+          "text": "21 Apr - 2 Jun \n2 Jun - 14 July\n14 July - 25 Aug\n25 Aug - 6 Oct\n 6 Oct - 17 Nov\n1 sept - 13 Oct\n17 Nov - 29 Dec"
+        },
+        {
+          "label": "2026",
+          "text": "19 Jul, 2026 - 30 Aug, 2026\n4 Oct, 2026 - 1 Nov, 2026\n4 Apr, 2026 - 2 May, 2026\n10 May, 2026 - 7 Jun, 2026\n14 Jun, 2026 - 12 Jul, 2026\n23 Aug, 2026 - 20 Sep, 2026"
+        }
+      ]
+    },
+    "1321103": {
+      "title": "Skill Up · Colombo South",
+      "project": "Skill Up",
+      "hostTeam": "CS",
+      "sdgTarget": "8.6",
+      "booklet": {
+        "label": "Copy of skill up booklet.pdf",
+        "url": "https://drive.google.com/file/d/1To7yHezZ534nbwb30siBB7461nfMqVhE/view"
+      },
+      "accommodationPhotos": "https://drive.google.com/drive/folders/1JFZEACh4RYVpQFliggioBUP7guUACGpj",
+      "flexibleDates": true,
+      "slotText": [
+        {
+          "label": "2025",
+          "text": "Nov,Dec\n(Flexible)"
+        },
+        {
+          "label": "2026",
+          "text": "Jan,Feb,Mar\n(Flexible)"
+        }
+      ]
+    },
+    "1321716": {
+      "title": "Dental Services",
+      "project": "Skill Up",
+      "hostTeam": "USJ",
+      "sdgTarget": "8.6",
+      "booklet": {
+        "label": "USJ iGV Project Booklet - Skill Up Dental Services.pdf",
+        "url": "https://drive.google.com/file/d/1y305fPXM1CpYpGOeJ_oBZTh4aKOaemwx/view"
+      },
+      "accommodationPhotos": "https://drive.google.com/drive/folders/1CvTu7Gj5N_zWBXNi45jP5_hCoh-rAwi7",
+      "flexibleDates": false,
+      "slotText": [
+        {
+          "label": "2025",
+          "text": "24 Nov - 5 Jan 2026"
+        },
+        {
+          "label": "2026",
+          "text": "5 Jan  - 16 Feb"
+        }
+      ]
+    },
+    "1321788": {
+      "title": "Mercy Community Center",
+      "project": "HeartBeat",
+      "hostTeam": "USJ",
+      "sdgTarget": "3.4",
+      "booklet": {
+        "label": "USJ iGV Project Booklet - Heartbeat Mercy Community Center.pdf",
+        "url": "https://drive.google.com/file/d/1jHslat1y8fZvjhkLMJFPagRngq0qdMLE/view"
+      },
+      "accommodationPhotos": "https://drive.google.com/drive/folders/1I6oqMPYgtLXEaHxG9b8Y0GVx_i3DnbMr",
+      "flexibleDates": false,
+      "slotText": [
+        {
+          "label": "2025",
+          "text": "6 Apr - 18 May \n27 Apr - 8 Jun\n18 May - 29 Jun\n8 Jun - 20 Jul\n29 Jun - 10 Aug\n20 Jul - 31 Aug\n10 Aug - 21 Sep"
+        }
+      ]
+    },
+    "1321836": {
+      "title": "SL Diving Tours",
+      "project": "Aquatica",
+      "hostTeam": "USJ",
+      "sdgTarget": "14.1",
+      "booklet": {
+        "label": "USJ iGV Project Booklet - Aquatica SL Diving Tours.pdf",
+        "url": "https://drive.google.com/file/d/1rWdlFkkMCsPCE1FtwBGE1osCefsUfTPq/view"
+      },
+      "accommodationPhotos": "https://drive.google.com/drive/folders/1sYRoxGKPc8lyWlFVG5FVgBWvPKzTXVwB",
+      "flexibleDates": false,
+      "slotText": [
+        {
+          "label": "2025",
+          "text": "23 Mar - 4 May\n4 May -15 Jun\n15 Jun - 27 Jul\n27 Jul - 7 Sep\n7 Sep - 9 Oct"
+        }
+      ]
+    },
+    "1321879": {
+      "title": "UNEX College",
+      "project": "Global Classroom",
+      "hostTeam": "CN",
+      "sdgTarget": "4.6",
+      "booklet": {
+        "label": "Global Classroom (UNEX College)",
+        "url": "https://docs.google.com/presentation/d/1cQwsr_2JR4OzacHyMkV_vQXpbePjAaWB0u_qmk46M5o/edit"
+      },
+      "accommodationPhotos": "https://drive.google.com/drive/folders/1i0UNbsqgTZ_VyW8U7OkQZK3us7jmxADQ",
+      "flexibleDates": false,
+      "slotText": [
+        {
+          "label": "2025",
+          "text": "14 Jul - 25 Aug                                                                                     07 Sep - 19 Oct"
+        }
+      ]
+    },
+    "1322177": {
+      "title": "Aquatica · Kandy",
+      "project": "Aquatica",
+      "hostTeam": "Kandy",
+      "sdgTarget": "14.1",
+      "booklet": {
+        "label": "AQUATICA New Booklet (1).pdf",
+        "url": "https://drive.google.com/file/d/1YmcQnQ8d2z8Tdds4jN92rbOjEOesl6zq/view"
+      },
+      "accommodationPhotos": "https://drive.google.com/drive/folders/1vyoiNWtLeIar8CF-EzzPgDC0nCd-XbLY",
+      "flexibleDates": false,
+      "slotText": [
+        {
+          "label": "2025",
+          "text": "6 jan - 17 Feb\n10 Feb - 24 mar\n17 Mar - 28 Apr\n14 Apr - 26 May\n12 may - 23 Jun \n9 Jun - 21 Jul\n7 Jul - 18 Aug\n11 Aug - 22 Sep"
+        },
+        {
+          "label": "2026",
+          "text": "6 Jun, 2026 - 18 Jul, 2026\n1 Sep, 2026 - 13 Oct, 2026\n21 Jul, 2026 - 1 Sep, 2026\n4 Apr, 2026 - 16 May, 2026\n19 Jul, 2026 - 30 Aug, 2026\n4 Apr, 2026 - 2 May, 2026\n10 May, 2026 - 7 Jun, 2026\n14 Jun, 2026 - 12 Jul, 2026\n19 Jul, 2026 - 16 Aug, 2026\n23 Aug, 2026 - 20 Sep, 2026\n9 Aug, 2026 - 20 Sep, 2026\n1 Jul, 2026 - 12 Aug, 2026"
+        }
+      ]
+    },
+    "1322735": {
+      "title": "Explore Express",
+      "project": "Fingerprint",
+      "hostTeam": "USJ",
+      "sdgTarget": "4.4",
+      "booklet": {
+        "label": "USJ iGV Project Booklet - Fingerprint Explore Express.pdf",
+        "url": "https://drive.google.com/file/d/1ikNGOMx4atPOMjY4jEJcJYHnrvHCN4Yy/view"
+      },
+      "accommodationPhotos": "https://drive.google.com/drive/folders/1knGpr2ztRUiXUO2SFeV8HDMb4je8JxmV",
+      "flexibleDates": false,
+      "slotText": [
+        {
+          "label": "2025",
+          "text": "2 Nov - 14 Dec\n14 Dec - 25 Jan 2026"
+        },
+        {
+          "label": "2026",
+          "text": "25 Jan - 8 Mar"
+        }
+      ]
+    },
+    "1322736": {
+      "title": "ROTEC Automation",
+      "project": "Skill Up",
+      "hostTeam": "USJ",
+      "sdgTarget": "8.6",
+      "booklet": {
+        "label": "USJ iGV Project Booklet - Skill Up ROTEC Automation",
+        "url": "https://drive.google.com/file/d/1etXR64ZH_0k0SussC4G0vK1UFSDma2kn/view"
+      },
+      "accommodationPhotos": "https://drive.google.com/drive/folders/1axsU2BfLG0DA_D9xo_8Dzq9DwNndhsrU",
+      "flexibleDates": false,
+      "slotText": [
+        {
+          "label": "2025",
+          "text": "30 Oct - 11 Dec\n11 Dec - 22 Jan 2026"
+        },
+        {
+          "label": "2026",
+          "text": "22 Jan - 5 Mar"
+        }
+      ]
+    },
+    "1322859": {
+      "title": "London Academy",
+      "project": "Discover",
+      "hostTeam": "USJ",
+      "sdgTarget": "4.7",
+      "booklet": {
+        "label": "USJ iGV Project Booklet - Discover London Academy.pdf",
+        "url": "https://drive.google.com/file/d/1hnN_WCITiZeLQ3Mg1-x8o1N_xURn5tra/view"
+      },
+      "accommodationPhotos": "https://drive.google.com/drive/folders/1GCWJBYO_UlkRXiTJub-DZFyYdDNmlkeS",
+      "flexibleDates": false,
+      "slotText": [
+        {
+          "label": "2025",
+          "text": "5 Nov - 17 Dec\n17 Dec - 28 Jan"
+        },
+        {
+          "label": "2026",
+          "text": "28 Jan - 11 Mar"
+        }
+      ]
+    },
+    "1322935": {
+      "title": "TEA",
+      "project": "Global Classroom",
+      "hostTeam": "CC",
+      "sdgTarget": "4.6",
+      "booklet": {
+        "label": "GC-TEA Project (1).pdf",
+        "url": "https://drive.google.com/file/d/1Q3qplE6sUCRYItI6h4lTZdo2bsh_fvAe/view"
+      },
+      "accommodationPhotos": "https://drive.google.com/drive/folders/1UNmtcB8nmnxXT07AFV-ly2i9-iCs_4dT",
+      "flexibleDates": true,
+      "slotText": [
+        {
+          "label": "2025",
+          "text": "September, November, \nDecember\n(Flexible)"
+        },
+        {
+          "label": "2026",
+          "text": "Flexible slots throughout the year"
+        }
+      ]
+    },
+    "1323005": {
+      "title": "Weligama Bay Dive",
+      "project": "Aquatica",
+      "hostTeam": "CN",
+      "sdgTarget": "14.1",
+      "booklet": {
+        "label": "Aquatica (Weligama Bay Dive)",
+        "url": "https://docs.google.com/presentation/d/1mTXy6V9sb_wwkeWS8eayCgSrAZg0IkbgTe70LCdQ-Yc/edit"
+      },
+      "accommodationPhotos": "https://drive.google.com/drive/folders/1KD6eEIzP3C0mQ4C4Z8OwElv5F0N4K4Rw",
+      "flexibleDates": true,
+      "slotText": [
+        {
+          "label": "2025",
+          "text": "5 jan - 16 feb\n22 Feb - 5th Apr                                      1st March - 12th Apr                        17 Mar - 28 Apr\n20 Apr - 01st June                                          3 May - 14 Jun                                                 6 Jul - 17 Aug                                                        21 Jul - 1 Sep                                     15 Aug - 26 Sep                                        20 Sep - 1 Nov                                1 Oct - 12 Nov                                  16 Nov - 28 Dec                                    26 Dec - 6 Feb"
+        },
+        {
+          "label": "2026",
+          "text": "Flexible\n12 Jan, 2026 - 23 Feb, 2026\n7 Feb, 2026 - 21 Mar, 2026\n9 Mar, 2026 - 20 Apr, 2026\n10 Apr, 2026 - 22 May, 2026\n12 May, 2026 - 23 Jun, 2026\n3 Jun, 2026 - 15 Jul, 2026\n21 Jun, 2026 - 2 Aug, 2026\n6 Jul, 2026 - 17 Aug, 2026\n23 Jul, 2026 - 3 Sep, 2026\n8 Aug, 2026 - 19 Sep, 2026\n24 Aug, 2026 - 5 Oct, 2026\n9 Sep, 2026 - 21 Oct, 2026\n26 Sep, 2026 - 7 Nov, 2026"
+        }
+      ]
+    },
+    "1323008": {
+      "title": "Global Classroom · NIBM",
+      "project": "Global Classroom",
+      "hostTeam": "NIBM",
+      "sdgTarget": "4.6",
+      "booklet": {
+        "label": "IGV Global Classroom - Project Booklet 26.27.pdf",
+        "url": "https://drive.google.com/file/d/1xymua6rkapWJpTmBINUeho13Ap4yqY2Q/view"
+      },
+      "accommodationPhotos": "https://drive.google.com/drive/u/1/folders/1nMXfHVzHgYuDLEjVlzzTAkOznkQzNhRS",
+      "flexibleDates": true,
+      "slotText": [
+        {
+          "label": "2025",
+          "text": "Flexible Slots"
+        },
+        {
+          "label": "2026",
+          "text": "Flexible Slots"
+        }
+      ]
+    },
+    "1323054": {
+      "title": "Blue Deep Diving",
+      "project": "Aquatica",
+      "hostTeam": "CN",
+      "sdgTarget": "14.1",
+      "booklet": {
+        "label": "Aquatica (Blue Deep Diving)",
+        "url": "https://docs.google.com/presentation/d/19tdcBn28yDaD5zhAeSuJ4Ekj6O4qDy0IG3dlXb9pnk0/edit"
+      },
+      "accommodationPhotos": "https://drive.google.com/drive/folders/154aQdy8W2Y2wD9iNM0xz4ZpkRa9_go1B",
+      "flexibleDates": true,
+      "slotText": [
+        {
+          "label": "2025",
+          "text": "5 jan - 16 feb\n22 Feb - 5th Apr                                      1st March - 12th Apr                        17 Mar - 28 Apr\n20 Apr - 01st June                                          3 May - 14 Jun                                                 6 Jul - 17 Aug                                                        21 Jul - 1 Sep                                     15 Aug - 26 Sep                                        20 Sep - 1 Nov                                1 Oct - 12 Nov                                  16 Nov - 28 Dec                                    26 Dec - 6 Feb"
+        },
+        {
+          "label": "2026",
+          "text": "Flexible\n12 Jan, 2026 - 23 Feb, 2026\n7 Feb, 2026 - 21 Mar, 2026\n9 Mar, 2026 - 20 Apr, 2026\n10 Apr, 2026 - 22 May, 2026\n12 May, 2026 - 23 Jun, 2026\n3 Jun, 2026 - 15 Jul, 2026\n21 Jun, 2026 - 2 Aug, 2026\n6 Jul, 2026 - 17 Aug, 2026\n23 Jul, 2026 - 3 Sep, 2026\n8 Aug, 2026 - 19 Sep, 2026\n24 Aug, 2026 - 5 Oct, 2026\n9 Sep, 2026 - 21 Oct, 2026\n26 Sep, 2026 - 7 Nov, 2026"
+        }
+      ]
+    },
+    "1323132": {
+      "title": "Nenasala",
+      "project": "Global Classroom",
+      "hostTeam": "SLIIT",
+      "sdgTarget": "4.6",
+      "booklet": {
+        "label": "GCR Nenasala 6 week.pdf",
+        "url": "https://drive.google.com/file/d/1yfcM7XV8NLi_Exw-RAlJXCu1I1AM99y_/view"
+      },
+      "accommodationPhotos": "https://drive.google.com/drive/folders/1VtAYKCkBHEZ7VDxTVfan_uBOSRDliThR",
+      "flexibleDates": true,
+      "slotText": [
+        {
+          "label": "2025",
+          "text": "Flexible\n(Feb,May , June , July )"
+        },
+        {
+          "label": "2026",
+          "text": "(Flexible Slots)\n(4 weeks avaliable)\n\n17 April - 29 May\n20 Jul - 31 Aug\n1 Sep - 13 Oct\n14 Oct - 25 Nov"
+        }
+      ]
+    },
+    "1323166": {
+      "title": "Rooted · Kandy",
+      "project": "Rooted",
+      "hostTeam": "Kandy",
+      "sdgTarget": "15.5",
+      "booklet": {
+        "label": "Rooted booklet new.pdf",
+        "url": "https://drive.google.com/file/d/1wagJzxp6AGDJNUl1Th9nNg12lKGGpAtM/view"
+      },
+      "accommodationPhotos": null,
+      "flexibleDates": false,
+      "slotText": [
+        {
+          "label": "2025",
+          "text": "21 Apr - 2 Jun \n2 Jun - 14 July\n14 July - 25 Aug\n25 Aug - 6 Oct\n 6 Oct - 17 Nov\n1 sept - 13 Oct\n17 Nov - 29 Dec"
+        }
+      ]
+    },
+    "1323167": {
+      "title": "On The Map · Kandy",
+      "project": "On The Map",
+      "hostTeam": "Kandy",
+      "sdgTarget": "8.9",
+      "booklet": {
+        "label": "On the Map (1).pdf",
+        "url": "https://drive.google.com/file/d/1cJQEoMCPNFcawROh2Q5n6WpBgdUPgH0v/view"
+      },
+      "accommodationPhotos": null,
+      "flexibleDates": false,
+      "slotText": [
+        {
+          "label": "2025",
+          "text": "21 Apr - 2 Jun \n2 Jun - 14 July\n14 July - 25 Aug\n25 Aug - 6 Oct\n 6 Oct - 17 Nov\n1 sept - 13 Oct\n17 Nov - 29 Dec"
+        },
+        {
+          "label": "2026",
+          "text": "23 Aug, 2026 - 20 Sep, 2026\n4 Apr, 2026 - 2 May, 2026\n14 Jun, 2026 - 12 Jul, 2026\n10 May, 2026 - 7 Jun, 2026\n19 Jul, 2026 - 16 Aug, 2026\n4 Oct, 2026 - 1 Nov, 2026"
+        }
+      ]
+    },
+    "1323211": {
+      "title": "SPM foundation",
+      "project": "Green Leaders",
+      "hostTeam": "CC",
+      "sdgTarget": "13.3",
+      "booklet": {
+        "label": "Green leaders - SPM foundation.pdf",
+        "url": "https://drive.google.com/file/d/1taY6x2CnzPrRQs-NgefpBePBZVVsxdL1/view"
+      },
+      "accommodationPhotos": "https://drive.google.com/drive/folders/1KYWFA5CgTqOV2Dq0KVt09A-uEp59TIYL",
+      "flexibleDates": true,
+      "slotText": [
+        {
+          "label": "2025",
+          "text": "August, September, October\nDecember \n(Flexible)"
+        },
+        {
+          "label": "2026",
+          "text": "Flexible slots"
+        }
+      ]
+    },
+    "1323239": {
+      "title": "NARA",
+      "project": "Skill Up",
+      "hostTeam": "USJ",
+      "sdgTarget": "8.6",
+      "booklet": {
+        "label": "USJ iGV Project Booklet - Skill Up NARA",
+        "url": "https://drive.google.com/file/d/1bxbXRdwlE9hv1zWlEx3VbtEHA_Svc4CS/view"
+      },
+      "accommodationPhotos": "https://drive.google.com/drive/folders/1fqhhOSh8gmPiMKNKPubf1V09Xv_r7lLw",
+      "flexibleDates": false,
+      "slotText": [
+        {
+          "label": "2025",
+          "text": "24 Nov - 5 Jan 2026"
+        },
+        {
+          "label": "2026",
+          "text": "5 Jan - 16 Feb\n16 Feb - 30 Mar"
+        }
+      ]
+    },
+    "1323495": {
+      "title": "Rockside Beach Resort",
+      "project": "Skill Up",
+      "hostTeam": "USJ",
+      "sdgTarget": "8.6",
+      "booklet": {
+        "label": "USJ iGV Project Booklet - Skill Up Rockside Beach Resort",
+        "url": "https://drive.google.com/file/d/1jzCqVLvN7fj68sLLJVznrDK7e1kLow4Z/view"
+      },
+      "accommodationPhotos": "https://drive.google.com/drive/folders/1pzntEc06MSBS3S_CNCGFV8HOGZgQMNr0",
+      "flexibleDates": false,
+      "slotText": [
+        {
+          "label": "2025",
+          "text": "1 Nov - 13 Dec\n13 Dec - 24 Jan"
+        },
+        {
+          "label": "2026",
+          "text": "3 Jan - 14 Feb\n24 Jan - 7 Mar\n14 Feb - 28 Mar\n7 Mar - 18 Apr"
+        }
+      ]
+    },
+    "1324449": {
+      "title": "LOAM",
+      "project": "Green Leaders",
+      "hostTeam": "USJ",
+      "sdgTarget": "13.3",
+      "booklet": {
+        "label": "USJ iGV Project Booklet - Green Leaders LOAM.pdf",
+        "url": "https://drive.google.com/file/d/1AVdHL_WOOtwoLT6WnsNODTbo_KD4V0dT/view"
+      },
+      "accommodationPhotos": "https://drive.google.com/drive/folders/11mkrP7disPC7zQ4JGJxgIMEyv_tjaQUP",
+      "flexibleDates": true,
+      "slotText": [
+        {
+          "label": "2025",
+          "text": "10 Nov - 22 Dec\n22 Dec - 2 Feb 2026"
+        },
+        {
+          "label": "2026",
+          "text": "2 Feb - 16 Mar\n16 Mar - 27 Apr\nFlexible Slots"
+        }
+      ]
+    },
+    "1324553": {
+      "title": "CDIC",
+      "project": "Green Leaders",
+      "hostTeam": "USJ",
+      "sdgTarget": "13.3",
+      "booklet": {
+        "label": "USJ iGV Project Booklet - Green Leaders CDIC.pdf",
+        "url": "https://drive.google.com/file/d/1npRD4I8J2YEBFbCm3Z6vynX4S_qo0Zft/view"
+      },
+      "accommodationPhotos": "https://drive.google.com/drive/folders/1g4gz5c1CVngjCAvsE4q6vqwIzlm5rqEO",
+      "flexibleDates": false,
+      "slotText": [
+        {
+          "label": "2025",
+          "text": "28 Mar - 9 May\n20 Apr - 1 Jun\n10 May - 21 Jun\n1 Jun - 13 Jul\n5 Jul - 16 Aug"
+        }
+      ]
+    },
+    "1324897": {
+      "title": "Hotel Calm Haven",
+      "project": "Skill Up",
+      "hostTeam": "USJ",
+      "sdgTarget": "8.6",
+      "booklet": {
+        "label": "USJ iGV Project Booklet - Skill Up Hotel Calm Haven.pdf",
+        "url": "https://drive.google.com/file/d/1dqn8GZYsHC_pp9ZgT_34zLmUiQKM7bp9/view"
+      },
+      "accommodationPhotos": "https://drive.google.com/drive/folders/1VOK_FoVtq-5PZ1XpjWRfVi7uAwF4D6Sf",
+      "flexibleDates": false,
+      "slotText": [
+        {
+          "label": "2025",
+          "text": "1 Nov - 13 Dec\n13 Dec - 24 Jan 2026"
+        },
+        {
+          "label": "2026",
+          "text": "24 Jan - 7 Mar\n7 Mar - 18 Apr\n18 Apr - 30 May"
+        }
+      ]
+    },
+    "1324918": {
+      "title": "Mihithala Mithuro",
+      "project": "On The Map",
+      "hostTeam": "USJ",
+      "sdgTarget": "8.9",
+      "booklet": {
+        "label": "USJ iGV Project Booklet - On The Map - Mihithala Mithuro.pdf",
+        "url": "https://drive.google.com/file/d/1w1McDZ2HwfBEwlGjmG9NtDl28vtvVwy7/view"
+      },
+      "accommodationPhotos": "https://drive.google.com/drive/folders/1T_Rpvbkd6mE4G-cS2iyHvw253Jy-9dFr",
+      "flexibleDates": false,
+      "slotText": [
+        {
+          "label": "2025",
+          "text": "1 Jun - 13 Jul \n22 Jun - 3 Aug\n13 Jul - 24 Aug\n3 Aug - 14  Sep\n24 Aug - 5 Oct"
+        }
+      ]
+    },
+    "1325343": {
+      "title": "Ceylon Crystal House",
+      "project": "HeartBeat",
+      "hostTeam": "USJ",
+      "sdgTarget": "3.4",
+      "booklet": {
+        "label": "USJ iGV Project Booklet - Heartbeat Ceylon Crystal House.pdf",
+        "url": "https://drive.google.com/file/d/1JEmQsxEsBIQoEEFhnoZ27SinsRsE3jMB/view"
+      },
+      "accommodationPhotos": "https://drive.google.com/drive/folders/1plFFRwsTjF_VoY417INTKMxelc4Fdw1y",
+      "flexibleDates": false,
+      "slotText": [
+        {
+          "label": "2025",
+          "text": "3 Nov - 15 Dec\n15 Dec - 26 Jan 2026"
+        },
+        {
+          "label": "2026",
+          "text": "26 Jan - 9 Mar\n9 Mar - 20 Apr\n20 Apr - 1 Jun\n1 Jun - 13 Jul"
+        }
+      ]
+    },
+    "1325391": {
+      "title": "Adventure Base Camp",
+      "project": "Explorer",
+      "hostTeam": "USJ",
+      "sdgTarget": "4.1",
+      "booklet": {
+        "label": "USJ iGV Project Booklet - Explorer Adventure Base Camp.pdf",
+        "url": "https://drive.google.com/file/d/1m3h2o7caupm2Zc_0BH75KH6ZrLMUz-R0/view"
+      },
+      "accommodationPhotos": "https://drive.google.com/drive/folders/1FOpsvKCBExqi_cFOidBLsWtb9AgNeiyg",
+      "flexibleDates": false,
+      "slotText": [
+        {
+          "label": "2025",
+          "text": "3 Nov - 15 Dec\n15 Dec - 26 Jan 2026"
+        },
+        {
+          "label": "2026",
+          "text": "26 Jan - 9 Mar\n9 Mar - 20 Apr\n20 Apr - 1 Jun"
+        }
+      ]
+    },
+    "1325507": {
+      "title": "Panda Farmacy",
+      "project": "Rooted",
+      "hostTeam": "USJ",
+      "sdgTarget": "15.5",
+      "booklet": {
+        "label": "USJ iGV Project Booklet - Rooted Panda Farmacy.pdf",
+        "url": "https://drive.google.com/file/d/1HDvSaoll9g0p1fS4hBL6NXHseRjPGmUk/view"
+      },
+      "accommodationPhotos": "https://drive.google.com/drive/folders/1psueGNBa6GVkGNITqGy6C5M-7wX3XkJ_",
+      "flexibleDates": false,
+      "slotText": [
+        {
+          "label": "2025",
+          "text": "26 Oct - 7 Dec\n7 Dec - 18 Jan 2026"
+        },
+        {
+          "label": "2026",
+          "text": "18 Jan - 1 Mar\n1 Mar - 12 Apr\n12 Apr - 24 May\n24 May - 5 Jul"
+        }
+      ]
+    },
+    "1325779": {
+      "title": "British Technological Campus",
+      "project": "Global Classroom",
+      "hostTeam": "USJ",
+      "sdgTarget": "4.6",
+      "booklet": {
+        "label": "USJ iGV Project Booklet - GC British Technological Campus.pdf",
+        "url": "https://drive.google.com/file/d/1IZ6qRSYLBXf0WoZdiYzA0O0WIPPEeXb3/view"
+      },
+      "accommodationPhotos": "https://drive.google.com/drive/folders/1CYm8y3Cl23WG1pQ88x-re5s6T-7Vygi7",
+      "flexibleDates": false,
+      "slotText": [
+        {
+          "label": "2025",
+          "text": "26 Oct - 7 Dec\n7 Dec - 18 Jan 2026"
+        },
+        {
+          "label": "2026",
+          "text": "18 Jan - 1 Mar\n1 Mar - 12 Apr\n12 Apr - 24 May\n24 May - 5 Jul"
+        }
+      ]
+    },
+    "1326191": {
+      "title": "Horizon Lanka",
+      "project": "Global Classroom",
+      "hostTeam": "USJ",
+      "sdgTarget": "4.6",
+      "booklet": {
+        "label": "USJ iGV Project Booklet - GC Horizon Lanka.pdf",
+        "url": "https://drive.google.com/file/d/1FZFDR0HOWAIljvfPy82NF8rR8U2N4X1W/view"
+      },
+      "accommodationPhotos": "https://drive.google.com/drive/folders/1wxq7qZaY5vb_BE4pNVmT6P_FLOhaaLTA",
+      "flexibleDates": false,
+      "slotText": [
+        {
+          "label": "2025",
+          "text": "20 Oct - 1 Dec\n10 Nov - 22 Dec\n1 Dec - 12 Jan 2026\n22 Dec - 2 Feb 2026"
+        },
+        {
+          "label": "2026",
+          "text": "12 Jan - 23 Feb"
+        }
+      ]
+    },
+    "1326302": {
+      "title": "Candela Hospital",
+      "project": "HeartBeat",
+      "hostTeam": "CS",
+      "sdgTarget": "3.4",
+      "booklet": {
+        "label": "Copy of Heartbeat - Candela Hospital Booklet.pdf",
+        "url": "https://drive.google.com/file/d/1f2IunyIv6WpxyrlBEiPgiPUOnje5QkWI/view"
+      },
+      "accommodationPhotos": "https://drive.google.com/drive/folders/1DvYTHZIaYGESS-XyOGwBriNGRMFkAg1t",
+      "flexibleDates": true,
+      "slotText": [
+        {
+          "label": "2025",
+          "text": "1 Sep - 13 Oct\n15 Sep - 27 Oct\n6 Oct - 17 Nov\n20 Oct - 1 Dec\n3 Nov - 15 Dec\n17 Nov - 29 Dec\n1 Dec - 12 Jan\n15 Dec - 26 Jan"
+        },
+        {
+          "label": "2026",
+          "text": "Jan,Feb,Mar\n(Flexible)"
+        }
+      ]
+    },
+    "1326662": {
+      "title": "Youth Hub",
+      "project": "Green Leaders",
+      "hostTeam": "USJ",
+      "sdgTarget": "13.3",
+      "booklet": {
+        "label": "USJ iGV Project Booklet - Green Leaders Youth Hub.pdf",
+        "url": "https://drive.google.com/file/d/15oWFYxuMQaooebAg2vqotYmT-hisVpwE/view"
+      },
+      "accommodationPhotos": "https://drive.google.com/drive/folders/1xy-NZMOZTd_2aE-pqWpeA6gAxVusC5Ii",
+      "flexibleDates": false,
+      "slotText": [
+        {
+          "label": "2025",
+          "text": "24 Nov - 5 Jan"
+        },
+        {
+          "label": "2026",
+          "text": "5 Jan - 16 Feb\n16 Feb - 30 Mar\n30 Mar - 11 May\n11 May - 22 Jun\n22 Jun - 3 Aug"
+        }
+      ]
+    },
+    "1326915": {
+      "title": "SVC",
+      "project": "Global Classroom",
+      "hostTeam": "CS",
+      "sdgTarget": "4.6",
+      "booklet": {
+        "label": "GCR - SVC project booklet.pdf",
+        "url": "https://drive.google.com/file/d/11JRI0WTI0Ya2uhdtvNsiZvKm47724Ccj/view"
+      },
+      "accommodationPhotos": "https://drive.google.com/drive/folders/1BTZLuXioySUaPsZ79iJ20IBqyE4WhUSp",
+      "flexibleDates": true,
+      "slotText": [
+        {
+          "label": "2025",
+          "text": "Nov,Dec\n(Flexible)"
+        },
+        {
+          "label": "2026",
+          "text": "Jan,Feb,Mar\n(Flexible)"
+        }
+      ]
+    },
+    "1326958": {
+      "title": "RoboticGen",
+      "project": "Skill Up",
+      "hostTeam": "CS",
+      "sdgTarget": "8.6",
+      "booklet": {
+        "label": "RoboticGen booklet.pdf",
+        "url": "https://drive.google.com/file/d/1fYJgDG35RGhgFQ8kdGQ6As_CJJ_Zpame/view"
+      },
+      "accommodationPhotos": "https://drive.google.com/drive/folders/1PhkC7OAh0wYx4gUibG2frTuL5poLsZqN",
+      "flexibleDates": true,
+      "slotText": [
+        {
+          "label": "2025",
+          "text": "Nov,Dec\n(Flexible)"
+        },
+        {
+          "label": "2026",
+          "text": "Jan,Feb,Mar\n(Flexible)"
+        }
+      ]
+    },
+    "1327252": {
+      "title": "Forest Garden",
+      "project": "Green Leaders",
+      "hostTeam": "CN",
+      "sdgTarget": "13.3",
+      "booklet": {
+        "label": "Green Leaders - Forest Garden.pptx",
+        "url": "https://docs.google.com/presentation/d/1QPSEXo8UTgnTCZP2bSNZ8I1eD0zTatjk/edit?slide=id.p1"
+      },
+      "accommodationPhotos": "https://drive.google.com/drive/folders/1O5Vyfq0y_XhaxRjn6fNNJcXhWw4az1j6",
+      "flexibleDates": true,
+      "slotText": [
+        {
+          "label": "2025",
+          "text": "Flexible Slots"
+        },
+        {
+          "label": "2026",
+          "text": "Flesxible Slots\n\nopened now\n3 Jan, 2026 - 14 Feb, 2026\n15 Jan, 2026 - 26 Feb, 2026\n12 Feb, 2026 - 26 Mar, 2026\n17 Apr, 2026 - 29 May, 2026\n2 Jun, 2026 - 14 Jul, 2026\n11 Jul, 2026 - 22 Aug, 2026\n19 Aug, 2026 - 30 Sep, 2026\n28 Sep, 2026 - 9 Nov, 2026"
+        }
+      ]
+    },
+    "1327421": {
+      "title": "Piyapath Travels",
+      "project": "On The Map",
+      "hostTeam": "USJ",
+      "sdgTarget": "8.9",
+      "booklet": {
+        "label": "USJ iGV Project Booklet - On The Map - Piyapath Travels.pdf",
+        "url": "https://drive.google.com/file/d/1sS6EHJN32JS_HFoR_AjpOEZ1vFRuT1vK/view"
+      },
+      "accommodationPhotos": "https://drive.google.com/drive/folders/1Xu4ps-hjBZzso-ZcBm8m2xvoXJVQx8HD",
+      "flexibleDates": false,
+      "slotText": [
+        {
+          "label": "2025",
+          "text": "1 Nov - 13 Dec\n13 Dec - 24 Jan"
+        },
+        {
+          "label": "2026",
+          "text": "24 Jan - 7 Mar\n7 Mar - 18 Apr\n18 Apr - 30 May\n30 May - 11 Jul\n11 Jul - 22 Aug"
+        }
+      ]
+    },
+    "1327430": {
+      "title": "Ananda Beach Resort",
+      "project": "On The Map",
+      "hostTeam": "USJ",
+      "sdgTarget": "8.9",
+      "booklet": {
+        "label": "USJ iGV Project Booklet - On The Map - Ananda Beach Resort.pdf",
+        "url": "https://drive.google.com/file/d/1Vsm0m--Tba4jT6wDqkTHhZ4Gh7s2-Kma/view"
+      },
+      "accommodationPhotos": "https://drive.google.com/drive/folders/1JBICw6x1JUpK1uh8nRxC4JfqVh5omFk7",
+      "flexibleDates": false,
+      "slotText": [
+        {
+          "label": "2025",
+          "text": "12 Nov - 24 Dec"
+        },
+        {
+          "label": "2026",
+          "text": "24 Dec 2025 - 4 Feb\n4 Feb - 18 Mar\n18 Mar - 29 Apr\n29 Apr - 10 Jun\n10 Jun - 22 Jul\n22 Jul - 2 Sep"
+        }
+      ]
+    },
+    "1327431": {
+      "title": "Submarine Diving Center",
+      "project": "Aquatica",
+      "hostTeam": "USJ",
+      "sdgTarget": "14.1",
+      "booklet": {
+        "label": "USJ iGV Project Booklet - Aquatica Submarine Diving Center.pdf",
+        "url": "https://drive.google.com/file/d/1C2k3v4y_stBQopoqTTLpm4UEaQ0Ym0Sh/view"
+      },
+      "accommodationPhotos": "https://drive.google.com/drive/folders/1yUTvloTwGWruH6kiHsORDSAiZe0lmzPU",
+      "flexibleDates": false,
+      "slotText": [
+        {
+          "label": "2025",
+          "text": "12 Nov - 24 Dec\n3 Dec - 14 Jan 2026"
+        },
+        {
+          "label": "2026",
+          "text": "24 Dec 2025 - 4 Feb\n14 Jan - 25 Feb\n4 Feb - 18 Mar\n25 Feb - 8 Apr\n18 Mar - 29 Apr"
+        }
+      ]
+    },
+    "1327674": {
+      "title": "Journe pvt ltd",
+      "project": "On The Map",
+      "hostTeam": "CC",
+      "sdgTarget": "8.9",
+      "booklet": {
+        "label": "On the map-Journe pvt ltd (1).pdf",
+        "url": "https://drive.google.com/file/d/1Jy3r73ha1yiUOf2_kOBgBCOVC4Fd2dll/view"
+      },
+      "accommodationPhotos": "https://drive.google.com/drive/folders/1zEsJaqPvPbFBRFwHnW2wvN1cChvQbyLV",
+      "flexibleDates": true,
+      "slotText": [
+        {
+          "label": "2025",
+          "text": "September, October, December\n(Flexible)"
+        },
+        {
+          "label": "2026",
+          "text": "Flexible slots throughout the year"
+        }
+      ]
+    },
+    "1327701": {
+      "title": "Beacon International School",
+      "project": "HeartBeat",
+      "hostTeam": "CN",
+      "sdgTarget": "3.4",
+      "booklet": {
+        "label": "Beacon International School-HeartBeat",
+        "url": "https://docs.google.com/presentation/d/1QjaWyR197rxPGY_EpvivSHiKDVruT6Y4Y8iz5o0lE_U/edit"
+      },
+      "accommodationPhotos": "https://drive.google.com/drive/folders/1_1KjoZkMaeRz0mmmK67TMUcb1d0Q9xnf",
+      "flexibleDates": true,
+      "slotText": [
+        {
+          "label": "2025",
+          "text": "Flexible Slots"
+        },
+        {
+          "label": "2026",
+          "text": "Flexible Slots\n\nOpened Now\n5 Jan, 2026 - 16 Feb, 2026\n16 Feb, 2026 - 30 Mar, 2026\n20 Apr, 2026 - 1 Jun, 2026\n1 Jun, 2026 - 13 Jul, 2026\n2 Sep, 2026 - 14 Oct, 2026"
+        }
+      ]
+    },
+    "1327849": {
+      "title": "Child Action Lanka",
+      "project": "HeartBeat",
+      "hostTeam": "USJ",
+      "sdgTarget": "3.4",
+      "booklet": {
+        "label": "USJ iGV Project Booklet - Heartbeat Child Action Lanka.pdf",
+        "url": "https://drive.google.com/file/d/174Ew4o3wm7l_ha-CmwzoqibrDY2GRwkN/view"
+      },
+      "accommodationPhotos": "https://drive.google.com/drive/folders/18_jz4MHq6cSD_KZPbOzMHz9AKKrnK4FE",
+      "flexibleDates": false,
+      "slotText": [
+        {
+          "label": "2025",
+          "text": "10 Nov - 22 Dec"
+        },
+        {
+          "label": "2026",
+          "text": "22 Dec - 2 Feb\n2 Feb - 16 Mar\n16 Mr - 27 Apr\n27 Apr - 8 Jun\n8 Jun - 20 Jul\n20 Jul - 31 Aug"
+        }
+      ]
+    },
+    "1327865": {
+      "title": "HEALTH CARE Medical Center",
+      "project": "HeartBeat",
+      "hostTeam": "USJ",
+      "sdgTarget": "3.4",
+      "booklet": {
+        "label": "USJ iGV Project Booklet - Heartbeat HEALTH CARE Medical Center.pdf",
+        "url": "https://drive.google.com/file/d/1Awv3dLh3jwq8AWXrgLDJTcsLA2UMvO31/view"
+      },
+      "accommodationPhotos": "https://drive.google.com/drive/folders/1D5TJwUmNa3Cml7GDRUbQa0hE9kOvwNH9",
+      "flexibleDates": false,
+      "slotText": [
+        {
+          "label": "2025",
+          "text": "1 Nov - 13 Dec\n13 Dec - 24 Jan"
+        },
+        {
+          "label": "2026",
+          "text": "24 Jan - 7 Mar\n7 Mar - 18 Apr\n18 Apr - 30 May\n30 May - 11 Jul\n11 Jul - 22 Aug"
+        }
+      ]
+    },
+    "1327902": {
+      "title": "Rediscover Journeys",
+      "project": "Skill Up",
+      "hostTeam": "USJ",
+      "sdgTarget": "8.6",
+      "booklet": {
+        "label": "USJ iGV Project Booklet - Skill Up Rediscover Journeys.pdf",
+        "url": "https://drive.google.com/file/d/1s7BpdTui5NxLMGEohhZ12f4ysZp5cqp8/view"
+      },
+      "accommodationPhotos": "https://drive.google.com/drive/folders/1rE14f5Uote3YRrtRARMDljTk8xiXsHXQ",
+      "flexibleDates": false,
+      "slotText": [
+        {
+          "label": "2025",
+          "text": "13 Dec - 24 Jan 2026"
+        },
+        {
+          "label": "2026",
+          "text": "24 Jan - 7 Mar\n12 Apr - 24 May\n24 May - 5 Jul\n5 Jul - 16 Aug\n16 Aug - 27 Sep"
+        }
+      ]
+    },
+    "1327929": {
+      "title": "Navajeevana Rehabilitation",
+      "project": "Scale UP",
+      "hostTeam": "USJ",
+      "sdgTarget": null,
+      "booklet": {
+        "label": "USJ iGV Project Booklet - Scale Up Navajeevana Rehabilitation.pdf",
+        "url": "https://drive.google.com/file/d/190JWSZ0CYgB4TXFhtusffn74ilGvfhFD/view"
+      },
+      "accommodationPhotos": "https://drive.google.com/drive/folders/1n0Hnpwi_WFaGhae7yXtrUbByazqUVGHT",
+      "flexibleDates": false,
+      "slotText": [
+        {
+          "label": "2025",
+          "text": "10 Nov - 22 Dec"
+        },
+        {
+          "label": "2026",
+          "text": "22 Dec - 2 Feb\n2 Feb - 16 Mar\n16 Mr - 27 Apr\n27 Apr - 8 Jun\n8 Jun - 20 Jul\n20 Jul - 31 Aug"
+        }
+      ]
+    },
+    "1327936": {
+      "title": "Navajeevana Rehabilitation",
+      "project": "HeartBeat",
+      "hostTeam": "USJ",
+      "sdgTarget": "3.4",
+      "booklet": {
+        "label": "USJ iGV Project Booklet - Heartbeat Navajeevana Rehabilitation.pdf",
+        "url": "https://drive.google.com/file/d/12KkoVDWV7TglVMdVNGEmwl_a6p_1OuZn/view"
+      },
+      "accommodationPhotos": "https://drive.google.com/drive/folders/1n0Hnpwi_WFaGhae7yXtrUbByazqUVGHT",
+      "flexibleDates": false,
+      "slotText": [
+        {
+          "label": "2025",
+          "text": "10 Nov - 22 Dec"
+        },
+        {
+          "label": "2026",
+          "text": "22 Dec - 2 Feb\n2 Feb - 16 Mar\n16 Mr - 27 Apr\n27 Apr - 8 Jun\n8 Jun - 20 Jul\n20 Jul - 31 Aug"
+        }
+      ]
+    },
+    "1327938": {
+      "title": "Serenity Well Being",
+      "project": "HeartBeat",
+      "hostTeam": "USJ",
+      "sdgTarget": "3.4",
+      "booklet": {
+        "label": "USJ iGV Project Booklet - Heartbeat Serenity Well Being.pdf",
+        "url": "https://drive.google.com/file/d/10NpadqltIq6VOCX-phDhEqp5pBN_98R-/view"
+      },
+      "accommodationPhotos": "https://drive.google.com/drive/folders/1dPpOdLeV-MqBJtKJNYKwSEy6k16WrWDx",
+      "flexibleDates": false,
+      "slotText": [
+        {
+          "label": "2025",
+          "text": "10 Nov - 22 Dec"
+        },
+        {
+          "label": "2026",
+          "text": "22 Dec - 2 Feb\n2 Feb - 16 Mar\n16 Mr - 27 Apr\n27 Apr - 8 Jun\n8 Jun - 20 Jul\n20 Jul - 31 Aug"
+        }
+      ]
+    },
+    "1328037": {
+      "title": "Universal International",
+      "project": "Global Classroom",
+      "hostTeam": "CN",
+      "sdgTarget": "4.6",
+      "booklet": {
+        "label": "Universal International",
+        "url": "https://docs.google.com/presentation/d/1HS1ZX6oFrpYBDfzFjuB7UqIy6fw8eOxXyYaC9LcOAwU/edit"
+      },
+      "accommodationPhotos": "https://drive.google.com/drive/folders/1AebxrKoJ207tstNPmD93drD-ty3TBzEa",
+      "flexibleDates": false,
+      "slotText": []
+    },
+    "1328066": {
+      "title": "Happy Bus – Child Action Lanka",
+      "project": "Explorer",
+      "hostTeam": "USJ",
+      "sdgTarget": "4.1",
+      "booklet": {
+        "label": "USJ iGV Project Booklet - Happy Bus - Child Action Lanka.pdf",
+        "url": "https://drive.google.com/file/d/1a3wCT3gG3qmA_EjyRNsBiWM5PK2TNxbL/view"
+      },
+      "accommodationPhotos": "https://drive.google.com/drive/folders/1fcJ8GbglthXSk66ZHqhc4cLkvMfcMHF0",
+      "flexibleDates": false,
+      "slotText": [
+        {
+          "label": "2025",
+          "text": "10 Nov - 22 Dec"
+        },
+        {
+          "label": "2026",
+          "text": "22 Dec - 2 Feb\n2 Feb - 16 Mar\n16 Mr - 27 Apr\n27 Apr - 8 Jun\n8 Jun - 20 Jul\n20 Jul - 31 Aug"
+        }
+      ]
+    },
+    "1328068": {
+      "title": "Child Action Lanka",
+      "project": "Scale UP",
+      "hostTeam": "USJ",
+      "sdgTarget": null,
+      "booklet": {
+        "label": "USJ iGV Project Booklet - Scale Up Child Action Lanka.pdf",
+        "url": "https://drive.google.com/file/d/17UYoSlBz-R7P_NmAazMw__9xvMiGKsz5/view"
+      },
+      "accommodationPhotos": "https://drive.google.com/drive/folders/16JQKrTVC9fBr5bsJegPbdcIvqJ3P253A",
+      "flexibleDates": false,
+      "slotText": [
+        {
+          "label": "2025",
+          "text": "10 Nov - 22 Dec"
+        },
+        {
+          "label": "2026",
+          "text": "22 Dec - 2 Feb\n2 Feb - 16 Mar\n16 Mr - 27 Apr\n27 Apr - 8 Jun\n8 Jun - 20 Jul\n20 Jul - 31 Aug"
+        }
+      ]
+    },
+    "1328096": {
+      "title": "Highway International",
+      "project": "Fingerprint",
+      "hostTeam": "CN",
+      "sdgTarget": "4.4",
+      "booklet": {
+        "label": "Fingerprint (Highway International)",
+        "url": "https://docs.google.com/presentation/d/1isqYI4_ICVIzCw5-nsjw2J0ecfm2UI2gYh17FXQ_Xno/edit"
+      },
+      "accommodationPhotos": "https://drive.google.com/drive/folders/1UUV2IxPqPLYgs0FoDHs89gG68Rl6sd2_",
+      "flexibleDates": true,
+      "slotText": [
+        {
+          "label": "2025",
+          "text": "Flexible Slots"
+        },
+        {
+          "label": "2026",
+          "text": "Flexible slots\n\nOpened Now\n7 Jan, 2026 - 18 Feb, 2026\n20 Feb, 2026 - 3 Apr, 2026\n21 Apr, 2026 - 2 Jun, 2026\n3 Jun, 2026 - 15 Jul, 2026\n5 Sep, 2026 - 17 Oct, 2026"
+        }
+      ]
+    },
+    "1328112": {
+      "title": "IOLPS",
+      "project": "Global Classroom",
+      "hostTeam": "USJ",
+      "sdgTarget": "4.6",
+      "booklet": {
+        "label": "USJ iGV Project Booklet - GC IOLPS.pdf",
+        "url": "https://drive.google.com/file/d/18I0Bk4jaKifmXslQnckDJ9gLCtq-cUwP/view"
+      },
+      "accommodationPhotos": "https://drive.google.com/drive/folders/1SExnPBLJXUayE4P3qVaNU0EYBE-WiJDz",
+      "flexibleDates": false,
+      "slotText": [
+        {
+          "label": "2025",
+          "text": "10 Nov - 22 Dec"
+        },
+        {
+          "label": "2026",
+          "text": "22 Dec - 2 Feb\n2 Feb - 16 Mar\n16 Mr - 27 Apr\n27 Apr - 8 Jun\n8 Jun - 20 Jul\n20 Jul - 31 Aug"
+        }
+      ]
+    },
+    "1328141": {
+      "title": "IMOS",
+      "project": "Skill Up",
+      "hostTeam": "USJ",
+      "sdgTarget": "8.6",
+      "booklet": {
+        "label": "USJ iGV Project Booklet - Skill Up IMOS.pdf",
+        "url": "https://drive.google.com/file/d/1oLwLlMH0HqP4IIHeNe5QTp4PW_ND80x8/view"
+      },
+      "accommodationPhotos": "https://drive.google.com/drive/folders/1_i7LdMXUtAVD_GveK0oz5MQZJCnqvL5d",
+      "flexibleDates": false,
+      "slotText": [
+        {
+          "label": "2025",
+          "text": "10 Nov - 22 Dec"
+        },
+        {
+          "label": "2026",
+          "text": "22 Dec - 2 Feb\n2 Feb - 16 Mar\n16 Mr - 27 Apr\n27 Apr - 8 Jun\n8 Jun - 20 Jul\n20 Jul - 31 Aug"
+        }
+      ]
+    },
+    "1328143": {
+      "title": "Sri Bodhiraja College",
+      "project": "Skill Up",
+      "hostTeam": "Ruhuna",
+      "sdgTarget": "8.6",
+      "booklet": {
+        "label": "Skill up Booklet",
+        "url": "https://drive.google.com/file/d/1e-l8CX1m3Vc6Tx9I9JRkhcHdC9DxWfuC/view"
+      },
+      "accommodationPhotos": "https://drive.google.com/drive/folders/19JhTR29PjEJBZpaeVwzBFFCd0G2W1Lpr",
+      "flexibleDates": true,
+      "slotText": [
+        {
+          "label": "2025",
+          "text": "Flexible"
+        },
+        {
+          "label": "2026",
+          "text": "Flexible"
+        }
+      ]
+    },
+    "1328153": {
+      "title": "HeartBeat · NIBM",
+      "project": "HeartBeat",
+      "hostTeam": "NIBM",
+      "sdgTarget": "3.4",
+      "booklet": {
+        "label": "IGV - Heartbeat Project Booklet 26.27.pdf",
+        "url": "https://drive.google.com/file/d/1uKcXNiKEUHvavCcH4xQmr4AUBfh0zxWH/view"
+      },
+      "accommodationPhotos": "https://drive.google.com/drive/folders/1357U9NzyxcxCSlIB-PFBEt4mAvBVhZsk",
+      "flexibleDates": true,
+      "slotText": [
+        {
+          "label": "2025",
+          "text": "Flexible Slots"
+        },
+        {
+          "label": "2026",
+          "text": "Flexible Slots"
+        }
+      ]
+    },
+    "1328154": {
+      "title": "Coral Wall",
+      "project": "Aquatica",
+      "hostTeam": "USJ",
+      "sdgTarget": "14.1",
+      "booklet": {
+        "label": "USJ iGV Project Booklet - Aquatica Coral Wall.pdf",
+        "url": "https://drive.google.com/file/d/16zWAnxNbBjONFe9ERmn9Udz7ckwwJB3n/view"
+      },
+      "accommodationPhotos": "https://drive.google.com/drive/folders/1FW4pUblU3SbZA4aY9om0rvdMdL8A-IAV",
+      "flexibleDates": false,
+      "slotText": [
+        {
+          "label": "2025",
+          "text": "1 Dec - 12 Jan"
+        },
+        {
+          "label": "2026",
+          "text": "12 Jan - 23 Feb\n23 Feb - 6 Apr"
+        }
+      ]
+    },
+    "1328162": {
+      "title": "Lanka Gateways",
+      "project": "On The Map",
+      "hostTeam": "USJ",
+      "sdgTarget": "8.9",
+      "booklet": {
+        "label": "USJ iGV Project Booklet - On The Map - Lanka Gateways.pdf",
+        "url": "https://drive.google.com/file/d/1kUOZgpD5LPm19dVdZGPwYqQ2usyffXbv/view"
+      },
+      "accommodationPhotos": "https://drive.google.com/drive/folders/17kN7tDEfcNWPHoJUhIW2pIIQVl78WjGh",
+      "flexibleDates": false,
+      "slotText": [
+        {
+          "label": "2025",
+          "text": "10 Nov - 22 Dec"
+        },
+        {
+          "label": "2026",
+          "text": "22 Dec - 2 Feb\n2 Feb - 16 Mar\n16 Mr - 27 Apr\n27 Apr - 8 Jun\n8 Jun - 20 Jul\n20 Jul - 31 Aug"
+        }
+      ]
+    },
+    "1328233": {
+      "title": "Mora Aquatics",
+      "project": "Global Classroom",
+      "hostTeam": "CS",
+      "sdgTarget": "4.6",
+      "booklet": {
+        "label": "GCR - Mora Aquatics project booklet.pdf",
+        "url": "https://drive.google.com/file/d/18QnIiCWS-Q_SoEL92keRdyEqliKGpQws/view"
+      },
+      "accommodationPhotos": "https://drive.google.com/drive/folders/1PhkC7OAh0wYx4gUibG2frTuL5poLsZqN",
+      "flexibleDates": true,
+      "slotText": [
+        {
+          "label": "2025",
+          "text": "Nov,Dec\n(Flexible)"
+        },
+        {
+          "label": "2026",
+          "text": "Jan,Feb,Mar\n(Flexible)"
+        }
+      ]
+    },
+    "1328634": {
+      "title": "Pearl Protectors",
+      "project": "Aquatica",
+      "hostTeam": "CS",
+      "sdgTarget": "14.1",
+      "booklet": {
+        "label": "Aquatica - Pearl Protectors Project Booklet .pdf",
+        "url": "https://drive.google.com/file/d/1va72h1Djgc1y7VKlLotJkhlR2NiPv7xP/view"
+      },
+      "accommodationPhotos": "https://drive.google.com/drive/folders/19Xuq1PhwudNI4NqGPqoub6C1wCeuAAs5",
+      "flexibleDates": true,
+      "slotText": [
+        {
+          "label": "2025",
+          "text": "Nov,Dec\n(Flexible)"
+        },
+        {
+          "label": "2026",
+          "text": "Jan,Feb,Mar\n(Flexible)"
+        }
+      ]
+    },
+    "1328636": {
+      "title": "Marvel",
+      "project": "On The Map",
+      "hostTeam": "CS",
+      "sdgTarget": "8.9",
+      "booklet": {
+        "label": "On the Map - Marvel Project Booklet.pdf",
+        "url": "https://drive.google.com/file/d/1fJ0ad6UbmUeSiXrk3aMSDg6ZB89g8LGo/view"
+      },
+      "accommodationPhotos": "https://drive.google.com/drive/folders/1jA2p64W_r4IR1rGDsU8ehJJt9KGY-0ZX",
+      "flexibleDates": true,
+      "slotText": [
+        {
+          "label": "2025",
+          "text": "Nov,Dec\n(Flexible)"
+        },
+        {
+          "label": "2026",
+          "text": "Jan,Feb,Mar\n(Flexible)"
+        }
+      ]
+    },
+    "1329060": {
+      "title": "Horizon Lanka",
+      "project": "Global Classroom",
+      "hostTeam": "USJ",
+      "sdgTarget": "4.6",
+      "booklet": {
+        "label": "USJ iGV Project Booklet - GC Horizon Lanka.pdf",
+        "url": "https://drive.google.com/file/d/1FZFDR0HOWAIljvfPy82NF8rR8U2N4X1W/view"
+      },
+      "accommodationPhotos": "https://drive.google.com/drive/folders/1wxq7qZaY5vb_BE4pNVmT6P_FLOhaaLTA",
+      "flexibleDates": false,
+      "slotText": [
+        {
+          "label": "2025",
+          "text": "1 Dec - 29 Dec"
+        },
+        {
+          "label": "2026",
+          "text": "1 Jan - 29 Jan\n1 Feb - 1 Mar\n2 Mar - 30 Mar\n1 Apr - 29 Apr\n1 May - 29 May\n1 Jun - 29 Jun\n1 Jul - 29 Jul\n1 Aug - 29 Aug"
+        }
+      ]
+    },
+    "1329061": {
+      "title": "Panda Farmacy",
+      "project": "Rooted",
+      "hostTeam": "USJ",
+      "sdgTarget": "15.5",
+      "booklet": {
+        "label": "USJ iGV Project Booklet - Rooted Panda Farmacy.pdf",
+        "url": "https://drive.google.com/file/d/1HDvSaoll9g0p1fS4hBL6NXHseRjPGmUk/view"
+      },
+      "accommodationPhotos": "https://drive.google.com/drive/folders/1psueGNBa6GVkGNITqGy6C5M-7wX3XkJ_",
+      "flexibleDates": false,
+      "slotText": [
+        {
+          "label": "2025",
+          "text": "1 Dec - 29 Dec"
+        },
+        {
+          "label": "2026",
+          "text": "1 Jan - 29 Jan\n1 Feb - 1 Mar\n2 Mar - 30 Mar\n1 Apr - 29 Apr\n1 May - 29 May\n1 Jun - 29 Jun\n1 Jul - 29 Jul\n1 Aug - 29 Aug"
+        }
+      ]
+    },
+    "1329062": {
+      "title": "Youth Hub",
+      "project": "Green Leaders",
+      "hostTeam": "USJ",
+      "sdgTarget": "13.3",
+      "booklet": {
+        "label": "USJ iGV Project Booklet - Green Leaders Youth Hub.pdf",
+        "url": "https://drive.google.com/file/d/15oWFYxuMQaooebAg2vqotYmT-hisVpwE/view"
+      },
+      "accommodationPhotos": "https://drive.google.com/drive/folders/1xy-NZMOZTd_2aE-pqWpeA6gAxVusC5Ii",
+      "flexibleDates": false,
+      "slotText": [
+        {
+          "label": "2025",
+          "text": "1 Dec - 29 Dec"
+        },
+        {
+          "label": "2026",
+          "text": "1 Jan - 29 Jan\n1 Feb - 1 Mar\n2 Mar - 30 Mar\n1 Apr - 29 Apr\n1 May - 29 May\n1 Jun - 29 Jun\n1 Jul - 29 Jul\n1 Aug - 29 Aug"
+        }
+      ]
+    },
+    "1329063": {
+      "title": "Submarine Diving Center",
+      "project": "Aquatica",
+      "hostTeam": "USJ",
+      "sdgTarget": "14.1",
+      "booklet": {
+        "label": "USJ iGV Project Booklet - Aquatica Submarine Diving Center.pdf",
+        "url": "https://drive.google.com/file/d/1C2k3v4y_stBQopoqTTLpm4UEaQ0Ym0Sh/view"
+      },
+      "accommodationPhotos": "https://drive.google.com/drive/folders/1yUTvloTwGWruH6kiHsORDSAiZe0lmzPU",
+      "flexibleDates": false,
+      "slotText": [
+        {
+          "label": "2025",
+          "text": "1 Dec - 29 Dec"
+        },
+        {
+          "label": "2026",
+          "text": "1 Jan - 29 Jan\n1 Feb - 1 Mar\n2 Mar - 30 Mar\n1 Apr - 29 Apr\n1 May - 29 May"
+        }
+      ]
+    },
+    "1329096": {
+      "title": "Devent",
+      "project": "Skill Up",
+      "hostTeam": "USJ",
+      "sdgTarget": "8.6",
+      "booklet": {
+        "label": "USJ iGV Project Booklet - Skill Up Devent.pdf",
+        "url": "https://drive.google.com/file/d/1-dP1VHT6WXCPuaW1WWqlALe5IOkPoGqW/view"
+      },
+      "accommodationPhotos": "https://drive.google.com/drive/folders/18loIVubQvI82AGLlZJr9xe-fFjkUl78w",
+      "flexibleDates": false,
+      "slotText": [
+        {
+          "label": "2025",
+          "text": "1 Dec - 29 Dec"
+        },
+        {
+          "label": "2026",
+          "text": "1 Jan - 29 Jan\n1 Feb - 1 Mar\n2 Mar - 30 Mar\n1 Apr - 29 Apr\n1 May - 29 May\n1 Jun - 29 Jun\n1 Jul - 29 Jul\n1 Aug - 29 Aug"
+        }
+      ]
+    },
+    "1329098": {
+      "title": "London Academy",
+      "project": "Discover",
+      "hostTeam": "USJ",
+      "sdgTarget": "4.7",
+      "booklet": {
+        "label": "USJ iGV Project Booklet - Discover London Academy.pdf",
+        "url": "https://drive.google.com/file/d/1hnN_WCITiZeLQ3Mg1-x8o1N_xURn5tra/view"
+      },
+      "accommodationPhotos": "https://drive.google.com/drive/folders/1GCWJBYO_UlkRXiTJub-DZFyYdDNmlkeS",
+      "flexibleDates": false,
+      "slotText": [
+        {
+          "label": "2025",
+          "text": "1 Dec - 29 Dec"
+        },
+        {
+          "label": "2026",
+          "text": "1 Jan - 29 Jan\n1 Feb - 1 Mar\n2 Mar - 30 Mar\n1 Apr - 29 Apr\n1 May - 29 May\n1 Jun - 29 Jun\n1 Jul - 29 Jul\n1 Aug - 29 Aug"
+        }
+      ]
+    },
+    "1329102": {
+      "title": "On The Map · Colombo North",
+      "project": "On The Map",
+      "hostTeam": "CN",
+      "sdgTarget": "8.9",
+      "booklet": {
+        "label": "OTM Expectation setting booklet.pptx",
+        "url": "https://docs.google.com/presentation/d/1AzWukbFv8xxZvDGd2tI03bLhl8HXz_ez/edit"
+      },
+      "accommodationPhotos": "https://drive.google.com/drive/folders/1g6d91gpfK0oPmh7TMYBAKyqhScQH11lp",
+      "flexibleDates": true,
+      "slotText": [
+        {
+          "label": "2025",
+          "text": "Flexible slots\n\nOpened now\n15 Dec, 2025 - 26 Jan, 2026"
+        },
+        {
+          "label": "2026",
+          "text": "Flexible slots\n\nOpened Now\n15 Jan, 2026 - 26 Feb, 2026\n12 Feb, 2026 - 26 Mar, 2026\n3 Mar, 2026 - 14 Apr, 2026\n18 Mar, 2026 - 29 Apr, 2026\n5 Apr, 2026 - 17 May, 2026\n20 Apr, 2026 - 1 Jun, 2026\n2 May, 2026 - 13 Jun, 2026\n18 May, 2026 - 29 Jun, 2026\n3 Jun, 2026 - 15 Jul, 2026\n17 Jun, 2026 - 29 Jul, 2026\n5 Jul, 2026 - 16 Aug, 2026\n16 Jul, 2026 - 27 Aug, 2026\n30 Jul, 2026 - 10 Sep, 2026"
+        }
+      ]
+    },
+    "1329106": {
+      "title": "Green Leaders · Colombo North",
+      "project": "Green Leaders",
+      "hostTeam": "CN",
+      "sdgTarget": "13.3",
+      "booklet": {
+        "label": "Link",
+        "url": "https://aiesec.org/opportunity/global-volunteer/1327252"
+      },
+      "accommodationPhotos": "https://docs.google.com/presentation/d/1QPSEXo8UTgnTCZP2bSNZ8I1eD0zTatjk/edit?slide=id.p1",
+      "flexibleDates": true,
+      "slotText": [
+        {
+          "label": "2025",
+          "text": "Flexible Slots"
+        },
+        {
+          "label": "2026",
+          "text": "Flexible slots\n\nOpened Now\n2 Jan, 2026 - 13 Feb, 2026\n4 Feb, 2026 - 18 Mar, 2026\n6 Mar, 2026 - 17 Apr, 2026\n17 Apr, 2026 - 29 May, 2026\n15 May, 2026 - 26 Jun, 2026\n15 Jun, 2026 - 27 Jul, 2026\n15 Jul, 2026 - 26 Aug, 2026"
+        }
+      ]
+    },
+    "1329162": {
+      "title": "Coral Wall",
+      "project": "Aquatica",
+      "hostTeam": "USJ",
+      "sdgTarget": "14.1",
+      "booklet": {
+        "label": "USJ iGV Project Booklet - Aquatica Coral Wall.pdf",
+        "url": "https://drive.google.com/file/d/16zWAnxNbBjONFe9ERmn9Udz7ckwwJB3n/view"
+      },
+      "accommodationPhotos": "https://drive.google.com/drive/folders/1FW4pUblU3SbZA4aY9om0rvdMdL8A-IAV",
+      "flexibleDates": false,
+      "slotText": [
+        {
+          "label": "2025",
+          "text": "1 Dec - 29 Dec"
+        },
+        {
+          "label": "2026",
+          "text": "1 Jan - 29 Jan\n1 Feb - 1 Mar\n2 Mar - 30 Mar\n1 Apr - 29 Apr"
+        }
+      ]
+    },
+    "1329165": {
+      "title": "IOLPS",
+      "project": "Global Classroom",
+      "hostTeam": "USJ",
+      "sdgTarget": "4.6",
+      "booklet": {
+        "label": "USJ iGV Project Booklet - GC IOLPS.pdf",
+        "url": "https://drive.google.com/file/d/18I0Bk4jaKifmXslQnckDJ9gLCtq-cUwP/view"
+      },
+      "accommodationPhotos": "https://drive.google.com/drive/folders/1SExnPBLJXUayE4P3qVaNU0EYBE-WiJDz",
+      "flexibleDates": false,
+      "slotText": [
+        {
+          "label": "2025",
+          "text": "1 Dec - 29 Dec"
+        },
+        {
+          "label": "2026",
+          "text": "1 Jan - 29 Jan\n1 Feb - 1 Mar\n2 Mar - 30 Mar\n1 Apr - 29 Apr\n1 May - 29 May\n1 Jun - 29 Jun\n1 Jul - 29 Jul\n1 Aug - 29 Aug"
+        }
+      ]
+    },
+    "1329185": {
+      "title": "Raise Your Voice · Kandy",
+      "project": "Raise Your Voice",
+      "hostTeam": "Kandy",
+      "sdgTarget": null,
+      "booklet": {
+        "label": "Raise your voice",
+        "url": "https://drive.google.com/drive/folders/15wGeyA5HNVyXtx1n7tMFFts6KVAYSK9R"
+      },
+      "accommodationPhotos": "https://drive.google.com/drive/folders/1hBvEVEdFhBSqt9hknsZrnoMTINWb0jI2",
+      "flexibleDates": true,
+      "slotText": [
+        {
+          "label": "2025",
+          "text": "Flexible slots"
+        },
+        {
+          "label": "2026",
+          "text": "Flexible slots"
+        }
+      ]
+    },
+    "1329186": {
+      "title": "Sisters at Law",
+      "project": "Equify",
+      "hostTeam": "Kandy",
+      "sdgTarget": "10.2",
+      "booklet": {
+        "label": "Equify | Sisters at Law.pdf",
+        "url": "https://drive.google.com/file/d/1B26tLVwhVE66fo5D3YpWcFwurneo1MnY/view"
+      },
+      "accommodationPhotos": "https://drive.google.com/drive/folders/1hBvEVEdFhBSqt9hknsZrnoMTINWb0jI2",
+      "flexibleDates": true,
+      "slotText": [
+        {
+          "label": "2025",
+          "text": "Flexible slots"
+        },
+        {
+          "label": "2026",
+          "text": "Flexible slots"
+        }
+      ]
+    },
+    "1329188": {
+      "title": "Sea tutrtle hatchery",
+      "project": "Aquatica",
+      "hostTeam": "Kandy",
+      "sdgTarget": "14.1",
+      "booklet": {
+        "label": "_AQUATICA - Sea tutrtle hatchery .pdf",
+        "url": "https://drive.google.com/file/d/11RV8csKG-hy8aNdyoWBH97lG_X2CBUak/view"
+      },
+      "accommodationPhotos": "https://drive.google.com/drive/folders/11FlBa0tjA3r_0uaPpBEWb2RrqCF4tfkm",
+      "flexibleDates": true,
+      "slotText": [
+        {
+          "label": "2025",
+          "text": "Flexible slots"
+        },
+        {
+          "label": "2026",
+          "text": "Flexible slots"
+        }
+      ]
+    },
+    "1329190": {
+      "title": "Matale",
+      "project": "Global Classroom",
+      "hostTeam": "Kandy",
+      "sdgTarget": "4.6",
+      "booklet": {
+        "label": "GC Matale.pdf",
+        "url": "https://drive.google.com/file/d/1ORvl7K4uS7caVjGkdTYnqclNqPxJ5V8K/view"
+      },
+      "accommodationPhotos": "https://drive.google.com/drive/folders/1f-_d_EdKxNaQKrLTmj4lSsT7UXQjUCcV",
+      "flexibleDates": true,
+      "slotText": [
+        {
+          "label": "2026",
+          "text": "Flexible Slots\n3 May - 31 May\n1 Jun - 29 Jun\n1 Jul - 29 Jul\n5 Sep - 3 Oct\n3 Oct - 31 Oct\n1 Nov - 29 Nov"
+        }
+      ]
+    },
+    "1329194": {
+      "title": "Apex Global Ed",
+      "project": "Global Classroom",
+      "hostTeam": "Kandy",
+      "sdgTarget": "4.6",
+      "booklet": {
+        "label": "GC Apex Global Ed.pdf",
+        "url": "https://drive.google.com/file/d/1ydst8azpFQPD3v0a3SYuSCEQ8MIchORb/view"
+      },
+      "accommodationPhotos": "https://drive.google.com/file/d/1sSILClLgjQCv1GmCRkLB5B_N6nFix_hL/view",
+      "flexibleDates": true,
+      "slotText": [
+        {
+          "label": "2026",
+          "text": "Flexible Slots\n19 Apr - 17 May\n24 May - 21 Jun\n7 Jun - 5 Jul\n16 Aug - 13 Sep\n13 Sep - 11 Oct\n11 Oct - 8 Nov\n8 Nov - 6 Dec"
+        }
+      ]
+    },
+    "1329196": {
+      "title": "On The Map · Kandy",
+      "project": "On The Map",
+      "hostTeam": "Kandy",
+      "sdgTarget": "8.9",
+      "booklet": {
+        "label": "On the Map",
+        "url": "https://www.canva.com/design/DAG4vB5hAf8/5Y_pLdjuDlsWEp18FjQHfw/edit"
+      },
+      "accommodationPhotos": "https://drive.google.com/file/d/1sSILClLgjQCv1GmCRkLB5B_N6nFix_hL/view",
+      "flexibleDates": true,
+      "slotText": [
+        {
+          "label": "2026",
+          "text": "Flexible slots"
+        }
+      ]
+    },
+    "1329216": {
+      "title": "Beacon International School",
+      "project": "HeartBeat",
+      "hostTeam": "CN",
+      "sdgTarget": "3.4",
+      "booklet": {
+        "label": "Beacon International School-HeartBeat",
+        "url": "https://docs.google.com/presentation/d/1QjaWyR197rxPGY_EpvivSHiKDVruT6Y4Y8iz5o0lE_U/edit"
+      },
+      "accommodationPhotos": "https://drive.google.com/drive/folders/1_1KjoZkMaeRz0mmmK67TMUcb1d0Q9xnf",
+      "flexibleDates": true,
+      "slotText": [
+        {
+          "label": "2025",
+          "text": "Flexible Slots"
+        },
+        {
+          "label": "2026",
+          "text": "Flexible Slots\n\nOpened Now\n10 Jan, 2026 - 21 Feb, 2026\n10 Feb, 2026 - 10 Mar, 2026\n2 Mar, 2026 - 30 Mar, 2026\n6 May, 2026 - 3 Jun, 2026"
+        }
+      ]
+    },
+    "1329284": {
+      "title": "Ceylon Kingdom English Academy",
+      "project": "Global Classroom",
+      "hostTeam": "USJ",
+      "sdgTarget": "4.6",
+      "booklet": {
+        "label": "USJ iGV Project Booklet - GC Ceylon Kingdom English Academy.pdf",
+        "url": "https://drive.google.com/file/d/120MmYfYGRyflg-gR1YD5ypM8phMdfoUK/view"
+      },
+      "accommodationPhotos": "https://drive.google.com/drive/folders/1a4G3a9oAfXcEfPIn_JEEquQ-Kz1Miw5h",
+      "flexibleDates": false,
+      "slotText": [
+        {
+          "label": "2025",
+          "text": "1 Dec - 29 Dec"
+        },
+        {
+          "label": "2026",
+          "text": "1 Jan - 29 Jan\n1 Feb - 1 Mar\n2 Mar - 30 Mar\n1 Apr - 29 Apr\n1 May - 29 May\n1 Jun - 29 Jun\n1 Jul - 29 Jul\n1 Aug - 29 Aug"
+        }
+      ]
+    },
+    "1329316": {
+      "title": "Adventure Base Camp",
+      "project": "Explorer",
+      "hostTeam": "USJ",
+      "sdgTarget": "4.1",
+      "booklet": {
+        "label": "USJ iGV Project Booklet - Explorer Adventure Base Camp.pdf",
+        "url": "https://drive.google.com/file/d/1m3h2o7caupm2Zc_0BH75KH6ZrLMUz-R0/view"
+      },
+      "accommodationPhotos": "https://drive.google.com/drive/folders/1FOpsvKCBExqi_cFOidBLsWtb9AgNeiyg",
+      "flexibleDates": false,
+      "slotText": [
+        {
+          "label": "2025",
+          "text": "1 Dec - 29 Dec"
+        },
+        {
+          "label": "2026",
+          "text": "1 Jan - 29 Jan\n1 Feb - 1 Mar\n2 Mar - 30 Mar\n1 Apr - 29 Apr\n1 May - 29 May\n1 Jun - 29 Jun\n1 Jul - 29 Jul\n1 Aug - 29 Aug"
+        }
+      ]
+    },
+    "1329318": {
+      "title": "Piyapath Travels",
+      "project": "On The Map",
+      "hostTeam": "USJ",
+      "sdgTarget": "8.9",
+      "booklet": {
+        "label": "USJ iGV Project Booklet - On The Map - Piyapath Travels.pdf",
+        "url": "https://drive.google.com/file/d/1sS6EHJN32JS_HFoR_AjpOEZ1vFRuT1vK/view"
+      },
+      "accommodationPhotos": "https://drive.google.com/drive/folders/1Xu4ps-hjBZzso-ZcBm8m2xvoXJVQx8HD",
+      "flexibleDates": false,
+      "slotText": [
+        {
+          "label": "2025",
+          "text": "1 Dec - 29 Dec"
+        },
+        {
+          "label": "2026",
+          "text": "1 Jan - 29 Jan\n1 Feb - 1 Mar\n2 Mar - 30 Mar\n1 Apr - 29 Apr\n1 May - 29 May\n1 Jun - 29 Jun\n1 Jul - 29 Jul\n1 Aug - 29 Aug"
+        }
+      ]
+    },
+    "1329320": {
+      "title": "Ceylon Crystal House",
+      "project": "HeartBeat",
+      "hostTeam": "USJ",
+      "sdgTarget": "3.4",
+      "booklet": {
+        "label": "USJ iGV Project Booklet - Heartbeat Ceylon Crystal House.pdf",
+        "url": "https://drive.google.com/file/d/1JEmQsxEsBIQoEEFhnoZ27SinsRsE3jMB/view"
+      },
+      "accommodationPhotos": "https://drive.google.com/drive/folders/1plFFRwsTjF_VoY417INTKMxelc4Fdw1y",
+      "flexibleDates": false,
+      "slotText": [
+        {
+          "label": "2025",
+          "text": "1 Dec - 29 Dec"
+        },
+        {
+          "label": "2026",
+          "text": "1 Jan - 29 Jan\n1 Feb - 1 Mar\n2 Mar - 30 Mar\n1 Apr - 29 Apr\n1 May - 29 May\n1 Jun - 29 Jun\n1 Jul - 29 Jul\n1 Aug - 29 Aug"
+        }
+      ]
+    },
+    "1329322": {
+      "title": "Rockside Beach Resort",
+      "project": "Skill Up",
+      "hostTeam": "USJ",
+      "sdgTarget": "8.6",
+      "booklet": {
+        "label": "USJ iGV Project Booklet - Skill Up Rockside Beach Resort",
+        "url": "https://drive.google.com/file/d/1jzCqVLvN7fj68sLLJVznrDK7e1kLow4Z/view"
+      },
+      "accommodationPhotos": "https://drive.google.com/drive/folders/1pzntEc06MSBS3S_CNCGFV8HOGZgQMNr0",
+      "flexibleDates": false,
+      "slotText": [
+        {
+          "label": "2025",
+          "text": "1 Dec - 29 Dec"
+        },
+        {
+          "label": "2026",
+          "text": "1 Jan - 29 Jan\n1 Feb - 1 Mar\n2 Mar - 30 Mar\n1 Apr - 29 Apr\n1 May - 29 May\n1 Jun - 29 Jun\n1 Jul - 29 Jul\n1 Aug - 29 Aug"
+        }
+      ]
+    },
+    "1329323": {
+      "title": "Discovery Kids",
+      "project": "Happy Bus",
+      "hostTeam": "USJ",
+      "sdgTarget": "4.2",
+      "booklet": {
+        "label": "USJ iGV Project Booklet - Happy Bus - Discovery Kids.pdf",
+        "url": "https://drive.google.com/file/d/14Qh7eh1aBLU9C1AeHSo2slgFh6PpFUhY/view"
+      },
+      "accommodationPhotos": "https://drive.google.com/drive/folders/1R0kUosS-E7lm6z54SetV8xHAWSer0eSa",
+      "flexibleDates": false,
+      "slotText": [
+        {
+          "label": "2025",
+          "text": "1 Dec - 29 Dec"
+        },
+        {
+          "label": "2026",
+          "text": "1 Jan - 29 Jan\n1 Feb - 1 Mar\n2 Mar - 30 Mar\n1 Apr - 29 Apr\n1 May - 29 May\n1 Jun - 29 Jun\n1 Jul - 29 Jul\n1 Aug - 29 Aug"
+        }
+      ]
+    },
+    "1329357": {
+      "title": "Senior Citizen",
+      "project": "HeartBeat",
+      "hostTeam": "SLIIT",
+      "sdgTarget": "3.4",
+      "booklet": {
+        "label": "Heartbeat Senior Citizen 6 week.pdf",
+        "url": "https://drive.google.com/file/d/1R1pYAQFgya6btAggyjrH2DLDFbFgbDcA/view"
+      },
+      "accommodationPhotos": "https://drive.google.com/drive/folders/1SX6YRlS6HalhfEiSWuk59mRYUhFHheHz",
+      "flexibleDates": true,
+      "slotText": [
+        {
+          "label": "2026",
+          "text": "(Flexible Slots)\n20 Apr, 2026 - 1 Jun, 2026\n1 Jun, 2026 - 13 Jul, 2026\n8 Sep 2026 - 20 Oct 2026"
+        }
+      ]
+    },
+    "1329359": {
+      "title": "Epic Engage Media",
+      "project": "Skill Up",
+      "hostTeam": "SLIIT",
+      "sdgTarget": "8.6",
+      "booklet": {
+        "label": "Skill Up Epic Engage Media 6 week.pdf",
+        "url": "https://drive.google.com/file/d/1RV_5dgR9yfNmaAXxe8L9gL9W0-QoBP5I/view"
+      },
+      "accommodationPhotos": null,
+      "flexibleDates": true,
+      "slotText": [
+        {
+          "label": "2026",
+          "text": "Flexible slots year around"
+        }
+      ]
+    },
+    "1329360": {
+      "title": "Zri Adventures",
+      "project": "Skill Up",
+      "hostTeam": "SLIIT",
+      "sdgTarget": "8.6",
+      "booklet": {
+        "label": "Skill Up Zri Adventures 6 week.pdf",
+        "url": "https://drive.google.com/file/d/1aMHCZHhNUDhch2750KzoSa8HrdQk1bDX/view"
+      },
+      "accommodationPhotos": "https://drive.google.com/drive/folders/1g2LZmtqkURVbYW5972DaRVv85yKAAV8Q",
+      "flexibleDates": true,
+      "slotText": [
+        {
+          "label": "2025",
+          "text": "Flexible\n(Feb,May , June , July )"
+        },
+        {
+          "label": "2026",
+          "text": "7 April - 19 May\n20 May - 1 July\n1 Sep - 13 Oct"
+        }
+      ]
+    },
+    "1329361": {
+      "title": "Climb Lanka",
+      "project": "Skill Up",
+      "hostTeam": "SLIIT",
+      "sdgTarget": "8.6",
+      "booklet": {
+        "label": "Skill Up Climb Lanka 6 week.pdf",
+        "url": "https://drive.google.com/file/d/1cdpXW3CxQbgbR5GdIz-Sh7CmdeXx_fZt/view"
+      },
+      "accommodationPhotos": "https://drive.google.com/drive/folders/1Rm4sIBsxvlA2tYl8XsHSHIZPz5VN3SBR",
+      "flexibleDates": false,
+      "slotText": [
+        {
+          "label": "2026",
+          "text": "7 April - 19 May\n3 Aug - 14 Sep\n1 Sep - 13 Oct"
+        }
+      ]
+    },
+    "1329363": {
+      "title": "Finnish Pre School",
+      "project": "Global Classroom",
+      "hostTeam": "SLIIT",
+      "sdgTarget": "4.6",
+      "booklet": {
+        "label": "Finnish Pre School 6 week.pdf",
+        "url": "https://drive.google.com/file/d/1ggYQ9vrqoIyV6MdZW-C5ZizzCFPGu0vM/view"
+      },
+      "accommodationPhotos": "https://drive.google.com/drive/folders/1U4rYIuxAjeHdWmI6YLItmEMNEbtRvx4g",
+      "flexibleDates": true,
+      "slotText": [
+        {
+          "label": "2025",
+          "text": "Flexible"
+        },
+        {
+          "label": "2026",
+          "text": "(Flexible Slots)\n(4 weeks avaliable)\n\n9 April - 21 May\n1 June - 13 July\n14 Jul - 25 Aug\n1 Sep - 13 Oct\n14 Oct - 25 Nov"
+        }
+      ]
+    },
+    "1329395": {
+      "title": "Pearl Protectors",
+      "project": "Aquatica",
+      "hostTeam": "CS",
+      "sdgTarget": "14.1",
+      "booklet": {
+        "label": "Aquatica - Pearl Protectors Project Booklet .pdf",
+        "url": "https://drive.google.com/file/d/1va72h1Djgc1y7VKlLotJkhlR2NiPv7xP/view"
+      },
+      "accommodationPhotos": "https://drive.google.com/drive/folders/19Xuq1PhwudNI4NqGPqoub6C1wCeuAAs5",
+      "flexibleDates": true,
+      "slotText": [
+        {
+          "label": "2025",
+          "text": "Nov-Dec\n(Flexible)"
+        },
+        {
+          "label": "2026",
+          "text": "Jan,Feb,Mar\n(Flexible)"
+        }
+      ]
+    },
+    "1329441": {
+      "title": "Aquatica · Colombo North",
+      "project": "Aquatica",
+      "hostTeam": "CN",
+      "sdgTarget": "14.1",
+      "booklet": {
+        "label": "Link",
+        "url": "https://docs.google.com/presentation/d/1GaFYtgUJKjolulfxWvtKZUGYbMhpMfxDzYK4_GFWP5k/edit"
+      },
+      "accommodationPhotos": "https://drive.google.com/drive/folders/1jeA75je5MEMztSFMXawve-g3BwoRkEZd",
+      "flexibleDates": true,
+      "slotText": [
+        {
+          "label": "2025",
+          "text": "Flexible Slots\n8 Dec, 2025 - 5 Jan, 2026"
+        },
+        {
+          "label": "2026",
+          "text": "Flexible Slots\n26 Jan, 2026 - 23 Feb, 2026\n16 Feb, 2026 - 16 Mar, 2026\n12 Mar, 2026 - 9 Apr, 2026\n8 Apr, 2026 - 6 May, 2026\n11 May, 2026 - 8 Jun, 2026\n15 Jun, 2026 - 13 Jul, 2026\n13 Jul, 2026 - 10 Aug, 2026\n8 Aug, 2026 - 5 Sep, 2026"
+        }
+      ]
+    },
+    "1329533": {
+      "title": "Global Classroom · Ruhuna",
+      "project": "Global Classroom",
+      "hostTeam": "Ruhuna",
+      "sdgTarget": "4.6",
+      "booklet": {
+        "label": "Global Classroom Booklet",
+        "url": "https://drive.google.com/file/d/1vVdS6aQGQW1BSJedDGieVh-xOk7mRvc-/view"
+      },
+      "accommodationPhotos": "https://drive.google.com/drive/u/1/folders/1u-3tmLRF9nRLuNBx4rhJKQEtRiYlthlr",
+      "flexibleDates": true,
+      "slotText": [
+        {
+          "label": "2026",
+          "text": "Flexible slots"
+        }
+      ]
+    },
+    "1329539": {
+      "title": "Climb lanka",
+      "project": "Skill Up",
+      "hostTeam": "SLIIT",
+      "sdgTarget": "8.6",
+      "booklet": {
+        "label": "Skill up - climb lanka.pdf",
+        "url": "https://drive.google.com/file/d/1Td2-mRQsUgSzD1vrCmFqSU9c8t-ms1MW/view"
+      },
+      "accommodationPhotos": "https://drive.google.com/drive/folders/1qfkYfpz3W_wv4rxKPcdhXwPERTqFnFZL",
+      "flexibleDates": true,
+      "slotText": [
+        {
+          "label": "2025",
+          "text": "Flexible slots"
+        },
+        {
+          "label": "2026",
+          "text": "Jan\nMarch\nApril\nMay\nJune\nJuly\n(Flexible)"
+        }
+      ]
+    },
+    "1329899": {
+      "title": "Aquatica · SLIIT",
+      "project": "Aquatica",
+      "hostTeam": "SLIIT",
+      "sdgTarget": "14.1",
+      "booklet": {
+        "label": "Aquatica Booklet.pdf",
+        "url": "https://drive.google.com/file/d/1LRuyWOOpGaY3h5KKkexxjf588uDCcf6c/view"
+      },
+      "accommodationPhotos": "https://drive.google.com/drive/folders/1vkIKg4amutweJSHb-7KA7cXa3ddoFN3D",
+      "flexibleDates": true,
+      "slotText": [
+        {
+          "label": "2025",
+          "text": "Flexible slots"
+        },
+        {
+          "label": "2026",
+          "text": "Jan\nFeb\nMar\nApr\nMay\nJune\nJuly\nAugust\n(Flexible slots)"
+        }
+      ]
+    },
+    "1329947": {
+      "title": "Aiko Child Care",
+      "project": "Global Classroom",
+      "hostTeam": "CC",
+      "sdgTarget": "4.6",
+      "booklet": {
+        "label": "GC-Aiko Child Care (1).pdf",
+        "url": "https://drive.google.com/file/d/1VHJH3jh9Mx1ZufTtKn0GH5GyI3Ao64np/view"
+      },
+      "accommodationPhotos": "https://drive.google.com/drive/folders/1lJNm8jxjP4CTKcLtJpLaS62MjYfBLa5k",
+      "flexibleDates": true,
+      "slotText": [
+        {
+          "label": "2025",
+          "text": "September, November, \nDecember\n(Flexible)"
+        },
+        {
+          "label": "2026",
+          "text": "Flexible slots throughout the year"
+        }
+      ]
+    },
+    "1329993": {
+      "title": "Global Classroom · Colombo North",
+      "project": "Global Classroom",
+      "hostTeam": "CN",
+      "sdgTarget": "4.6",
+      "booklet": null,
+      "accommodationPhotos": null,
+      "flexibleDates": true,
+      "slotText": [
+        {
+          "label": "2025",
+          "text": "-"
+        },
+        {
+          "label": "2026",
+          "text": "Flexible Slots\n\nOpened Now\n6 Jan, 2026 - 3 Feb, 2026\n4 Feb, 2026 - 4 Mar, 2026\n5 Mar, 2026 - 2 Apr, 2026\n27 Apr, 2026 - 25 May, 2026\n15 May, 2026 - 12 Jun, 2026\n8 Jun, 2026 - 6 Jul, 2026\n5 Jul, 2026 - 2 Aug, 2026"
+        }
+      ]
+    },
+    "1329998": {
+      "title": "Fluent Me",
+      "project": "Global Classroom",
+      "hostTeam": "CC",
+      "sdgTarget": "4.6",
+      "booklet": {
+        "label": "GC-Fluent Me (1).pdf",
+        "url": "https://drive.google.com/file/d/1T380x7DpIdchflSsKb-f4XI-15VbHLf2/view"
+      },
+      "accommodationPhotos": "https://drive.google.com/drive/folders/11n6SfZn5gnvTCOOV81XPqnXJzv2bJzHe",
+      "flexibleDates": true,
+      "slotText": [
+        {
+          "label": "2025",
+          "text": "September, November, \nDecember\n(Flexible)"
+        },
+        {
+          "label": "2026",
+          "text": "Flexible slots throughout the year"
+        },
+        {
+          "label": "2026",
+          "text": "Flexible"
+        }
+      ]
+    },
+    "1330014": {
+      "title": "On The Map · SLIIT",
+      "project": "On The Map",
+      "hostTeam": "SLIIT",
+      "sdgTarget": "8.9",
+      "booklet": {
+        "label": "OTM Project Booklet.pdf",
+        "url": "https://drive.google.com/file/d/1f63dbCP8aRRdLOx0IK3VXTfDxs3X--36/view"
+      },
+      "accommodationPhotos": "https://drive.google.com/drive/folders/1I539fmI4aMM43D6AhnTPfN-h9QbRztBj",
+      "flexibleDates": true,
+      "slotText": [
+        {
+          "label": "2025",
+          "text": "Flexible slots"
+        },
+        {
+          "label": "2026",
+          "text": "Jan\nMarch\nApril\nMay\nJune\nJuly\n(Flexible)"
+        }
+      ]
+    },
+    "1330062": {
+      "title": "Global Classroom · SLIIT",
+      "project": "Global Classroom",
+      "hostTeam": "SLIIT",
+      "sdgTarget": "4.6",
+      "booklet": {
+        "label": "Global Classroom.pdf",
+        "url": "https://drive.google.com/file/d/1XU6F_CxzggMelgFyq_zk3kyZp4_X7Bmm/view"
+      },
+      "accommodationPhotos": "https://drive.google.com/drive/folders/1gGbOCfwTIuibNtPzbCuCpOGD0_ATXBGN",
+      "flexibleDates": true,
+      "slotText": [
+        {
+          "label": "2026",
+          "text": "Jan\nMarch\nApril\nMay\nJune\nJuly\n(Flexible)"
+        }
+      ]
+    },
+    "1330064": {
+      "title": "Finnish Preschool",
+      "project": "Global Classroom",
+      "hostTeam": "SLIIT",
+      "sdgTarget": "4.6",
+      "booklet": {
+        "label": "GCR - Finnish Preschool.pdf",
+        "url": "https://drive.google.com/file/d/1NkM_dOGpHJqMYanu6M5SYPS9k00-NHMT/view"
+      },
+      "accommodationPhotos": "https://drive.google.com/drive/folders/1WUWOgrEcKA1aqJrJK-PnJe5SDoqiOcAw",
+      "flexibleDates": true,
+      "slotText": [
+        {
+          "label": "2026",
+          "text": "Jan\nMarch\nApril\nMay\nJune\nJuly\n(Flexible)"
+        }
+      ]
+    },
+    "1330169": {
+      "title": "Steam Education",
+      "project": "Global Classroom",
+      "hostTeam": "CC",
+      "sdgTarget": "4.6",
+      "booklet": {
+        "label": "GC - Steam Education (1).pdf",
+        "url": "https://drive.google.com/file/d/1-zydAaPTJgSIOLmYBUdptfkBGo2m-4F6/view"
+      },
+      "accommodationPhotos": "https://drive.google.com/drive/folders/1PI1_57xjy1o01s_imJhoeD2L6tnSag68",
+      "flexibleDates": true,
+      "slotText": [
+        {
+          "label": "2025",
+          "text": "September, November, \nDecember\n(Flexible)"
+        },
+        {
+          "label": "2026",
+          "text": "Flexible slots throughout the year"
+        },
+        {
+          "label": "2026",
+          "text": "Flexible"
+        }
+      ]
+    },
+    "1330780": {
+      "title": "Sea Turtle Hartchery & Conservation center Habaraduwa",
+      "project": "Aquatica",
+      "hostTeam": "Ruhuna",
+      "sdgTarget": "14.1",
+      "booklet": null,
+      "accommodationPhotos": "https://drive.google.com/drive/u/1/folders/1HmFgJpvvdcJwSPQ26J3UK_7OSf7nwtJ-",
+      "flexibleDates": true,
+      "slotText": [
+        {
+          "label": "2025",
+          "text": "20 Apr - 1 Jun\n11 May - 22 Jun\n1 Jun - 13 Jul\n22 Jun - 3 Aug\n13 Jul - 24 Aug\n3 Aug - 14 Sep\n24 Aug - 5 Oct\n14 Sep - 26 Oct\n5 Oct - 16 Nov\n26 Oct - 7 Dec\n16 Nov - 28 Dec\n8 Dec- 16 Jan 2026\n2 Jan 2026- 13 Feb \n26th Jan-6th March"
+        },
+        {
+          "label": "2026",
+          "text": "Flexible"
+        }
+      ]
+    },
+    "1330843": {
+      "title": "Sea Turtle Hartchery & Conservation center Habaraduwa",
+      "project": "Aquatica",
+      "hostTeam": "Ruhuna",
+      "sdgTarget": "14.1",
+      "booklet": null,
+      "accommodationPhotos": "https://drive.google.com/drive/u/1/folders/1akt_R3Mmhtmg1BaR9jfG-NNKjBnvf2FC",
+      "flexibleDates": true,
+      "slotText": [
+        {
+          "label": "2025",
+          "text": "Flexible slots"
+        },
+        {
+          "label": "2026",
+          "text": "Flexible slots"
+        }
+      ]
+    },
+    "1331044": {
+      "title": "Sussex College Nugegoda",
+      "project": "Global Classroom",
+      "hostTeam": "CC",
+      "sdgTarget": "4.6",
+      "booklet": {
+        "label": "GC- Sussex College Nugegoda (1).pdf",
+        "url": "https://drive.google.com/file/d/1RFGwL8sAM6ZHaI6Ob9EYmFBkcFjT7j-t/view"
+      },
+      "accommodationPhotos": "https://drive.google.com/drive/folders/1VmQSrVjOi1LtHGHtl7ZgInO_9tfO-_pk",
+      "flexibleDates": true,
+      "slotText": [
+        {
+          "label": "2025",
+          "text": "September, November, \nDecember\n(Flexible)"
+        },
+        {
+          "label": "2026",
+          "text": "Flexible slots throughout the year"
+        }
+      ]
+    },
+    "1331111": {
+      "title": "Japan Global Classroom",
+      "project": "Global Classroom",
+      "hostTeam": "Ruhuna",
+      "sdgTarget": "4.6",
+      "booklet": {
+        "label": "Global Classroom Booklet",
+        "url": "https://drive.google.com/file/d/1vVdS6aQGQW1BSJedDGieVh-xOk7mRvc-/view"
+      },
+      "accommodationPhotos": "https://drive.google.com/drive/u/1/folders/1T1MU5ICwnpXyo1wndOLh3woeGqQ8nCZE",
+      "flexibleDates": true,
+      "slotText": [
+        {
+          "label": "2025",
+          "text": "Flexible"
+        },
+        {
+          "label": "2026",
+          "text": "Flexible"
+        }
+      ]
+    },
+    "1331302": {
+      "title": "ACYMMA Elder's Home",
+      "project": "HeartBeat",
+      "hostTeam": "SLIIT",
+      "sdgTarget": "3.4",
+      "booklet": {
+        "label": "Heartbeat ACYMMA 6 week Elder's Home.pdf",
+        "url": "https://drive.google.com/file/d/1KJLRwYV1pqmEBGj1-0DQ8UtGO4_l7Ylu/view"
+      },
+      "accommodationPhotos": "https://drive.google.com/drive/folders/1MBl3SPX0-GMjAUnDzzF6tIowqCXVgjFZ",
+      "flexibleDates": true,
+      "slotText": [
+        {
+          "label": "2025",
+          "text": "Flexible\n(Feb,May , June , July )"
+        },
+        {
+          "label": "2026",
+          "text": "(Flexible Slots)\n9 March 2026 - 20 April 2026\n20 Apr, 2026 - 1 Jun, 2026\n2 Jun, 2026 - 14 Jul, 2026\n15 Jul 2026 - 26 Aug 2026\n8 Sep 2026 - 20 Oct 2026"
+        }
+      ]
+    },
+    "1331469": {
+      "title": "Next Gen Motivation",
+      "project": "Global Classroom",
+      "hostTeam": "CC",
+      "sdgTarget": "4.6",
+      "booklet": {
+        "label": "GC- Next Gen Motivation (2) (1).pdf",
+        "url": "https://drive.google.com/file/d/1XHIqZxnFXS3bOUz62D1p88T8IpHE_DWv/view"
+      },
+      "accommodationPhotos": "https://drive.google.com/drive/folders/1YvBkkutiz2wvZ2XcPEeVaDW1A40-GHC5",
+      "flexibleDates": true,
+      "slotText": [
+        {
+          "label": "2025",
+          "text": "September, November, \nDecember\n(Flexible)"
+        },
+        {
+          "label": "2026",
+          "text": "Flexible slots throughout the year"
+        }
+      ]
+    },
+    "1331833": {
+      "title": "ACYMMA – children's home",
+      "project": "HeartBeat",
+      "hostTeam": "SLIIT",
+      "sdgTarget": "3.4",
+      "booklet": {
+        "label": "Heartbeat ACYMMA 6 week-children's home.pdf",
+        "url": "https://drive.google.com/file/d/1FyFe_flLCHiOmc7WaSf0VxoP9DR28aji/view"
+      },
+      "accommodationPhotos": "https://drive.google.com/drive/folders/1MBl3SPX0-GMjAUnDzzF6tIowqCXVgjFZ",
+      "flexibleDates": true,
+      "slotText": [
+        {
+          "label": "2026",
+          "text": "(Flexible Slots)\n\n13 Apr, 2026 - 25 May, 2026\n26 May, 2026 - 7 Jul, 2026\n8 Jul 2026 - 19 Aug 2026\n24 Sep 2026 - 5 Oct 2026"
+        }
+      ]
+    },
+    "1331838": {
+      "title": "ACYMMA",
+      "project": "Skill Up",
+      "hostTeam": "SLIIT",
+      "sdgTarget": "8.6",
+      "booklet": {
+        "label": "Skill Up ACYMMA 6 week booklet.pdf",
+        "url": "https://drive.google.com/file/d/1jfvPha7TClLkHbdhCUnLpIST408LsW3y/view"
+      },
+      "accommodationPhotos": null,
+      "flexibleDates": true,
+      "slotText": [
+        {
+          "label": "2026",
+          "text": "(Flexible Slots)\n\n9 March 2026 - 20 April 2026\n21 Apr, 2026 - 2 Jun, 2026\n3 Jun, 2026 - 15 Jul, 2026\n13 Jul 2026 - 24 Aug 2026"
+        }
+      ]
+    },
+    "1331930": {
+      "title": "Mangrove",
+      "project": "Rooted",
+      "hostTeam": "SLIIT",
+      "sdgTarget": "15.5",
+      "booklet": {
+        "label": "Rooted Mangrove 6 week booklet.pdf",
+        "url": "https://drive.google.com/file/d/1fF-aBQfmYzTzY62wjr7DJkU3j7E2kMqn/view"
+      },
+      "accommodationPhotos": "https://drive.google.com/drive/folders/1XRKzPgZzgBt09P3BK1I-8Zmg4d3FeN_s",
+      "flexibleDates": true,
+      "slotText": [
+        {
+          "label": "2025",
+          "text": "Flexible\n(Feb,May , June , July )"
+        },
+        {
+          "label": "2026",
+          "text": "Flexible slots year around"
+        }
+      ]
+    },
+    "1332053": {
+      "title": "Royal pre school",
+      "project": "Global Classroom",
+      "hostTeam": "Ruhuna",
+      "sdgTarget": "4.6",
+      "booklet": {
+        "label": "Global Classroom (1)_compressed.pdf",
+        "url": "https://drive.google.com/file/d/1vVdS6aQGQW1BSJedDGieVh-xOk7mRvc-/view"
+      },
+      "accommodationPhotos": "https://drive.google.com/drive/u/1/folders/1t0XnKilhTFxzE3eIx6Ib5yokSnmVRT_e",
+      "flexibleDates": true,
+      "slotText": [
+        {
+          "label": "2025",
+          "text": "Flexible\n(Year Round)"
+        },
+        {
+          "label": "2026",
+          "text": "Flexible"
+        }
+      ]
+    },
+    "1332056": {
+      "title": "British international College",
+      "project": "Global Classroom",
+      "hostTeam": "Wayamba",
+      "sdgTarget": "4.6",
+      "booklet": {
+        "label": "British international College GCR Project Booklet 26.27",
+        "url": "https://docs.google.com/presentation/d/1jBITfXiRwugoalltHHcCQs00Aq0U0j6JRlYfryKXxv0/edit"
+      },
+      "accommodationPhotos": "https://drive.google.com/drive/folders/1E4vJ9tJkAgevbr-_Ly-CxmG8RCCKd7xZ",
+      "flexibleDates": false,
+      "slotText": [
+        {
+          "label": "2025",
+          "text": "11 May, 2026 - 23 Jun, 2026\n23 Jun, 2026 - 4 Aug, 2026"
+        },
+        {
+          "label": "2026",
+          "text": "4"
+        }
+      ]
+    },
+    "1332058": {
+      "title": "Skyden International School",
+      "project": "Global Classroom",
+      "hostTeam": "Ruhuna",
+      "sdgTarget": "4.6",
+      "booklet": {
+        "label": "Global Classroom Booklet",
+        "url": "https://drive.google.com/file/d/1vVdS6aQGQW1BSJedDGieVh-xOk7mRvc-/view"
+      },
+      "accommodationPhotos": "https://drive.google.com/drive/u/1/folders/15PIPAMldiOmnKesVNGGW2Ojr-7Au9QE3",
+      "flexibleDates": true,
+      "slotText": [
+        {
+          "label": "2026",
+          "text": "Flexible slots"
+        }
+      ]
+    },
+    "1332059": {
+      "title": "Skyden international school",
+      "project": "Global Classroom",
+      "hostTeam": "Ruhuna",
+      "sdgTarget": "4.6",
+      "booklet": {
+        "label": "Global Classroom Booklet",
+        "url": "https://drive.google.com/file/d/1vVdS6aQGQW1BSJedDGieVh-xOk7mRvc-/view"
+      },
+      "accommodationPhotos": "https://drive.google.com/drive/u/1/folders/15PIPAMldiOmnKesVNGGW2Ojr-7Au9QE3",
+      "flexibleDates": true,
+      "slotText": [
+        {
+          "label": "2025",
+          "text": "Flexible"
+        },
+        {
+          "label": "2026",
+          "text": "Flexible"
+        }
+      ]
+    },
+    "1332060": {
+      "title": "Azure Seafood Restaurant",
+      "project": "Skill Up",
+      "hostTeam": "Ruhuna",
+      "sdgTarget": "8.6",
+      "booklet": {
+        "label": "Skill up Booklet",
+        "url": "https://drive.google.com/file/d/1e-l8CX1m3Vc6Tx9I9JRkhcHdC9DxWfuC/view"
+      },
+      "accommodationPhotos": "https://drive.google.com/drive/u/1/folders/10rVHO_BG0GsAs2_qMwOmo0mD98vzDtcl",
+      "flexibleDates": true,
+      "slotText": [
+        {
+          "label": "2025",
+          "text": "Flexible"
+        },
+        {
+          "label": "2026",
+          "text": "Flexible"
+        }
+      ]
+    },
+    "1332070": {
+      "title": "Japan Global Classroom",
+      "project": "Global Classroom",
+      "hostTeam": "Ruhuna",
+      "sdgTarget": "4.6",
+      "booklet": {
+        "label": "Global Classroom (1)_compressed.pdf",
+        "url": "https://drive.google.com/file/d/1vVdS6aQGQW1BSJedDGieVh-xOk7mRvc-/view"
+      },
+      "accommodationPhotos": "https://drive.google.com/drive/u/1/folders/1Y1g3G7TTBKI625HkZi1G1bDjaXzparMs",
+      "flexibleDates": true,
+      "slotText": [
+        {
+          "label": "2025",
+          "text": "3rd Mar-14th Apr \n15th Apr-22nd May\n5th May-16 June\n9th June- 21st July\n6th July- 17th Aug\n2nd Aug-13th Sept\n9th Sept-21st Oct\n21st Oct-1st Dec\n2nd Dec-15th Jan"
+        },
+        {
+          "label": "2026",
+          "text": "Flexible"
+        }
+      ]
+    },
+    "1332071": {
+      "title": "Kashikoi (pvt) Ltd",
+      "project": "Global Classroom",
+      "hostTeam": "Ruhuna",
+      "sdgTarget": "4.6",
+      "booklet": {
+        "label": "Global Classroom Booklet",
+        "url": "https://drive.google.com/file/d/1vVdS6aQGQW1BSJedDGieVh-xOk7mRvc-/view"
+      },
+      "accommodationPhotos": "https://drive.google.com/drive/u/1/folders/1Y1g3G7TTBKI625HkZi1G1bDjaXzparMs",
+      "flexibleDates": true,
+      "slotText": [
+        {
+          "label": "2026",
+          "text": "Flexible slots"
+        }
+      ]
+    },
+    "1332072": {
+      "title": "German Global Classroom",
+      "project": "Global Classroom",
+      "hostTeam": "Kandy",
+      "sdgTarget": "4.6",
+      "booklet": {
+        "label": "Global Classroom Booklet",
+        "url": "https://drive.google.com/file/d/1vVdS6aQGQW1BSJedDGieVh-xOk7mRvc-/view"
+      },
+      "accommodationPhotos": "https://drive.google.com/drive/u/1/folders/1yMKQTuqJqifmN3Vg00mEBPUgebc29yUo",
+      "flexibleDates": true,
+      "slotText": [
+        {
+          "label": "2025",
+          "text": "Flexible"
+        },
+        {
+          "label": "2026",
+          "text": "Flexible"
+        }
+      ]
+    },
+    "1332074": {
+      "title": "Urawatte Sea Turtle Conservation",
+      "project": "Aquatica",
+      "hostTeam": "Ruhuna",
+      "sdgTarget": "14.1",
+      "booklet": null,
+      "accommodationPhotos": "https://drive.google.com/drive/folders/1dDBSsI8zDC17dxWLB_WEvY1SEaNjgyVh",
+      "flexibleDates": true,
+      "slotText": [
+        {
+          "label": "2025",
+          "text": "Flexible slots"
+        },
+        {
+          "label": "2026",
+          "text": "Flexible slots"
+        }
+      ]
+    },
+    "1332134": {
+      "title": "Mangrove",
+      "project": "Explorer",
+      "hostTeam": "SLIIT",
+      "sdgTarget": "4.1",
+      "booklet": {
+        "label": "Explorer Mangrove 6 week.pdf",
+        "url": "https://drive.google.com/file/d/1TaPf5Sv8a_d2xYFSAt2LTwC4VqBI-zdg/view"
+      },
+      "accommodationPhotos": "https://drive.google.com/drive/folders/13d6YYgzEN-Oxqr7do-gRKiDGa9U974KI",
+      "flexibleDates": true,
+      "slotText": [
+        {
+          "label": "2026",
+          "text": "(Flexible Slots)\n\n17 Mar - 28 April\n29 April - 10 June\n16 June - 28 July\n29 July - 9 Sep"
+        }
+      ]
+    },
+    "1332312": {
+      "title": "Global Classroom · Ruhuna",
+      "project": "Global Classroom",
+      "hostTeam": "Ruhuna",
+      "sdgTarget": "4.6",
+      "booklet": {
+        "label": "Global Classroom Booklet",
+        "url": "https://drive.google.com/file/d/1vVdS6aQGQW1BSJedDGieVh-xOk7mRvc-/view"
+      },
+      "accommodationPhotos": "https://drive.google.com/drive/u/1/folders/1KtlzV3SxNEjVNG1R7uMLkQODHSdhzmhu",
+      "flexibleDates": true,
+      "slotText": [
+        {
+          "label": "2026",
+          "text": "Flexible slots"
+        }
+      ]
+    },
+    "1332313": {
+      "title": "Katiyawa Azad",
+      "project": "Global Classroom",
+      "hostTeam": "Ruhuna",
+      "sdgTarget": "4.6",
+      "booklet": {
+        "label": "Global Classroom Booklet",
+        "url": "https://drive.google.com/file/d/1vVdS6aQGQW1BSJedDGieVh-xOk7mRvc-/view"
+      },
+      "accommodationPhotos": "https://drive.google.com/drive/u/1/folders/1KtlzV3SxNEjVNG1R7uMLkQODHSdhzmhu",
+      "flexibleDates": true,
+      "slotText": [
+        {
+          "label": "2025",
+          "text": "Flexible"
+        },
+        {
+          "label": "2026",
+          "text": "Flexible"
+        }
+      ]
+    },
+    "1332315": {
+      "title": "Glenfall PreSchool NuwaraEliya",
+      "project": "Global Classroom",
+      "hostTeam": "Kandy",
+      "sdgTarget": "4.6",
+      "booklet": {
+        "label": "Global Classroom Booklet",
+        "url": "https://drive.google.com/file/d/1vVdS6aQGQW1BSJedDGieVh-xOk7mRvc-/view"
+      },
+      "accommodationPhotos": "https://drive.google.com/drive/u/1/folders/17utpyAxtDni7TXtmIgKIOePbtlMzFwgo",
+      "flexibleDates": true,
+      "slotText": [
+        {
+          "label": "2025",
+          "text": "Flexible"
+        },
+        {
+          "label": "2026",
+          "text": "16 Apr, 2026 - 28 May"
+        }
+      ]
+    },
+    "1332327": {
+      "title": "Ashla Nursery",
+      "project": "Global Classroom",
+      "hostTeam": "SLIIT",
+      "sdgTarget": "4.6",
+      "booklet": {
+        "label": "Ashla Nursery 6 week.pdf",
+        "url": "https://drive.google.com/file/d/15om6H3rZ_lJ6TfwQLTBY_ug37ieL8_vy/view"
+      },
+      "accommodationPhotos": "https://drive.google.com/drive/folders/1P4umkeo4tH_yky-C_UM1gFGmMw9MPtZs",
+      "flexibleDates": true,
+      "slotText": [
+        {
+          "label": "2025",
+          "text": "Flexible\n(Feb,May , June , July )"
+        },
+        {
+          "label": "2026",
+          "text": "(Flexible Slots)\n(4 weeks avaliable)\n\n16 March - 27 April\n6 April - 18 May\n19 May- 30 June\n1 July - 12 Aug\n17 Aug - 28 Sep\n01 Oct - 14 Nov"
+        }
+      ]
+    },
+    "1332402": {
+      "title": "Little AID",
+      "project": "Global Classroom",
+      "hostTeam": "Wayamba",
+      "sdgTarget": "4.6",
+      "booklet": {
+        "label": "Little AID GCR Project Booklet 26.27",
+        "url": "https://docs.google.com/presentation/d/1t4Nb6_BHJkzsqoSO0OXKOXszxqr6X-aZd8dKq6jgWKg/edit"
+      },
+      "accommodationPhotos": "https://drive.google.com/drive/folders/1mVT3CAs2SsBPzUtINXejkJ1S-RAJDznB",
+      "flexibleDates": false,
+      "slotText": [
+        {
+          "label": "2025",
+          "text": "15th April -25th May"
+        },
+        {
+          "label": "2026",
+          "text": "1"
+        }
+      ]
+    },
+    "1332419": {
+      "title": "Discover · Ruhuna",
+      "project": "Discover",
+      "hostTeam": "Ruhuna",
+      "sdgTarget": "4.7",
+      "booklet": null,
+      "accommodationPhotos": "https://drive.google.com/drive/u/1/folders/1yMKQTuqJqifmN3Vg00mEBPUgebc29yUo",
+      "flexibleDates": true,
+      "slotText": [
+        {
+          "label": "2025",
+          "text": "-"
+        },
+        {
+          "label": "2026",
+          "text": "Flexible slots"
+        }
+      ]
+    },
+    "1332420": {
+      "title": "Fingerprint · Ruhuna",
+      "project": "Fingerprint",
+      "hostTeam": "Ruhuna",
+      "sdgTarget": "4.4",
+      "booklet": null,
+      "accommodationPhotos": "https://drive.google.com/drive/u/1/folders/1XqmOnA16sCQlPlGKQzpdyfesqJA7trLi",
+      "flexibleDates": true,
+      "slotText": [
+        {
+          "label": "2026",
+          "text": "Flexible"
+        }
+      ]
+    },
+    "1332565": {
+      "title": "Diri daru piyasa",
+      "project": "Equify",
+      "hostTeam": "CC",
+      "sdgTarget": "10.2",
+      "booklet": {
+        "label": "Equify-Diri daru piyasa (1).pdf",
+        "url": "https://drive.google.com/file/d/1dPOrAQ2PQEvf49Tcgmj1lPSiKsbUqxMW/view"
+      },
+      "accommodationPhotos": "https://drive.google.com/drive/folders/1MfoYOmZio4jxeNmelOTJayB5LL6DtRAw",
+      "flexibleDates": true,
+      "slotText": [
+        {
+          "label": "2025",
+          "text": "Flexible"
+        },
+        {
+          "label": "2026",
+          "text": "Flexible"
+        }
+      ]
+    },
+    "1332568": {
+      "title": "Next Gen Motivation",
+      "project": "Global Classroom",
+      "hostTeam": "CC",
+      "sdgTarget": "4.6",
+      "booklet": {
+        "label": "GC- Next Gen Motivation (2) (1).pdf",
+        "url": "https://drive.google.com/file/d/1XHIqZxnFXS3bOUz62D1p88T8IpHE_DWv/view"
+      },
+      "accommodationPhotos": "https://drive.google.com/drive/folders/1YvBkkutiz2wvZ2XcPEeVaDW1A40-GHC5",
+      "flexibleDates": true,
+      "slotText": [
+        {
+          "label": "2026",
+          "text": "Flexible"
+        }
+      ]
+    },
+    "1332660": {
+      "title": "Rooted · NIBM",
+      "project": "Rooted",
+      "hostTeam": "NIBM",
+      "sdgTarget": "15.5",
+      "booklet": {
+        "label": "IGV - Rooted Project Booklet 26.27.pdf",
+        "url": "https://drive.google.com/file/d/1dt9n8gwvsSEd7yiORg87Aibpe8BCs0CM/view"
+      },
+      "accommodationPhotos": "https://drive.google.com/drive/folders/1CVCZQ4sebOCn2yoKFYJCyuLxJ4c7fzyx",
+      "flexibleDates": true,
+      "slotText": [
+        {
+          "label": "2025",
+          "text": "Flexible"
+        },
+        {
+          "label": "2026",
+          "text": "Flexible"
+        }
+      ]
+    },
+    "1332688": {
+      "title": "Diyakawa – Hospitality",
+      "project": "Skill Up",
+      "hostTeam": "SLIIT",
+      "sdgTarget": "8.6",
+      "booklet": {
+        "label": "Skill Up Diyakawa 6 week - Hospitality.pdf",
+        "url": "https://drive.google.com/file/d/1HzFpEcCwTC1qRymCUxIE3_OXrcGryv8o/view"
+      },
+      "accommodationPhotos": "https://drive.google.com/drive/folders/1HVdpXtg-GlG531k09ey6Y_knZAX6OKuG",
+      "flexibleDates": true,
+      "slotText": [
+        {
+          "label": "2026",
+          "text": "(Flexible Slots)\n\n23 March 2026 - 4 April 2026\n6 Apr, 2026 - 18 May 2026\n18 May 2026 - 29 June 2026\n1 Jul 2026 - 12 Aug 2026"
+        }
+      ]
+    },
+    "1332693": {
+      "title": "Diyakawa – Event Man. & Marketing",
+      "project": "Skill Up",
+      "hostTeam": "SLIIT",
+      "sdgTarget": "8.6",
+      "booklet": {
+        "label": "Skill Up Diyakawa 6 week - Event Man. & Marketing.pdf",
+        "url": "https://drive.google.com/file/d/1FpxMtC4nJUjgBw9QJ9OPaMxFcmZ6tJGL/view"
+      },
+      "accommodationPhotos": "https://drive.google.com/drive/folders/1HVdpXtg-GlG531k09ey6Y_knZAX6OKuG",
+      "flexibleDates": true,
+      "slotText": [
+        {
+          "label": "2026",
+          "text": "(Flexible Slots)\n\n23 March 2026 - 4 April 2026\n6 Apr, 2026 - 18 May 2026\n18 May 2026 - 29 June 2026\n1 Jul 2026 - 12 Aug 2026"
+        }
+      ]
+    },
+    "1332718": {
+      "title": "Sunrise Surf School",
+      "project": "Skill Up",
+      "hostTeam": "SLIIT",
+      "sdgTarget": "8.6",
+      "booklet": {
+        "label": "Skill Up Sunrise Surf School 6 week.pdf",
+        "url": "https://drive.google.com/file/d/1rW-2EgySQeNtRq_MJsW-XTSHHOQn9405/view"
+      },
+      "accommodationPhotos": "https://drive.google.com/drive/folders/1TIngCRqFYg8VEpqNH3uurMwP0X13sOsS",
+      "flexibleDates": false,
+      "slotText": [
+        {
+          "label": "2026",
+          "text": "23 March 2026 - 4 April 2026\n1 Dec 2026 - 12 Jan 2027\n11 Jan 2027 - 22 Feb 2027\n22 Feb 2027 - 5 April 2027"
+        }
+      ]
+    },
+    "1332739": {
+      "title": "Ellalan Tourism and Adventures",
+      "project": "Explorer",
+      "hostTeam": "Wayamba",
+      "sdgTarget": "4.1",
+      "booklet": {
+        "label": "Ellalan Tourism and Adventures - Explorer Project Booklet 26.27",
+        "url": "https://docs.google.com/presentation/d/1U0zf0PLiGQR5AbiHWpFwFRoJIKxUnMp46tdq-r92I38/edit"
+      },
+      "accommodationPhotos": "https://drive.google.com/drive/folders/1V8Rd68vs4XMIR1O7wzz5PxduK5fZTbBk",
+      "flexibleDates": false,
+      "slotText": [
+        {
+          "label": "2026",
+          "text": "1 May, 2026 - 11 Jun, 2026\n15 May, 2026 - 26 Jun, 2026"
+        }
+      ]
+    },
+    "1332848": {
+      "title": "Castle Craft Pre School",
+      "project": "Happy Bus",
+      "hostTeam": "Ruhuna",
+      "sdgTarget": "4.2",
+      "booklet": null,
+      "accommodationPhotos": "https://drive.google.com/drive/u/1/folders/1W9GX30vlz-sNrBX7qJ78LSNu_k_K5eCT",
+      "flexibleDates": true,
+      "slotText": [
+        {
+          "label": "2025",
+          "text": "Flexible"
+        },
+        {
+          "label": "2026",
+          "text": "Flexible"
+        }
+      ]
+    },
+    "1332879": {
+      "title": "Journe Visit gem city",
+      "project": "On The Map",
+      "hostTeam": "CC",
+      "sdgTarget": "8.9",
+      "booklet": {
+        "label": "On the map-Journe Visit gem city.pdf",
+        "url": "https://drive.google.com/file/d/1gzYf0B9lBHHSTvAJ5-FDi4fBPppBABS1/view"
+      },
+      "accommodationPhotos": "https://drive.google.com/drive/folders/1nT4Z-aTNzhJ3n8LLa-YbsjsXG0QwFIwb",
+      "flexibleDates": true,
+      "slotText": [
+        {
+          "label": "2025",
+          "text": "September, October, December\n(Flexible)"
+        },
+        {
+          "label": "2026",
+          "text": "Flexible slots throughout the year"
+        }
+      ]
+    },
+    "1333063": {
+      "title": "Global Classroom · Ruhuna",
+      "project": "Global Classroom",
+      "hostTeam": "Ruhuna",
+      "sdgTarget": "4.6",
+      "booklet": {
+        "label": "Global Classroom Booklet",
+        "url": "https://drive.google.com/file/d/1vVdS6aQGQW1BSJedDGieVh-xOk7mRvc-/view"
+      },
+      "accommodationPhotos": "https://drive.google.com/drive/u/1/folders/1XqmOnA16sCQlPlGKQzpdyfesqJA7trLi",
+      "flexibleDates": true,
+      "slotText": [
+        {
+          "label": "2026",
+          "text": "Flexible slots"
+        }
+      ]
+    },
+    "1333798": {
+      "title": "Global Classroom · Ruhuna",
+      "project": "Global Classroom",
+      "hostTeam": "Ruhuna",
+      "sdgTarget": "4.6",
+      "booklet": {
+        "label": "Global Classroom Booklet",
+        "url": "https://drive.google.com/file/d/1vVdS6aQGQW1BSJedDGieVh-xOk7mRvc-/view"
+      },
+      "accommodationPhotos": null,
+      "flexibleDates": true,
+      "slotText": [
+        {
+          "label": "2026",
+          "text": "Flexible slots"
+        },
+        {
+          "label": "2026",
+          "text": "flexible slots"
+        }
+      ]
+    },
+    "1334823": {
+      "title": "Pawhub",
+      "project": "Skill Up",
+      "hostTeam": "SLIIT",
+      "sdgTarget": "8.6",
+      "booklet": {
+        "label": "Skill Up Pawhub 6 week.pdf",
+        "url": "https://drive.google.com/file/d/11Pf0V-XyOQP67YAadRAUZVUSBFHUycgM/view"
+      },
+      "accommodationPhotos": null,
+      "flexibleDates": true,
+      "slotText": [
+        {
+          "label": "2026",
+          "text": "Flexible slots year around"
+        }
+      ]
+    },
+    "1334958": {
+      "title": "On The Map · NIBM",
+      "project": "On The Map",
+      "hostTeam": "NIBM",
+      "sdgTarget": "8.9",
+      "booklet": {
+        "label": "On the Map_26.27_.pdf",
+        "url": "https://drive.google.com/file/d/1LW_7gI6HAtTrIJ3KDAxd6ugrccMLJ--Q/view"
+      },
+      "accommodationPhotos": "https://drive.google.com/drive/folders/1wDlOsNUdJg_GTHvlJDB3qZeAaPoGHTDm",
+      "flexibleDates": false,
+      "slotText": [
+        {
+          "label": "2025",
+          "text": "Dec-Jan"
+        },
+        {
+          "label": "2026",
+          "text": "Dec-Jan"
+        }
+      ]
+    },
+    "1336677": {
+      "title": "Rooted · NIBM",
+      "project": "Rooted",
+      "hostTeam": "NIBM",
+      "sdgTarget": "15.5",
+      "booklet": {
+        "label": "IGV - Rooted 2.0 Project Booklet 26.27_.pdf.pdf",
+        "url": "https://drive.google.com/file/d/1VtY6mB8E74Aw0vUzjMeL0ZltRf6955s0/view"
+      },
+      "accommodationPhotos": "https://drive.google.com/drive/folders/1S6yvnv4DDkXlNv_hPRSL5cBBTsqzyMpu",
+      "flexibleDates": true,
+      "slotText": [
+        {
+          "label": "2025",
+          "text": "Flexible"
+        },
+        {
+          "label": "2026",
+          "text": "Flexible"
+        }
+      ]
+    },
+    "1337124": {
+      "title": "Global Classroom · Ruhuna",
+      "project": "Global Classroom",
+      "hostTeam": "Ruhuna",
+      "sdgTarget": "4.6",
+      "booklet": null,
+      "accommodationPhotos": null,
+      "flexibleDates": true,
+      "slotText": [
+        {
+          "label": "2026",
+          "text": "Flexible slots"
+        }
+      ]
+    },
+    "1337133": {
+      "title": "Explorer · Ruhuna",
+      "project": "Explorer",
+      "hostTeam": "Ruhuna",
+      "sdgTarget": "4.1",
+      "booklet": null,
+      "accommodationPhotos": null,
+      "flexibleDates": false,
+      "slotText": [
+        {
+          "label": "2026",
+          "text": "September , November ,December"
+        }
+      ]
+    },
+    "1337134": {
+      "title": "Discover · Ruhuna",
+      "project": "Discover",
+      "hostTeam": "Ruhuna",
+      "sdgTarget": "4.7",
+      "booklet": null,
+      "accommodationPhotos": null,
+      "flexibleDates": false,
+      "slotText": [
+        {
+          "label": "2026",
+          "text": "September , October ,November"
+        }
+      ]
+    },
+    "1337148": {
+      "title": "Fingerprint · Ruhuna",
+      "project": "Fingerprint",
+      "hostTeam": "Ruhuna",
+      "sdgTarget": "4.4",
+      "booklet": null,
+      "accommodationPhotos": null,
+      "flexibleDates": true,
+      "slotText": [
+        {
+          "label": "2026",
+          "text": "Flexible"
+        }
+      ]
+    },
+    "1337150": {
+      "title": "Global Classroom · Ruhuna",
+      "project": "Global Classroom",
+      "hostTeam": "Ruhuna",
+      "sdgTarget": "4.6",
+      "booklet": null,
+      "accommodationPhotos": null,
+      "flexibleDates": true,
+      "slotText": [
+        {
+          "label": "2026",
+          "text": "Flexible slots"
+        }
+      ]
+    },
+    "1337152": {
+      "title": "Explorer · Ruhuna",
+      "project": "Explorer",
+      "hostTeam": "Ruhuna",
+      "sdgTarget": "4.1",
+      "booklet": null,
+      "accommodationPhotos": null,
+      "flexibleDates": false,
+      "slotText": [
+        {
+          "label": "2026",
+          "text": "September , November ,December"
+        }
+      ]
+    },
+    "r0p1k9g2": {
+      "title": "Global Classroom · Colombo North",
+      "project": "Global Classroom",
+      "hostTeam": "CN",
+      "sdgTarget": "4.6",
+      "booklet": {
+        "label": "Global Classroom .pptx",
+        "url": "https://docs.google.com/presentation/d/1cdyU7wjTPN5c0T9iBlZ6ZRE6oKYQklRr/edit"
+      },
+      "accommodationPhotos": "https://drive.google.com/drive/folders/1CSatjbv9U4cLBMx-gxq0BM9XnIO7__Xg",
+      "flexibleDates": false,
+      "slotText": [
+        {
+          "label": "2025",
+          "text": "6 Jan - 17 Feb"
+        }
+      ]
+    }
+  }
+}
