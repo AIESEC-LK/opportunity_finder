@@ -69,10 +69,10 @@ export interface Opportunity {
   expaId: string | null;
   title: string;
   /** Where the title came from, so the UI can be honest about it. */
-  titleSource: "link-text" | "booklet" | "fallback";
+  titleSource: "link-text" | "booklet" | "fallback" | "expa";
   type: OpportunityType;
   /** "url" = read from the opportunity link; "sheet" = the sheet is the iGV search tool. */
-  typeSource: "url" | "sheet";
+  typeSource: "url" | "sheet" | "expa";
   projectKey: string;
   projectName: string;
   projectSlug: string;
@@ -85,6 +85,10 @@ export interface Opportunity {
   /** Why there is no usable application link, when there isn't one. */
   applicationUrlIssue: string | null;
   booklet: { label: string; url: string | null } | null;
+  /** What volunteers do, written by the host team in EXPA. The sheet has none. */
+  description?: string | null;
+  /** Place within the country, e.g. "Kegalle, Sri Lanka" (EXPA). */
+  location?: string | null;
   provisions: Provisions;
   dates: OpportunityDates;
   sources: SourceRef[];

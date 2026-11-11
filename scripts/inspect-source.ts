@@ -5,7 +5,7 @@
 import { fetchDataset } from "@/lib/data/source";
 
 async function main() {
-  const dataset = await fetchDataset();
+  const dataset = await fetchDataset("sheet");
   if (process.argv.includes("--json")) {
     console.log(JSON.stringify(dataset, null, 2));
     return;

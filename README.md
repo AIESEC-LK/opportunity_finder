@@ -2,7 +2,9 @@
 
 A web app for discovering AIESEC in Sri Lanka's incoming Global Volunteer (iGV) opportunities: start from a UN Sustainable Development Goal, explore its projects, filter opportunities by your travel dates, understand what's included, and apply.
 
-**The Google Sheet is the only source of opportunity data.** Nothing is invented, scraped or filled in. The only built-in content is the official metadata and icons for the 17 SDGs.
+**Opportunities come live from EXPA**, AIESEC's own system. The old Google Sheet still works as a fallback (`DATA_SOURCE=sheet`) while it is kept up to date. Nothing is invented, scraped or filled in. Built-in content: the 17 SDGs, the national planning links (`content/planning-links.json`) and the contact directory (`lib/contact-directory.ts`).
+
+See [`docs/expa-migration.md`](docs/expa-migration.md) for how the data flows and how to roll back, and [`docs/sheet-removal-tradeoffs.md`](docs/sheet-removal-tradeoffs.md) for what changed for users.
 
 - Next.js 16 (App Router), React 19, TypeScript (strict)
 - Tailwind CSS 4, shadcn/ui (Base UI), Lucide icons, react-day-picker
@@ -15,7 +17,7 @@ npm install
 npm run dev          # http://localhost:3000
 ```
 
-No configuration is needed: the app reads the default sheet over its public export link. See `.env.example` for the optional settings.
+Create `.env.local` with `EXPA_TOKEN=…` (see `.env.example`). Without it, pages show "temporarily unavailable". To use the old sheet instead, set `DATA_SOURCE=sheet`; that needs no token.
 
 | Command | What it does |
 | --- | --- |
@@ -25,6 +27,8 @@ No configuration is needed: the app reads the default sheet over its public expo
 | `npm run typecheck` | Generate route types and run `tsc` |
 | `npm run lint` | ESLint |
 | `npm run inspect:source` | Fetch the live sheet and print how it was read (`-- --verbose` lists every opportunity, `-- --json` dumps the dataset) |
+| `npm run probe:expa` | Read-only check of EXPA: available fields, counts, and how it compares with the sheet |
+| `npm run archive:sheet` | Save the sheet-only data (booklets, photos, notes) to `content/sheet-archive/` |
 
 ## Where the data comes from
 
@@ -78,9 +82,9 @@ A link to accommodation photos is shown but not treated as proof that accommodat
 
 `lib/data/source.ts` keeps the normalised dataset in memory:
 
-- Fresh for `SHEET_CACHE_SECONDS` (10 minutes by default). Filtering runs on loaded data, so filter changes never fetch the sheet.
+- Fresh for `DATA_CACHE_SECONDS` (10 minutes by default). Filtering runs on loaded data, so filter changes never fetch the sheet.
 - After that, the cached copy is served while one background refresh runs.
-- If a refresh fails, the last good copy is kept for up to `SHEET_MAX_STALE_SECONDS`.
+- If a refresh fails, the last good copy is kept for up to `DATA_MAX_STALE_SECONDS`.
 - With no good copy, pages show "temporarily unavailable" with a retry button. There is never fallback data.
 
 The cache is per server process; on serverless hosting each instance keeps its own copy. Next.js Cache Components is deliberately off, so builds never depend on the sheet being reachable and a failed fetch is never cached.
@@ -111,6 +115,16 @@ function doGet(e) {
 ```
 
 A new adapter could then read `…/exec?format=json` and merge slots by opportunity id. This isn't built yet because the response can't be inspected until the endpoint exists.
+
+### Reading straight from EXPA (the default)
+
+With `EXPA_TOKEN` in `.env.local`, the app reads open Global Volunteer opportunities for committee `EXPA_COMMITTEE_ID` (1623, Sri Lanka) from EXPA's GraphQL API (`lib/data/expa.ts`, mapped by `lib/data/normalize-expa.ts`). Set `DATA_SOURCE=sheet` to go back to the sheet.
+
+- **Token:** the public guest token aiesec.org's own search sends. It only sees public, open opportunities, and AIESEC can change it at any time; when that happens pages show "temporarily unavailable" until `EXPA_TOKEN` is updated. It is read on the server only (no `NEXT_PUBLIC_` prefix), so it never reaches the browser.
+- **Freshness:** same cache as the sheet. EXPA is asked at most once per `DATA_CACHE_SECONDS`, on the first visit after the copy expires. EXPA offers no push updates that we could find with the public key, so this is not real time.
+- **What you get:** exact slot dates with open places, project, SDG target, host team, meals and accommodation.
+- **What you lose versus the sheet:** booklets, accommodation photos and the sheet's host-team contacts (planning links moved to `content/planning-links.json`). With the public token, opportunities with no dated slots are hidden by EXPA's search; a private key lists them as "Dates not listed". See `docs/expa-migration.md`.
+- `npm run probe:expa` lists EXPA's fields and compares EXPA with the sheet without changing anything.
 
 ## Project structure
 
