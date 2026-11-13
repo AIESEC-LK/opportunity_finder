@@ -25,12 +25,12 @@ were missing.
 
 Each opportunity page lists people to ask, taken from the opportunity's managers in EXPA:
 
-1. Anyone from the **national team** (MCVP or ESTL) managing it.
+1. Anyone from the **national team** (MCVP or ESTL) managing it who works in iGV.
 2. The host team's **iGV LCVPs**.
 3. If that's fewer than two people, other **iGV team leaders** fill up to two.
 
 Only people with a current role are shown (full rule: `docs/opportunity-contacts.md`), with their title, @aiesec.net email and phone when
-EXPA has them. This needs the private key. 8 of 262 opportunities had nobody who qualifies,
+EXPA has them. This needs the private key. 13 of 262 opportunities had nobody who qualifies,
 so they show no contact box. Opportunities also show a **"Partner's website"** link when EXPA
 has one (13 today).
 

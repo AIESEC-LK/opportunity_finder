@@ -26,7 +26,7 @@ For the non-technical summary of what changed for users, see
 ### Who is shown as a contact
 
 See [`opportunity-contacts.md`](opportunity-contacts.md) for the full rule. In short: the
-national team and the host LC's iGV LCVPs are always shown, and other iGV team leads fill up
+national team members in iGV and the host LC's iGV LCVPs are always shown, and other iGV team leads fill up
 to two. Only current roles count. Needs a private key; without one, opportunities show
 without contacts.
 

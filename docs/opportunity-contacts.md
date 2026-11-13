@@ -14,12 +14,13 @@ People are added in three groups, in this order. Inside each group, EXPA's order
 
 | Order | Who | How many |
 |---|---|---|
-| 1 | **National team:** role MCVP or ESTL, at the MC (national office) | All of them, always |
+| 1 | **National team in iGV:** role MCVP or ESTL, at the MC (national office), function ICX | All of them, always |
 | 2 | **The host LC's iGV LCVPs:** role LCVP, function "ICX - Incoming Exchange", office = the opportunity's host LC | All of them, always |
 | 3 | **Other iGV team leads:** role TL or above (TL, ESTL, LCVP of another LC, LCP, MCVP, MCP), function ICX | Only if groups 1 and 2 gave **fewer than two** people, and only until there are two |
 
 - **Never shown:** team members (TM), anyone with no current role, and anyone whose role is
-  outside iGV (for example finance, or an LC president, whose function is "President").
+  outside iGV. That includes national people in other areas (for example an MCVP for outgoing
+  exchange or finance) and LC presidents, whose function is "President".
 - **No minimum.** If nobody qualifies, there is no contact box. If only one person qualifies,
   only that one is shown. Nobody is added just to make up numbers.
 - **No maximum for groups 1 and 2.** If there are three LCVPs, all three are shown.
@@ -29,10 +30,11 @@ People are added in three groups, in this order. Inside each group, EXPA's order
 
 | Managers on the opportunity (current roles) | Shown |
 |---|---|
-| MCVP, 3 host LCVPs, 2 TLs | MCVP + the 3 LCVPs (already 2 or more, so no TLs) |
+| MCVP iGV, 3 host LCVPs, 2 TLs | MCVP + the 3 LCVPs (already 2 or more, so no TLs) |
+| MCVP of another area (e.g. OGX), 1 host LCVP, 2 TLs | The LCVP + the first TL (the MCVP isn't in iGV) |
 | 1 host LCVP, 2 TLs | The LCVP + the first TL |
 | No LCVP, 3 TLs | The first 2 TLs |
-| MCVP only | The MCVP (nobody else qualifies, so no filling) |
+| MCVP iGV only | The MCVP (nobody else qualifies, so no filling) |
 | Only team members, or people with no current role | Nobody, so no contact box |
 
 ## What is shown for each person
@@ -54,7 +56,7 @@ No profile photos. EXPA mostly has a default avatar, and the old site never show
   refuses. The site then shows every opportunity **without** contacts instead of failing
   (`fetchExpaExtras` in `lib/data/expa.ts`).
 - **Sheet mode** (`DATA_SOURCE=sheet`): the old per-team contact box from the sheet is used.
-- **Nobody qualifies:** no contact box (8 of 262 opportunities on 2026-11-13).
+- **Nobody qualifies:** no contact box (13 of 262 opportunities on 2026-11-13).
 
 The `/contact` page is separate. It uses `lib/contact-directory.ts` and is maintained by hand.
 
@@ -70,17 +72,15 @@ Everything comes from EXPA, so changes are made there and show up within about 1
 
 | Situation | Opportunities |
 |---|---|
-| 3 LCVPs | 98 |
-| 2 LCVPs | 79 |
-| National + 3 LCVPs | 28 |
-| National only | 18 |
-| 1 LCVP | 13 |
-| National + 2 LCVPs | 8 |
-| National + 1 LCVP | 7 |
+| 3 LCVPs | 125 |
+| 2 LCVPs | 91 |
+| 1 LCVP | 27 |
 | 1 LCVP + 1 team lead (filled to two) | 3 |
-| Nobody qualifies | 8 |
+| National (iGV) + 2 LCVPs | 2 |
+| National (iGV) + 3 LCVPs | 1 |
+| Nobody qualifies | 13 |
 
-639 contacts in total; 73 have a phone, 578 an @aiesec.net email.
+600 contacts in total; 73 have a phone, 539 an @aiesec.net email.
 
 ## Changing the rule
 
