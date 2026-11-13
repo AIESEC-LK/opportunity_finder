@@ -50,6 +50,18 @@ export const opportunitySchema = z.object({
   booklet: z.object({ label: z.string(), url: httpUrl.nullable() }).nullable(),
   description: z.string().nullable().optional(),
   location: z.string().nullable().optional(),
+  contacts: z
+    .array(
+      z.object({
+        name: z.string().min(1),
+        title: z.string().nullable(),
+        phone: z.string().nullable(),
+        email: z.string().nullable(),
+        level: z.enum(["national", "lcvp", "team"]),
+      }),
+    )
+    .optional(),
+  partnerWebsite: httpUrl.nullable().optional(),
   provisions: z.object({ accommodation: provision, meals: provision }),
   dates: z.object({
     ranges: z.array(dateRange),

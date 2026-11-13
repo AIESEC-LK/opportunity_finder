@@ -18,9 +18,17 @@ For the non-technical summary of what changed for users, see
 | Meals and accommodation | EXPA `logistics_info` | same |
 | Description and town | EXPA `description`, `location` | same (new — the sheet never had these) |
 | National planning links (Visa Guidelines, Budget, Country Booklet, Country Content, Testimonials) | Data file | `content/planning-links.json` (checked by `lib/data/planning-links.ts`) |
-| Host team contact on opportunity pages | Contact directory | `lib/contact-directory.ts` — only people marked `confirmed: true` are shown |
+| Contacts on opportunity pages | EXPA `managers` (private key only) | `pickContacts` in `lib/data/normalize-expa.ts` — rules below |
+| Partner's website link | EXPA `organisation.website` (private key only) | same |
 | Contact page (`/contact`) | Contact directory | `lib/contact-directory.ts` |
 | Booklets, accommodation photos | **Not shown** — saved only | `content/sheet-archive/opportunity-extras.json` |
+
+### Who is shown as a contact
+
+See [`opportunity-contacts.md`](opportunity-contacts.md) for the full rule. In short: the
+national team members in iGV and the host LC's iGV LCVPs are always shown, and other iGV team leads fill up
+to two. Only current roles count. Needs a private key; without one, opportunities show
+without contacts.
 
 EXPA committee ids are mapped to the app's host teams in `LC_CODES`
 (`lib/data/normalize-expa.ts`), e.g. 1340 → CS, 221 → USJ.
@@ -128,12 +136,8 @@ Re-run it before the sheet is switched off so the archive is as fresh as possibl
 1. **Letting teams add booklet / photo links without code** — options include an admin form or
    a data file edited via pull requests. The private key exposes no booklet field. It does
    expose `cover_photo` (a project photo, not accommodation photos), which could be shown.
-2. **Contacts from EXPA** — the private key can read each opportunity's `managers` (about 6 per
-   opportunity: name and email, phone often empty) and each LC's office email and phone
-   (10 of 12 LCs have an email, 9 a phone). This could replace the hand-typed contact
-   directory and give real per-opportunity contacts. **Deferred** because the sheet never
-   published these people's details: decide first which details may be public, who is shown
-   (all managers or one), and what happens when the key can't read them (public token).
+2. **The `/contact` page** — still the hand-typed placeholder list; the PM's team is
+   replacing it by hand. Opportunity pages already use EXPA (above).
 3. **Other data the private key opens** — e.g. `opportunityTestimonials`, `similarOpportunities`,
    `featuredOpportunities`. Not used yet.
 4. **Deleting the sheet code** — after a trial period on EXPA with the sheet as fallback, tag
