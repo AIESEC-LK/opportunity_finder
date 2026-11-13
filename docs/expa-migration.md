@@ -18,9 +18,29 @@ For the non-technical summary of what changed for users, see
 | Meals and accommodation | EXPA `logistics_info` | same |
 | Description and town | EXPA `description`, `location` | same (new — the sheet never had these) |
 | National planning links (Visa Guidelines, Budget, Country Booklet, Country Content, Testimonials) | Data file | `content/planning-links.json` (checked by `lib/data/planning-links.ts`) |
-| Host team contact on opportunity pages | Contact directory | `lib/contact-directory.ts` — only people marked `confirmed: true` are shown |
+| Contacts on opportunity pages | EXPA `managers` (private key only) | `pickContacts` in `lib/data/normalize-expa.ts` — rules below |
+| Partner's website link | EXPA `organisation.website` (private key only) | same |
 | Contact page (`/contact`) | Contact directory | `lib/contact-directory.ts` |
 | Booklets, accommodation photos | **Not shown** — saved only | `content/sheet-archive/opportunity-extras.json` |
+
+### Who is shown as a contact
+
+Picked from the opportunity's EXPA managers, keeping EXPA's order inside each group. Only
+managers with a **current** role (active, started, not ended) are ever shown:
+
+1. **National team:** current MCVP or ESTL at the MC. Always shown, first.
+2. **The host LC's iGV LCVPs:** role LCVP, function ICX, office = the host LC. Always shown.
+3. **Fill to two:** if 1 and 2 give fewer than two people, other managers with a current
+   team-leader-or-above iGV role (TL, LCVP of another LC, …) are added until there are two.
+   If there's nobody like that, nothing is added. Team members (TM) are never shown.
+
+Each person shows only what EXPA has: name, position title, phone (with country code) and
+their `@aiesec.net` email. No photos. Managers and websites are fetched by a separate query
+(`fetchExpaExtras` in `lib/data/expa.ts`). With the public token EXPA refuses it; the site then
+shows opportunities without contacts instead of failing. In sheet mode the old per-team
+contact box is used.
+
+On 2026-11-13: 254 of 262 opportunities had at least one contact; 8 had nobody who qualifies.
 
 EXPA committee ids are mapped to the app's host teams in `LC_CODES`
 (`lib/data/normalize-expa.ts`), e.g. 1340 → CS, 221 → USJ.
@@ -128,12 +148,8 @@ Re-run it before the sheet is switched off so the archive is as fresh as possibl
 1. **Letting teams add booklet / photo links without code** — options include an admin form or
    a data file edited via pull requests. The private key exposes no booklet field. It does
    expose `cover_photo` (a project photo, not accommodation photos), which could be shown.
-2. **Contacts from EXPA** — the private key can read each opportunity's `managers` (about 6 per
-   opportunity: name and email, phone often empty) and each LC's office email and phone
-   (10 of 12 LCs have an email, 9 a phone). This could replace the hand-typed contact
-   directory and give real per-opportunity contacts. **Deferred** because the sheet never
-   published these people's details: decide first which details may be public, who is shown
-   (all managers or one), and what happens when the key can't read them (public token).
+2. **The `/contact` page** — still the hand-typed placeholder list; the PM's team is
+   replacing it by hand. Opportunity pages already use EXPA (above).
 3. **Other data the private key opens** — e.g. `opportunityTestimonials`, `similarOpportunities`,
    `featuredOpportunities`. Not used yet.
 4. **Deleting the sheet code** — after a trial period on EXPA with the sheet as fallback, tag

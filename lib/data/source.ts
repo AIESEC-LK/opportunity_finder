@@ -1,7 +1,7 @@
 import { z } from "zod";
 import type { Dataset } from "@/types/domain";
 import { DEFAULT_SHEET_ID } from "./config";
-import { expaConfig, fetchExpaOpportunities } from "./expa";
+import { expaConfig, fetchExpaExtras, fetchExpaOpportunities } from "./expa";
 import { normalizeWorkbook } from "./normalize";
 import { normalizeExpa } from "./normalize-expa";
 import { datasetSchema } from "./schema";
@@ -46,7 +46,8 @@ export function sourceConfig(): SourceConfig {
 }
 
 async function fetchExpaDataset(): Promise<Dataset> {
-  const dataset = normalizeExpa(await fetchExpaOpportunities(), expaConfig().endpoint);
+  const [records, extras] = await Promise.all([fetchExpaOpportunities(), fetchExpaExtras()]);
+  const dataset = normalizeExpa(records, expaConfig().endpoint, new Date(), extras);
   const check = datasetSchema.safeParse(dataset);
   if (!check.success) {
     throw new SourceUnavailableError("EXPA's data came back in a shape this site can't read safely.", z.prettifyError(check.error));

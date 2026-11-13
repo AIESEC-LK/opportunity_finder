@@ -37,6 +37,30 @@ export interface ExpaOpportunity {
   description: string | null;
 }
 
+export interface ExpaPosition {
+  title: string | null;
+  status: string | null;
+  start_date: string | null;
+  end_date: string | null;
+  role: { name: string | null } | null;
+  function: { name: string | null } | null;
+  office: { id: string; tag: string | null } | null;
+}
+
+export interface ExpaManager {
+  id: string;
+  full_name: string | null;
+  aiesec_email: string | null;
+  contact_detail: { phone: string | null; country_code: string | null } | null;
+  current_positions: ExpaPosition[] | null;
+}
+
+/** Data only a private key can read. Missing when the key can't see it. */
+export interface ExpaExtras {
+  managers: ExpaManager[];
+  website: string | null;
+}
+
 export interface ExpaConfig {
   endpoint: string;
   token: string;
@@ -60,6 +84,23 @@ const QUERY = `query Opportunities($page: Int, $perPage: Int, $filters: Opportun
   }
 }`;
 
+const EXTRAS_QUERY = `query OpportunityExtras($page: Int, $perPage: Int, $filters: OpportunityFilter) {
+  opportunities(page: $page, per_page: $perPage, filters: $filters) {
+    data {
+      id
+      organisation { website }
+      managers {
+        id full_name aiesec_email
+        contact_detail { phone country_code }
+        current_positions { title status start_date end_date role { name } function { name } office { id tag } }
+      }
+    }
+    paging { total_pages }
+  }
+}`;
+
+const PER_PAGE = 100;
+
 export function expaConfig(): ExpaConfig {
   return {
     endpoint: process.env.EXPA_GRAPHQL_URL?.trim() || "https://gis-api.aiesec.org/graphql",
@@ -69,12 +110,11 @@ export function expaConfig(): ExpaConfig {
   };
 }
 
-/** Fetches every open Global Volunteer opportunity hosted by the committee. */
-export async function fetchExpaOpportunities(config = expaConfig()): Promise<ExpaOpportunity[]> {
-  if (!config.token) {
-    throw new SourceUnavailableError("EXPA is selected as the data source but EXPA_TOKEN is not set.");
-  }
-  const all: ExpaOpportunity[] = [];
+type Page<T> = { data: T[]; paging: { total_pages: number } };
+
+/** Runs one paged opportunities query to the end. Throws SourceUnavailableError on any failure. */
+async function fetchAllPages<T>(query: string, config: ExpaConfig): Promise<T[]> {
+  const all: T[] = [];
   for (let page = 1; ; page++) {
     let response: Response;
     try {
@@ -83,8 +123,8 @@ export async function fetchExpaOpportunities(config = expaConfig()): Promise<Exp
         cache: "no-store",
         headers: { "Content-Type": "application/json", Authorization: config.token },
         body: JSON.stringify({
-          query: QUERY,
-          variables: { page, perPage: 100, filters: { committee: config.committee, programmes: [7], status: "open" } },
+          query,
+          variables: { page, perPage: PER_PAGE, filters: { committee: config.committee, programmes: [7], status: "open" } },
         }),
         signal: AbortSignal.timeout(config.timeoutMs),
       });
@@ -96,10 +136,7 @@ export async function fetchExpaOpportunities(config = expaConfig()): Promise<Exp
     }
     if (!response.ok) throw new SourceUnavailableError(`EXPA responded with HTTP ${response.status}.`);
 
-    const body = (await response.json()) as {
-      data?: { opportunities: { data: ExpaOpportunity[]; paging: { total_pages: number } } };
-      errors?: { message: string }[];
-    };
+    const body = (await response.json()) as { data?: { opportunities: Page<T> }; errors?: { message: string }[] };
     if (body.errors?.length || !body.data) {
       const detail = body.errors?.map((e) => e.message).join("; ");
       if (detail && /authori[sz]/i.test(detail)) throw new SourceUnavailableError("EXPA rejected the access token.", detail);
@@ -109,4 +146,34 @@ export async function fetchExpaOpportunities(config = expaConfig()): Promise<Exp
     if (page >= body.data.opportunities.paging.total_pages) break;
   }
   return all;
+}
+
+function requireToken(config: ExpaConfig) {
+  if (!config.token) {
+    throw new SourceUnavailableError("EXPA is selected as the data source but EXPA_TOKEN is not set.");
+  }
+}
+
+/** Fetches every open Global Volunteer opportunity hosted by the committee. */
+export async function fetchExpaOpportunities(config = expaConfig()): Promise<ExpaOpportunity[]> {
+  requireToken(config);
+  return fetchAllPages<ExpaOpportunity>(QUERY, config);
+}
+
+/**
+ * Fetches managers and partner websites, keyed by opportunity id. These need a
+ * private key; with the public one EXPA refuses, and this returns an empty map
+ * so the opportunity list still loads (just without contacts).
+ */
+export async function fetchExpaExtras(config = expaConfig()): Promise<Map<string, ExpaExtras>> {
+  requireToken(config);
+  type Row = { id: string; organisation: { website: string | null } | null; managers: ExpaManager[] | null };
+  try {
+    const rows = await fetchAllPages<Row>(EXTRAS_QUERY, config);
+    return new Map(rows.map((r) => [String(r.id), { managers: r.managers ?? [], website: r.organisation?.website ?? null }]));
+  } catch (error) {
+    if (!(error instanceof SourceUnavailableError)) throw error;
+    console.warn(`EXPA contacts unavailable, showing opportunities without them: ${error.message}`);
+    return new Map();
+  }
 }

@@ -89,9 +89,27 @@ export interface Opportunity {
   description?: string | null;
   /** Place within the country, e.g. "Kegalle, Sri Lanka" (EXPA). */
   location?: string | null;
+  /** People to ask about this opportunity, picked from its EXPA managers. */
+  contacts?: OpportunityContact[];
+  /** The partner organisation's own website (EXPA). */
+  partnerWebsite?: string | null;
   provisions: Provisions;
   dates: OpportunityDates;
   sources: SourceRef[];
+}
+
+/** Why a manager is shown: national team, the host LC's iGV LCVP, or another iGV team lead. */
+export type ContactLevel = "national" | "lcvp" | "team";
+
+export interface OpportunityContact {
+  name: string;
+  /** Their current position, e.g. "LCVP iGV B2B". */
+  title: string | null;
+  /** With country code, e.g. "+94 771234567". */
+  phone: string | null;
+  /** Their @aiesec.net address. */
+  email: string | null;
+  level: ContactLevel;
 }
 
 export interface Project {

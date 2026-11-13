@@ -21,13 +21,26 @@ were missing.
 - **A description.** Each opportunity now shows what volunteers will actually do, written by the
   host team in EXPA, plus the town it's in.
 
+## Contacts on each opportunity
+
+Each opportunity page lists people to ask, taken from the opportunity's managers in EXPA:
+
+1. Anyone from the **national team** (MCVP or ESTL) managing it.
+2. The host team's **iGV LCVPs**.
+3. If that's fewer than two people, other **iGV team leaders** fill up to two.
+
+Only people with a current role are shown, with their title, @aiesec.net email and phone when
+EXPA has them. This needs the private key. 8 of 262 opportunities had nobody who qualifies,
+so they show no contact box. Opportunities also show a **"Partner's website"** link when EXPA
+has one (13 today).
+
 ## What we had to give up — for now
 
 | What | What users see now | Is the data lost? |
 |---|---|---|
 | **Project booklets** | No "Read the booklet" button | No — all 186 links are saved in the project |
 | **Accommodation photos** | No "See photos" link | No — all links are saved |
-| **Host team contact details from the sheet** (WhatsApp, Telegram, Instagram) | No contact box on opportunity pages until the team adds confirmed contacts | Saved privately, not published |
+| **Host team contact details from the sheet** (WhatsApp, Telegram, Instagram) | Replaced by contacts from EXPA (see below) | Saved privately, not published |
 | **"Flexible dates" notes** | Only exact dates from EXPA | Saved |
 
 These need to be **added back** later. We will need a simple way for host teams to add booklet
@@ -57,7 +70,8 @@ working after some time. A key made for apps is better if AIESEC can give us one
 | Thing | Who | Where |
 |---|---|---|
 | Dates, open places, descriptions, meals and accommodation | Host teams | **In EXPA** (the site reads it automatically) |
-| Contact person for each host team | National team | `lib/contact-directory.ts` in the project — needs real, approved details. The current names there are placeholders. |
+| Who appears as a contact | Host teams | **In EXPA**: the opportunity's managers and their current positions |
+| The `/contact` page | National team | `lib/contact-directory.ts` in the project — the current names there are placeholders |
 | National planning links (Visa, Budget, Country Booklet, …) | National team | `content/planning-links.json` in the project |
 
 Because the project's code is public, only add contact details that are fine to be public.
@@ -73,11 +87,6 @@ Because the project's code is public, only add contact details that are fine to 
 ## What comes next
 
 1. Decide which key the live site uses (see above).
-2. Add real contact details.
+2. Replace the placeholder people on the `/contact` page.
 3. Research a way for host teams to add booklet and photo links themselves.
-4. **Contacts straight from EXPA.** The private key can see who manages each opportunity
-   (name and email) and each host team's office email and phone. That could replace the
-   hand-typed contacts and give each opportunity its own contact. We have **not** turned this
-   on, because the sheet never published these people's details. The team needs to agree
-   what can be public first.
-5. After a trial period, remove the sheet for good.
+4. After a trial period, remove the sheet for good.

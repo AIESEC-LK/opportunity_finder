@@ -4,6 +4,7 @@ import { notFound } from "next/navigation";
 import { ArrowLeft, AtSign, BedDouble, BookOpen, CalendarDays, ExternalLink, FileText, Mail, MapPin, MessageCircle, UtensilsCrossed } from "lucide-react";
 import { LogisticsPanel } from "@/components/logistics/logistics-panel";
 import { StatusPill } from "@/components/logistics/status";
+import { ContactList } from "@/components/opportunities/contact-list";
 import { DatesSection } from "@/components/opportunities/dates-section";
 import { TYPE_LABEL } from "@/components/opportunities/opportunity-card";
 import { EntityMark } from "@/components/entities/entity-logo";
@@ -134,6 +135,18 @@ export default async function OpportunityPage({ params, searchParams }: PageProp
               </div>
               {opportunity.description && (
                 <p className="text-sm leading-relaxed whitespace-pre-line text-ink">{opportunity.description}</p>
+              )}
+              {opportunity.partnerWebsite && (
+                <a
+                  href={opportunity.partnerWebsite}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="inline-flex items-center gap-1.5 text-sm font-semibold text-primary hover:underline"
+                >
+                  Partner&apos;s website
+                  <ExternalLink className="size-3.5" aria-hidden />
+                  <span className="sr-only">(opens in a new tab)</span>
+                </a>
               )}
               {opportunity.goals.map((g) => {
                 const sdg = getSdg(g)!;
@@ -282,7 +295,9 @@ export default async function OpportunityPage({ params, searchParams }: PageProp
               )}
             </div>
 
-            {contact && (contact.email || contact.whatsapp || contact.instagram) && (
+            {opportunity.contacts?.length ? (
+              <ContactList contacts={opportunity.contacts} hostTeamName={opportunity.hostTeam?.name ?? "the host team"} />
+            ) : contact && (contact.email || contact.whatsapp || contact.instagram) && (
               <div className="space-y-2 border-t border-border pt-5 text-sm">
                 <p className="font-semibold text-ink">Questions? Ask {opportunity.hostTeam?.name ?? "the host team"}</p>
                 {contact.person && <p className="text-muted-foreground">{contact.person}</p>}
