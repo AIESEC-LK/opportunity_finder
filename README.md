@@ -4,7 +4,7 @@ A web app for discovering AIESEC in Sri Lanka's incoming Global Volunteer (iGV) 
 
 **Opportunities come live from EXPA**, AIESEC's own system. The old Google Sheet still works as a fallback (`DATA_SOURCE=sheet`) while it is kept up to date. Nothing is invented, scraped or filled in. Built-in content: the 17 SDGs, the national planning links (`content/planning-links.json`) and the contact directory (`lib/contact-directory.ts`).
 
-See [`docs/expa-migration.md`](docs/expa-migration.md) for how the data flows and how to roll back, and [`docs/sheet-removal-tradeoffs.md`](docs/sheet-removal-tradeoffs.md) for what changed for users.
+See [`docs/expa-migration.md`](docs/expa-migration.md) for how the data flows and how to roll back, [`docs/opportunity-contacts.md`](docs/opportunity-contacts.md) for who is shown as a contact, and [`docs/sheet-removal-tradeoffs.md`](docs/sheet-removal-tradeoffs.md) for what changed for users.
 
 - Next.js 16 (App Router), React 19, TypeScript (strict)
 - Tailwind CSS 4, shadcn/ui (Base UI), Lucide icons, react-day-picker

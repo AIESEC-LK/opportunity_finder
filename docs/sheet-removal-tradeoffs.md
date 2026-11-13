@@ -29,7 +29,7 @@ Each opportunity page lists people to ask, taken from the opportunity's managers
 2. The host team's **iGV LCVPs**.
 3. If that's fewer than two people, other **iGV team leaders** fill up to two.
 
-Only people with a current role are shown, with their title, @aiesec.net email and phone when
+Only people with a current role are shown (full rule: `docs/opportunity-contacts.md`), with their title, @aiesec.net email and phone when
 EXPA has them. This needs the private key. 8 of 262 opportunities had nobody who qualifies,
 so they show no contact box. Opportunities also show a **"Partner's website"** link when EXPA
 has one (13 today).

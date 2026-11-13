@@ -25,22 +25,10 @@ For the non-technical summary of what changed for users, see
 
 ### Who is shown as a contact
 
-Picked from the opportunity's EXPA managers, keeping EXPA's order inside each group. Only
-managers with a **current** role (active, started, not ended) are ever shown:
-
-1. **National team:** current MCVP or ESTL at the MC. Always shown, first.
-2. **The host LC's iGV LCVPs:** role LCVP, function ICX, office = the host LC. Always shown.
-3. **Fill to two:** if 1 and 2 give fewer than two people, other managers with a current
-   team-leader-or-above iGV role (TL, LCVP of another LC, …) are added until there are two.
-   If there's nobody like that, nothing is added. Team members (TM) are never shown.
-
-Each person shows only what EXPA has: name, position title, phone (with country code) and
-their `@aiesec.net` email. No photos. Managers and websites are fetched by a separate query
-(`fetchExpaExtras` in `lib/data/expa.ts`). With the public token EXPA refuses it; the site then
-shows opportunities without contacts instead of failing. In sheet mode the old per-team
-contact box is used.
-
-On 2026-11-13: 254 of 262 opportunities had at least one contact; 8 had nobody who qualifies.
+See [`opportunity-contacts.md`](opportunity-contacts.md) for the full rule. In short: the
+national team and the host LC's iGV LCVPs are always shown, and other iGV team leads fill up
+to two. Only current roles count. Needs a private key; without one, opportunities show
+without contacts.
 
 EXPA committee ids are mapped to the app's host teams in `LC_CODES`
 (`lib/data/normalize-expa.ts`), e.g. 1340 → CS, 221 → USJ.
