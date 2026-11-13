@@ -50,6 +50,13 @@ describe("pickContacts", () => {
     ]);
   });
 
+  it("leaves out national managers whose current role isn't in iGV", () => {
+    const outgoing = manager("Mcvp Ogx", [position("MCVP", { office: { id: "1623", tag: "MC" }, function: { name: "OGX - Outgoing Exchange" } })]);
+    const finance = manager("Estl Fin", [position("ESTL", { office: { id: "1623", tag: "MC" }, function: { name: "FIN - Finance" } })]);
+    expect(names([outgoing, finance, lcvp("Lcvp A"), lcvp("Lcvp B")])).toEqual(["Lcvp A", "Lcvp B"]);
+    expect(names([outgoing, finance])).toEqual([]);
+  });
+
   it("fills up to two with iGV team leads, in EXPA order", () => {
     expect(names([tl("Team A"), lcvp("Lcvp A"), tl("Team B"), tl("Team C")])).toEqual(["Lcvp A", "Team A"]);
     expect(names([tl("Team A"), tl("Team B"), tl("Team C")])).toEqual(["Team A", "Team B"]);

@@ -83,7 +83,7 @@ function isCurrent(p: ExpaPosition, today: ISODate): boolean {
 
 const roleOf = (p: ExpaPosition) => clean(p.role?.name).toUpperCase();
 const isIgv = (p: ExpaPosition) => IGV_FUNCTION.test(clean(p.function?.name));
-const isNational = (p: ExpaPosition) => NATIONAL_ROLES.has(roleOf(p)) && p.office?.tag === "MC";
+const isNational = (p: ExpaPosition) => NATIONAL_ROLES.has(roleOf(p)) && p.office?.tag === "MC" && isIgv(p);
 const isHostLcvp = (p: ExpaPosition, hostLcId: string) => roleOf(p) === "LCVP" && isIgv(p) && String(p.office?.id) === hostLcId;
 const isIgvTeamLead = (p: ExpaPosition) => TEAM_LEAD_ROLES.has(roleOf(p)) && isIgv(p);
 
@@ -123,7 +123,7 @@ function toContact(m: ExpaManager, position: ExpaPosition, level: ContactLevel):
 /**
  * Picks who to show, keeping EXPA's order inside each group. Only managers
  * with a current role count:
- *  1. national team (MCVP or ESTL at the MC): always shown;
+ *  1. national team (MCVP or ESTL at the MC, currently in iGV): always shown;
  *  2. the host LC's iGV LCVPs: always shown;
  *  3. if that's fewer than two people, other iGV team leads (TL or above)
  *     fill up to two. Nobody else is ever added.
