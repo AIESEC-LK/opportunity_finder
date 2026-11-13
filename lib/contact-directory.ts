@@ -29,40 +29,109 @@ const emptyPerson = (role: string): DirectoryPerson => ({
   confirmed: false,
 });
 
-/** Member Committee VP for incoming Global Volunteer. Fill in when names are confirmed. */
+/** Member Committee VP for incoming Global Volunteer. */
 export const MCVP: DirectoryPerson = {
   role: "MCVP",
-  name: "Amal Perera",
-  email: "mcvp.igv@aiesec.lk",
-  phone: "+94 71 234 5678",
-  confirmed: false,
+  name: "Dinan Jayasuriya",
+  email: "dinan.jayasuriya@aiesec.net",
+  phone: "+94 77 347 0464",
+  confirmed: true,
 };
 
-/** Local Committee VPs, grouped by entity. Add more LCVP entries under an entity as needed. */
-const DUMMY_LCVP_PHONES: Record<string, { name: string; email: string; phone: string }> = {
-  CC:      { name: "Kasun Silva",     email: "lcvp@aiesec-cc.lk",      phone: "+94 76 111 2233" },
-  CN:      { name: "Dilini Fernando", email: "lcvp@aiesec-cn.lk",      phone: "+94 77 222 3344" },
-  CS:      { name: "Nuwan Jayasena",  email: "lcvp@aiesec-cs.lk",      phone: "+94 71 333 4455" },
-  USJ:     { name: "Sachini Wijesiri",email: "lcvp@aiesec-usj.lk",     phone: "+94 70 444 5566" },
-  KANDY:   { name: "Ravindu Herath",  email: "lcvp@aiesec-kandy.lk",   phone: "+94 75 555 6677" },
-  RUHUNA:  { name: "Tharushi Peiris", email: "lcvp@aiesec-ruhuna.lk",  phone: "+94 78 666 7788" },
-  SLIIT:   { name: "Binura Gunasekara",email:"lcvp@aiesec-sliit.lk",   phone: "+94 72 777 8899" },
-  NIBM:    { name: "Malsha Rathnayake",email:"lcvp@aiesec-nibm.lk",    phone: "+94 74 888 9900" },
-  NSBM:    { name: "Chanuka Abeywickrama",email:"lcvp@aiesec-nsbm.lk", phone: "+94 71 900 1122" },
-  WAYAMBA: { name: "Sewmini Liyanage", email:"lcvp@aiesec-wayamba.lk", phone: "+94 76 011 2233" },
-  RAJARATA:{ name: "Pasan Dissanayake",email:"lcvp@aiesec-rajarata.lk",phone: "+94 77 122 3344" },
+/**
+ * Real LCVP contacts keyed by team.code (matches HOST_TEAMS[*].code exactly).
+ * Leave a field as null when the detail is not yet available.
+ */
+const LCVP_DATA: Record<string, Omit<DirectoryPerson, "role">> = {
+  // Colombo Central
+  CC: {
+    name: "Chanuli Indigahawela",
+    email: "chanuli.indigahawela@aiesec.net",
+    phone: "+94 71 204 4353",
+    confirmed: true,
+  },
+  // Colombo North
+  CN: {
+    name: "Nirmani Weerakoon",
+    email: "nirmani.weerakoon01@aiesec.net",
+    phone: "+94 70 341 6997",
+    confirmed: true,
+  },
+  // Colombo South
+  CS: {
+    name: "Sanuthmi",
+    email: "sanuthmika@aiesec.net",
+    phone: "+94 78 541 7354",
+    confirmed: true,
+  },
+  // Kandy  (team.code is "Kandy", not "KANDY")
+  Kandy: {
+    name: "Inuri Liyanage",
+    email: "inuriliyanage@aiesec.net",
+    phone: "+94 71 241 7751",
+    confirmed: true,
+  },
+  // USJ
+  USJ: {
+    name: "Navapriyah",
+    email: "priyah24.25@aiesec.net",
+    phone: "+94 75 055 3351",
+    confirmed: true,
+  },
+  // SLIIT
+  SLIIT: {
+    name: "Dinidi Senanayake",
+    email: "dinidisenanayake@aiesec.net",
+    phone: "+94 76 638 8408",
+    confirmed: true,
+  },
+  // Ruhuna  (team.code is "Ruhuna")
+  Ruhuna: {
+    name: "Kojee Kehara",
+    email: "Kojeekehara02@aiesec.net",
+    phone: "+94 72 777 0925",
+    confirmed: true,
+  },
+  // NSBM
+  NSBM: {
+    name: "Vismitha Gunasekara",
+    email: "vagunasekara@aiesec.net",
+    phone: "+94 78 829 8929",
+    confirmed: true,
+  },
+  // NIBM
+  NIBM: {
+    name: "Venuki Wijeratne",
+    email: "venukiwijeratne@aiesec.net",
+    phone: "+94 78 299 8998",
+    confirmed: true,
+  },
+  // Rajarata  (team.code is "Rajarata")
+  Rajarata: {
+    name: "Kavya Lakmini",
+    email: "kavyalakmini@aiesec.net",
+    phone: "+94 77 935 3214",
+    confirmed: true,
+  },
+  // Wayamba  (team.code is "Wayamba")
+  Wayamba: {
+    name: "Pakeetharan Balamurali",
+    email: "balamuralipakeetharan@aiesec.net",
+    phone: "+94 77 191 0998",
+    confirmed: true,
+  },
 };
 
 export const ENTITY_CONTACTS: EntityContacts[] = Object.values(HOST_TEAMS)
   .map((team) => {
-    const dummy = DUMMY_LCVP_PHONES[team.code];
+    const data = LCVP_DATA[team.code];
     return {
       code: team.code,
       name: team.name,
       shortName: team.name.replace(/^AIESEC in /, ""),
       lcvps: [
-        dummy
-          ? { role: "LCVP", name: dummy.name, email: dummy.email, phone: dummy.phone, confirmed: false }
+        data
+          ? { role: "LCVP", ...data }
           : emptyPerson("LCVP"),
       ],
     };
